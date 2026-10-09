@@ -1,0 +1,32 @@
+[
+  {
+    "file": "quote.txt",
+    "url": "https://qt.gtimg.cn/q=sh605366,sh000300,sh000001",
+    "fetched_at": "2026-10-08T22:49:18.476944+08:00",
+    "sha256": "6f44b2dd2aaf27730c884933d42372d8f75db5056c18ee2c42cfe112f7d0e2e5"
+  },
+  {
+    "file": "stock_qfq.txt",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605366,day,,,640,qfq",
+    "fetched_at": "2026-10-08T22:49:18.671927+08:00",
+    "sha256": "fbb3804ec7bb2597c053ad156833b4819090ebc961ff70a343faa42db4328293"
+  },
+  {
+    "file": "stock_raw.txt",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605366,day,,,640,",
+    "fetched_at": "2026-10-08T22:49:18.859667+08:00",
+    "sha256": "210e6bf87e1646f5b21185d4e912b7e5027590bb5f4deedf184f1ded881b4e99"
+  },
+  {
+    "file": "benchmark.txt",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,,,640,",
+    "fetched_at": "2026-10-08T22:49:19.080756+08:00",
+    "sha256": "dc3e98563d04850d50320d2c38d4904349966245950ad7f56551768b2dd2653c"
+  },
+  {
+    "file": "market.txt",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,,,640,",
+    "fetched_at": "2026-10-08T22:49:19.274994+08:00",
+    "sha256": "c0682949bce23f2e3d26625e5a5aef5357647838d64a11adf1d26f45d5ea19e1"
+  }
+]

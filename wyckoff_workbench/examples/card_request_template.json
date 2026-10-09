@@ -1,0 +1,19 @@
+{
+  "snapshot_id": "REPLACE_WITH_SNAPSHOT_ID",
+  "protocol_id": "REPLACE_WITH_PROTOCOL_ID",
+  "symbol": "sh605366",
+  "as_of": "REPLACE_WITH_AS_OF_DATE",
+  "benchmark_symbol": "sh000300",
+  "record_mode": "manual_observation_snapshot",
+  "market_context": "REPLACE",
+  "hypothesis": "REPLACE",
+  "alternative_hypothesis": "REPLACE",
+  "invalidate_if": "REPLACE",
+  "expected_response": "REPLACE",
+  "risk_review": "unknown: REPLACE_WITH_REVIEW",
+  "next_review": "REPLACE",
+  "supports": [
+    "REPLACE_WITH_REAL_EVIDENCE_ID"
+  ],
+  "opposes": []
+}

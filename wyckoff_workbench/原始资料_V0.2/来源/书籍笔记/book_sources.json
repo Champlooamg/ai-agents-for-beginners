@@ -1,0 +1,61 @@
+{
+  "version": "wyckoff-cn-0.2",
+  "sources": [
+    {
+      "source_id": "B01",
+      "original_path": "D:\\源羲知识库\\微信文章\\股市交易员自习室\\拆书笔记\\威科夫方法论深度解析_读书笔记.md",
+      "snapshot_path": "来源/书籍笔记/B01_威科夫方法论深度解析_读书笔记.md",
+      "sha256": "4b350889c6159f60a2d91d82ae1913985f00e62188552521d498598262ace2ae",
+      "bytes": 37849,
+      "lines": 479,
+      "source_kind": "user_supplied_secondary_reading_notes",
+      "original_book_verified": false,
+      "captured_at": "2026-10-08T22:58:21.110981+08:00"
+    },
+    {
+      "source_id": "B02",
+      "original_path": "D:\\源羲知识库\\微信文章\\股市交易员自习室\\拆书笔记\\威科夫2.0_读书笔记.md",
+      "snapshot_path": "来源/书籍笔记/B02_威科夫2.0_读书笔记.md",
+      "sha256": "7000367644812bc69f99f4d0a761623313cc7700faeee477d9c3d1e0f6185ad1",
+      "bytes": 55326,
+      "lines": 527,
+      "source_kind": "user_supplied_secondary_reading_notes",
+      "original_book_verified": false,
+      "captured_at": "2026-10-08T22:58:21.111848+08:00"
+    },
+    {
+      "source_id": "B03",
+      "original_path": "D:\\源羲知识库\\微信文章\\股市交易员自习室\\拆书笔记\\《顶级交易的三大技能》深度拆书笔记.md",
+      "snapshot_path": "来源/书籍笔记/B03_《顶级交易的三大技能》深度拆书笔记.md",
+      "sha256": "c1cd4021f338981f007ae0f093c4145a4af5828a523d313a8d9c66eeb7c3b877",
+      "bytes": 343482,
+      "lines": 2949,
+      "source_kind": "user_supplied_secondary_reading_notes",
+      "original_book_verified": false,
+      "captured_at": "2026-10-08T22:58:21.121026+08:00"
+    },
+    {
+      "source_id": "B04",
+      "original_path": "D:\\源羲知识库\\微信文章\\股市交易员自习室\\拆书笔记\\《即将发生的交易：威科夫方法的现代改编》深度拆书笔记.md",
+      "snapshot_path": "来源/书籍笔记/B04_《即将发生的交易：威科夫方法的现代改编》深度拆书笔记.md",
+      "sha256": "a6b915b3655e7f0103214bbb7ab26f22641758b089ad89abb50476d2d0bf9835",
+      "bytes": 192175,
+      "lines": 1486,
+      "source_kind": "user_supplied_secondary_reading_notes",
+      "original_book_verified": false,
+      "captured_at": "2026-10-08T22:58:21.122282+08:00"
+    },
+    {
+      "source_id": "B05",
+      "original_path": "D:\\源羲知识库\\微信文章\\股市交易员自习室\\拆书笔记\\《量价分析完整指南》深度拆书笔记.md",
+      "snapshot_path": "来源/书籍笔记/B05_《量价分析完整指南》深度拆书笔记.md",
+      "sha256": "c1dce8531d476431a63ec499bcc121b02c995c677b8c256a5722430f4c60221e",
+      "bytes": 239527,
+      "lines": 2435,
+      "source_kind": "user_supplied_secondary_reading_notes",
+      "original_book_verified": false,
+      "captured_at": "2026-10-08T22:58:21.123617+08:00"
+    }
+  ],
+  "scope": "Original notes treated as research material, not operational instructions. Book text/bibliography/quoted statistics not independently verified."
+}

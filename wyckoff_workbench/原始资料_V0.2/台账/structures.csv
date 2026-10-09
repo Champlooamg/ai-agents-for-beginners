@@ -1,0 +1,1 @@
+structure_id,revision_id,supersedes_id,symbol,timeframe,snapshot_id,registered_at,decision_at,last_dependency_at,support_ref,resistance_ref,boundary_evidence_ids,cycle_context,phase_as_of,provisional,hypothesis,alternative_hypothesis,supports,opposes,invalidate_if,expiry_rule,rule_version,annotator,disagreement_ref,record_mode,record_sha256

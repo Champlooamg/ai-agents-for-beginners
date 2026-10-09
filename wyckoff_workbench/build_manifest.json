@@ -1,0 +1,2562 @@
+{
+  "version": "0.6.3.0",
+  "file_count": 639,
+  "files": {
+    "README.md": {
+      "bytes": 5040,
+      "sha256": "8ce33cce3ac1cec41ef95cb8f75bb04dcaff1514436eae60698f218d5a166d71"
+    },
+    "build/lib/easy_tdx/LICENSE": {
+      "bytes": 1469,
+      "sha256": "a41a4498ebf218f3a7eccf7842d86cd3356e92d1e45352afce0bd1319cfd77df"
+    },
+    "build/lib/easy_tdx/MyTT.py": {
+      "bytes": 20648,
+      "sha256": "d1b428e1ada3c510228826d9242cbf07061a6f0477f338b77be1841bb813cf54"
+    },
+    "build/lib/easy_tdx/MyTT.pyi": {
+      "bytes": 5862,
+      "sha256": "56c406be10bad7b6d09821d6c795dfb6e9fea0f179618be9301002f131d8b308"
+    },
+    "build/lib/easy_tdx/NOTICE": {
+      "bytes": 881,
+      "sha256": "78930d8e6ec1e7f084da5ddb406779b4e1da74e316f7d8252aa19deae64c9e4d"
+    },
+    "build/lib/easy_tdx/__init__.py": {
+      "bytes": 2848,
+      "sha256": "0e40e63cdb1e1aae221a7130abbcf9785f8c2b1afb7c0e140f9338f5bdcb3ad2"
+    },
+    "build/lib/easy_tdx/__main__.py": {
+      "bytes": 6408,
+      "sha256": "0366e4bcfbe9f27c01ecb7b0ad77949f9f6b7fca558165d0300c60be15a5e2d0"
+    },
+    "build/lib/easy_tdx/_binary.py": {
+      "bytes": 1285,
+      "sha256": "d60111bd71ec4e5d0d65a60cd45d4851286c7d61702fd63c0183e8d536e4de67"
+    },
+    "build/lib/easy_tdx/_df.py": {
+      "bytes": 8581,
+      "sha256": "1e8438ebe871a62a3c8ebe93a5bd0377c669bb6f6bf6c66b3d7b91ad5bf5a25b"
+    },
+    "build/lib/easy_tdx/_health.py": {
+      "bytes": 6155,
+      "sha256": "bf3d05627a89b9213252556a6024dada491efd4db5e70671685ff47b946316a3"
+    },
+    "build/lib/easy_tdx/_reconnect.py": {
+      "bytes": 14075,
+      "sha256": "03c05785f21a2fb7fd4850aa5e515f0c87568d0581c4d46119097cc1d6e66e10"
+    },
+    "build/lib/easy_tdx/backtest/__init__.py": {
+      "bytes": 1203,
+      "sha256": "057f036ac9348f3e3f3b472fc22d3129a40fb7382c69569c5eeaf340571761b0"
+    },
+    "build/lib/easy_tdx/backtest/attribution.py": {
+      "bytes": 7891,
+      "sha256": "26f52d3a7b37e23ff487494147a6f04fd335832c2b492de3972b35bbe2068f8d"
+    },
+    "build/lib/easy_tdx/backtest/cli.py": {
+      "bytes": 14495,
+      "sha256": "46e0b6f3fcace94a2f027ba904ab6ad6e08ed973d1571dc19b3eda7cc1934171"
+    },
+    "build/lib/easy_tdx/backtest/combo.py": {
+      "bytes": 14279,
+      "sha256": "f3bafbd7ebdee08b89aa767a2bdb5e904723fa5100d7553b4291661821b44fbe"
+    },
+    "build/lib/easy_tdx/backtest/dsl.py": {
+      "bytes": 1486,
+      "sha256": "9bb372de387d20129260ba838f5db4140c85b24ca5c48a9d7f2693af6afa9559"
+    },
+    "build/lib/easy_tdx/backtest/engine.py": {
+      "bytes": 19431,
+      "sha256": "fac818509fe1d24344acf0fb1f259852965ac7bfecec8501caa764300ea05668"
+    },
+    "build/lib/easy_tdx/backtest/execution.py": {
+      "bytes": 20617,
+      "sha256": "2563b1dbdd4659b75c2b4932728699baec3dcad6107db989d2e27d2d1cad1e7a"
+    },
+    "build/lib/easy_tdx/backtest/multi_strategy_engine.py": {
+      "bytes": 10505,
+      "sha256": "feb9435ba1f48bc12ad6c4a16988e646cd1879c271ae5c473dabab5051962359"
+    },
+    "build/lib/easy_tdx/backtest/optimizer.py": {
+      "bytes": 9097,
+      "sha256": "cd058c7a98733693abf7cfba02fa5e9f1268e06a22285ab91e2f14e7d1d7b3ff"
+    },
+    "build/lib/easy_tdx/backtest/orders.py": {
+      "bytes": 17907,
+      "sha256": "148c1a420e6bd03c06664478dfae37c74afe0d3181a30a4cfaf7185e181db0df"
+    },
+    "build/lib/easy_tdx/backtest/performance.py": {
+      "bytes": 14144,
+      "sha256": "b966234e4b2c3dbcbffdb602a29e854539616980463ab6144b4b193bc16b229f"
+    },
+    "build/lib/easy_tdx/backtest/portfolio.py": {
+      "bytes": 7391,
+      "sha256": "9f6760f93bc127a6e70f8bb62a34d0a7616347084111a54ad64f35f3a6d2eae9"
+    },
+    "build/lib/easy_tdx/backtest/portfolio_engine.py": {
+      "bytes": 9603,
+      "sha256": "0a8ad51ecc19875489af7412f9b1d4d32d031af4d60db287742256606c23c38f"
+    },
+    "build/lib/easy_tdx/backtest/slippage.py": {
+      "bytes": 3388,
+      "sha256": "82244d350d4e6992a2c5355973f027f0b4df3edb7e39cf088575372caef75376"
+    },
+    "build/lib/easy_tdx/backtest/strategies/__init__.py": {
+      "bytes": 1111,
+      "sha256": "442f1e5f5de964a050caae8dfd79918d77c4686accbe5bcbbc96bcd734412162"
+    },
+    "build/lib/easy_tdx/backtest/strategies/builtin.py": {
+      "bytes": 21986,
+      "sha256": "275914d59fa73ed582bc038ef128b5de14ec7436bbef12d04805e09c7f034ab3"
+    },
+    "build/lib/easy_tdx/backtest/strategies/presets.py": {
+      "bytes": 3891,
+      "sha256": "b769db5f245fc1bdc978571f334969940dc46e79b6f7ad1bb3e89bd0e381bd2e"
+    },
+    "build/lib/easy_tdx/backtest/strategies/registry.py": {
+      "bytes": 13360,
+      "sha256": "adf7a48dccdb385003eef700c27bd2f1e54b589c30ba96df37a33d98d71a62e3"
+    },
+    "build/lib/easy_tdx/backtest/strategy.py": {
+      "bytes": 16167,
+      "sha256": "beb265a2af21c41b914fa3aed0999ca2e6d998f98e537a04f439f01fede1c886"
+    },
+    "build/lib/easy_tdx/backtest/types.py": {
+      "bytes": 5661,
+      "sha256": "8fa4cdf2a5d6e0867e1b77424155ab62f0451a1c70c3493353072b0d5ed88877"
+    },
+    "build/lib/easy_tdx/chanlun/__init__.py": {
+      "bytes": 903,
+      "sha256": "dc2a0e6c07250ca956625fa71bcb412f196d07201aaef009d3dd94fb19ecaf3f"
+    },
+    "build/lib/easy_tdx/chanlun/analyser.py": {
+      "bytes": 9504,
+      "sha256": "e25013d4f8f0837ca32a10841037c76a4f353b6bc63565985941c7f1fdfcecf7"
+    },
+    "build/lib/easy_tdx/chanlun/beichi.py": {
+      "bytes": 5764,
+      "sha256": "8ee722fe20b02e43bc36f7c3e99d63dc1bc205ea0a6fe2a74087a38586fcf1c3"
+    },
+    "build/lib/easy_tdx/chanlun/bi.py": {
+      "bytes": 3987,
+      "sha256": "62514b06476da3dff6c989da76a455cf71cc544d5b81300689c91e2f69af08db"
+    },
+    "build/lib/easy_tdx/chanlun/config.py": {
+      "bytes": 2639,
+      "sha256": "6a2692172b118de240e9459d9e86d562dd87230c02e0b96dffc2664e3c66fd35"
+    },
+    "build/lib/easy_tdx/chanlun/fractal.py": {
+      "bytes": 2163,
+      "sha256": "c27a5ededbdca0972a5c77066dd7eb163bd275406168e6ea3041346f41b7ca38"
+    },
+    "build/lib/easy_tdx/chanlun/kline_merge.py": {
+      "bytes": 3399,
+      "sha256": "b8a7105106426bcffd194a764633c67f2cc720f8b3c1418830dbdb3cebe31a2e"
+    },
+    "build/lib/easy_tdx/chanlun/macd.py": {
+      "bytes": 2544,
+      "sha256": "1ea27d89f666da0ac338163860192fa04ed229ccfa8c6a0e801db86e3580cf88"
+    },
+    "build/lib/easy_tdx/chanlun/mmd.py": {
+      "bytes": 5471,
+      "sha256": "895c5188f7e9269299fc27d1e79842d0f57d3eb27ab5f8f389c12e2e8776b00c"
+    },
+    "build/lib/easy_tdx/chanlun/multi_level.py": {
+      "bytes": 8283,
+      "sha256": "d6ce72058ef86837fe3d9c39aa3ab91f737fc7947c5f4b10001f187a10248f78"
+    },
+    "build/lib/easy_tdx/chanlun/types.py": {
+      "bytes": 5958,
+      "sha256": "4c22e573eb4dc29edef59f317baf5d68f65b2b51ba5c720f215fb2d627f150a1"
+    },
+    "build/lib/easy_tdx/chanlun/xd.py": {
+      "bytes": 3662,
+      "sha256": "f4aca985c83786210d36db7118e6eeb9f8356bf733c3b4458f5d77330583cc57"
+    },
+    "build/lib/easy_tdx/chanlun/zs.py": {
+      "bytes": 3058,
+      "sha256": "3e59af415647cb3484c9d24c20701455bfa9c7dd3a9833ae09068ebe000e59b3"
+    },
+    "build/lib/easy_tdx/chanlun/zsd.py": {
+      "bytes": 3532,
+      "sha256": "4ddebe89ec6a091185d0e1c6ade286791d5ebc8a27c244446f2bd7324cb5a1bf"
+    },
+    "build/lib/easy_tdx/cli/__init__.py": {
+      "bytes": 2665,
+      "sha256": "754b36f13d05241df95d37f7626b6b0db26a1cd42cbd9cee45077b99fbcf5a74"
+    },
+    "build/lib/easy_tdx/cli/cmd_admin.py": {
+      "bytes": 1474,
+      "sha256": "bc5e06cebbaa3c0a5de46856678d89df39fae3b7fb154bf72e5a1a463daf0b57"
+    },
+    "build/lib/easy_tdx/cli/cmd_announcement.py": {
+      "bytes": 3410,
+      "sha256": "bfecfd9fa9b19ad547d49b7b2220860f0279300e14997bf24ae97187ecd957cc"
+    },
+    "build/lib/easy_tdx/cli/cmd_auction.py": {
+      "bytes": 831,
+      "sha256": "1ba20fc8bebfca5f483d28fa90917c6d917facd1c5c4f852a9ef328202d3ba70"
+    },
+    "build/lib/easy_tdx/cli/cmd_board.py": {
+      "bytes": 7806,
+      "sha256": "fffed25034c11b84c8016f5207c105a80379da57ab5348b1185a7f0ec81a5131"
+    },
+    "build/lib/easy_tdx/cli/cmd_capital.py": {
+      "bytes": 871,
+      "sha256": "82d7e452b5a7494c2046b75dfba890479f471fb4cbaa363b49985c168d563814"
+    },
+    "build/lib/easy_tdx/cli/cmd_chanlun.py": {
+      "bytes": 8004,
+      "sha256": "e917d42f9127b3b6f37e1c3b9c5274b1028d144f284a82292de33ec6e50cdddb"
+    },
+    "build/lib/easy_tdx/cli/cmd_company.py": {
+      "bytes": 9295,
+      "sha256": "2451939a3d462c76eee724f42d252dffef97f196c3639cfafca0a16ec4094c56"
+    },
+    "build/lib/easy_tdx/cli/cmd_ex.py": {
+      "bytes": 5086,
+      "sha256": "27450f186f599013c5f7e529b2ed5c3515404fbbcb122d1616f735f94d8e441d"
+    },
+    "build/lib/easy_tdx/cli/cmd_factor.py": {
+      "bytes": 2813,
+      "sha256": "c55ebd53e55552cad9e135f29bf024ba9fc182964f67784711861d8711d40285"
+    },
+    "build/lib/easy_tdx/cli/cmd_finance.py": {
+      "bytes": 2066,
+      "sha256": "cfc13d5c6a679f4e97d5cc8eddd36432ab41326a49e7f2e202168a4cdf9e9b55"
+    },
+    "build/lib/easy_tdx/cli/cmd_indicator.py": {
+      "bytes": 4337,
+      "sha256": "a603caf14ea88bc02766d86e38d3f46e5c4c82e9506e2d07356337cbc52d7b40"
+    },
+    "build/lib/easy_tdx/cli/cmd_info.py": {
+      "bytes": 1512,
+      "sha256": "d971b34e071dddd115978278ec3da468882a42d2803c5db3c58b49d612f02727"
+    },
+    "build/lib/easy_tdx/cli/cmd_kline.py": {
+      "bytes": 2052,
+      "sha256": "563ec818df88fbdf96ff1c1b095e1249ff06a53e3e09b19f895cca255e4b00bd"
+    },
+    "build/lib/easy_tdx/cli/cmd_monitor.py": {
+      "bytes": 1653,
+      "sha256": "9f9efe013405c64304c97e53f93e627abb0ee30bec5b4b72b659032a37967363"
+    },
+    "build/lib/easy_tdx/cli/cmd_offline.py": {
+      "bytes": 21307,
+      "sha256": "eea0635b9d42ee761f0ea0caa946137b3aa882939d8bfd634915a0cfb3cf5f78"
+    },
+    "build/lib/easy_tdx/cli/cmd_pfactor.py": {
+      "bytes": 1834,
+      "sha256": "b7ba8177e4968bbf979eda287971ec57730f514a7332497e88ce54f534f452e4"
+    },
+    "build/lib/easy_tdx/cli/cmd_quote.py": {
+      "bytes": 2449,
+      "sha256": "8d79bd71043e9494c52d6d35b67e9641f6329344f7007d47983ae3ed06fbc449"
+    },
+    "build/lib/easy_tdx/cli/cmd_run_all.py": {
+      "bytes": 21151,
+      "sha256": "b2db7d7620914076921969088f74f7f2fb6471c420a3c0543d4da4eabf138186"
+    },
+    "build/lib/easy_tdx/cli/cmd_tick.py": {
+      "bytes": 1215,
+      "sha256": "7db4cfd8b38e94d5d06d0bc8a0a2255f960a53933aa88bb1caed74feed1a3df1"
+    },
+    "build/lib/easy_tdx/cli/cmd_transaction.py": {
+      "bytes": 1251,
+      "sha256": "86342d2459739fa7308d20e8b4be7eb9677b60fba28bf90b1423c72faf8272c0"
+    },
+    "build/lib/easy_tdx/cli/cmd_web.py": {
+      "bytes": 2099,
+      "sha256": "8c9cdab5855b299df3921c2f1401f7d18fd1f1651bee0439a8e402cb59a610bf"
+    },
+    "build/lib/easy_tdx/cli/conn.py": {
+      "bytes": 1509,
+      "sha256": "6159e72a45a239c221f11a41813d081a9d9a05d9935c92e1895ca7ab62aa3a4e"
+    },
+    "build/lib/easy_tdx/cli/output.py": {
+      "bytes": 2334,
+      "sha256": "b2e2adb30b6b40e35d567a49c2119282a1a24dffa06f002a2fd7823a22f92d36"
+    },
+    "build/lib/easy_tdx/cli/parsers.py": {
+      "bytes": 4550,
+      "sha256": "f2ab62015f8b56d37d958a199bd123b82ad642dcc94f077d8c472983950b2457"
+    },
+    "build/lib/easy_tdx/client.py": {
+      "bytes": 64926,
+      "sha256": "ce14df4d0c895a14f7a1f0755ffee5d0437a249c1c6ae9d02546e5f61c3018f0"
+    },
+    "build/lib/easy_tdx/cninfo/__init__.py": {
+      "bytes": 517,
+      "sha256": "139c5c37f510f3df8efb6de044bc058c7a32b2d0486e55cf2a97eac835eeefca"
+    },
+    "build/lib/easy_tdx/cninfo/client.py": {
+      "bytes": 10862,
+      "sha256": "ba9523d83779db3ac5a8c4217ac387e39815ed746329ec001bd5ba304e252eb2"
+    },
+    "build/lib/easy_tdx/cninfo/models.py": {
+      "bytes": 2119,
+      "sha256": "539e14951da32189bda28a302af6936f77e74c4410005f608ff513730b97057e"
+    },
+    "build/lib/easy_tdx/codec/__init__.py": {
+      "bytes": 466,
+      "sha256": "ab09c13f142da828c4c129698e2f06687d178d9d4b3b3e30fff80eb6911ec338"
+    },
+    "build/lib/easy_tdx/codec/bitmap.py": {
+      "bytes": 16630,
+      "sha256": "e786c7e676dbfaa88c564bd517263f2531418ff76c4ab3037e9d4ac3be31acd0"
+    },
+    "build/lib/easy_tdx/codec/block.py": {
+      "bytes": 1982,
+      "sha256": "c3fd7719e3188cf4611947e4284b29ceb67d2466fe1cab45c5b4be676210eaa8"
+    },
+    "build/lib/easy_tdx/codec/datetime_.py": {
+      "bytes": 2052,
+      "sha256": "86893c5b8781620bbc7a9899b55b010a23cb796167f605071666d881e898f7cf"
+    },
+    "build/lib/easy_tdx/codec/financial.py": {
+      "bytes": 3232,
+      "sha256": "4d5276ccd0378a54698925a97d330cb484ae1d9c07f16b1a9451e1eccc9cddf2"
+    },
+    "build/lib/easy_tdx/codec/frame.py": {
+      "bytes": 2376,
+      "sha256": "4585499c1a438b65ceab96d1622be966b351e92477ff5e65571dae80fc7acf82"
+    },
+    "build/lib/easy_tdx/codec/industry.py": {
+      "bytes": 825,
+      "sha256": "9ca76e17816e94a48eb55dbde7f135edf83d33039158d0950927c652a71e3891"
+    },
+    "build/lib/easy_tdx/codec/mac_frame.py": {
+      "bytes": 1455,
+      "sha256": "83f1287931d7a5424c34bf378fa85ac67bb827f68f6c4d2ddc5702ed0fe6cce4"
+    },
+    "build/lib/easy_tdx/codec/price.py": {
+      "bytes": 1595,
+      "sha256": "87f41331e6ddae10bde1ca1c1f788685920db0e97789868232c92993bf4ae6e6"
+    },
+    "build/lib/easy_tdx/codec/price_rules.py": {
+      "bytes": 2906,
+      "sha256": "5b7d04ce66c940a0c47c62bbeff0c76d2cb4965fd1fe5b4d26036494be999fe8"
+    },
+    "build/lib/easy_tdx/codec/volume.py": {
+      "bytes": 1424,
+      "sha256": "a034c3235067023809f17aaaa5fa0f59f3ce153fd74fa46d32d4eb0ca06c2a7b"
+    },
+    "build/lib/easy_tdx/commands/__init__.py": {
+      "bytes": 210,
+      "sha256": "7e9626586a7bb62e02b24b05aaaee20237d0f5dff54962d71cfa37ea7e7de412"
+    },
+    "build/lib/easy_tdx/commands/base.py": {
+      "bytes": 813,
+      "sha256": "2afe9112989927dd3389053cdef73daecca92d7c9d89fb8c6a317f24b60cc566"
+    },
+    "build/lib/easy_tdx/commands/block_info.py": {
+      "bytes": 1926,
+      "sha256": "cefdeb49fc5f73baf27659061ca79ca9dd5c5b1387bcb57bc65eb3bf8e552da2"
+    },
+    "build/lib/easy_tdx/commands/company_info.py": {
+      "bytes": 3115,
+      "sha256": "c29aaaea6a964295e3fe0c420166eb7c3bf3b1a6a260786963f9750a19693df3"
+    },
+    "build/lib/easy_tdx/commands/finance_info.py": {
+      "bytes": 4017,
+      "sha256": "bbe6ad8a72659b38eaf7c16f9a050009f5c23a98b7825a5131a468c25be7639d"
+    },
+    "build/lib/easy_tdx/commands/fund_flow.py": {
+      "bytes": 2463,
+      "sha256": "36937121ffb8bb9e2295f90c7d946d55fa391fb64bb6d6f6d107cef6f422e519"
+    },
+    "build/lib/easy_tdx/commands/minute_time.py": {
+      "bytes": 2366,
+      "sha256": "f95eb3743bc4cbc0f3015bf520fd1f4b4556ad6474288f8e3057d098a349ba23"
+    },
+    "build/lib/easy_tdx/commands/report_file.py": {
+      "bytes": 993,
+      "sha256": "3955b186b40a6211b758420835667e1066420728ce54e6699cc3b7c03b9559ac"
+    },
+    "build/lib/easy_tdx/commands/security_bars.py": {
+      "bytes": 7482,
+      "sha256": "c153b7e02965444f55f0cecd09920012990db96499dbc0b0a5d6b0e3baff64e4"
+    },
+    "build/lib/easy_tdx/commands/security_count.py": {
+      "bytes": 757,
+      "sha256": "33ca4ad12157128f843b3f3475f3a4626ab65f7fc880a82c1836ea051bbaf1f1"
+    },
+    "build/lib/easy_tdx/commands/security_list.py": {
+      "bytes": 2528,
+      "sha256": "ab316255aac608216990267707c2abd1e3a42cff4216ad442c3176673dc3a614"
+    },
+    "build/lib/easy_tdx/commands/security_quotes.py": {
+      "bytes": 9441,
+      "sha256": "a5ebdbcdd74002548a1f2e65e71b868704251e047eb3f2a9ed039011fcf36791"
+    },
+    "build/lib/easy_tdx/commands/setup.py": {
+      "bytes": 635,
+      "sha256": "d36c33859f21716a74d2f62a02487e51165f71b7bbdd0b8fb7fa54826619c437"
+    },
+    "build/lib/easy_tdx/commands/transaction.py": {
+      "bytes": 4078,
+      "sha256": "7d83d66a8327a2c6fe6004223b9aa139ac21286cb6ef1bf0f3eb64b21c3148ce"
+    },
+    "build/lib/easy_tdx/commands/xdxr_info.py": {
+      "bytes": 4044,
+      "sha256": "1078da76cd223fe02d60aa8fcb1e3466f1cf09a20b2c2019914b0d51bbb2570d"
+    },
+    "build/lib/easy_tdx/config.py": {
+      "bytes": 10024,
+      "sha256": "b4e66a4f7e0bc6e85710cfbc83098d857477245be8fb9fc450559145531fd6ba"
+    },
+    "build/lib/easy_tdx/ex/__init__.py": {
+      "bytes": 433,
+      "sha256": "92507114d01e28f09a2ac7a8a4e1be0f6b39b84284f67da6ee35612e420fd497"
+    },
+    "build/lib/easy_tdx/ex/_hk_transaction.py": {
+      "bytes": 7830,
+      "sha256": "3cf628a1683c31a21c72c8c82bb9178c23a87f4da08294df5373b0623879cb9a"
+    },
+    "build/lib/easy_tdx/ex/client.py": {
+      "bytes": 20386,
+      "sha256": "c35887c2774a705be8ddfcbe5d7234971e087bbb53b80e64e583b6809872778b"
+    },
+    "build/lib/easy_tdx/ex/commands/__init__.py": {
+      "bytes": 34,
+      "sha256": "8fe451f413624b71eecf8c0fc2ce572523e132318487ff12c9e36f3d97d33f3f"
+    },
+    "build/lib/easy_tdx/ex/commands/get_history_bars_range.py": {
+      "bytes": 2564,
+      "sha256": "7e4f67d79882114444838f6c97e1e9cad891906c617491c22eac0e17918a25f4"
+    },
+    "build/lib/easy_tdx/ex/commands/get_instrument_bars.py": {
+      "bytes": 2276,
+      "sha256": "d96cd01b1eccfcb6c75c945fb7d291994eb98785fd47171c91a795db3a482cab"
+    },
+    "build/lib/easy_tdx/ex/commands/get_instrument_count.py": {
+      "bytes": 523,
+      "sha256": "a8d7045fe09704730e3ffbf3e2e87d75ce9bbb16290930cb53e427bcc97adab4"
+    },
+    "build/lib/easy_tdx/ex/commands/get_instrument_info.py": {
+      "bytes": 1696,
+      "sha256": "e93422e8d41c29fcce67839a13b19ee99ff48fcaaa23ec2a3cab1edf67b6e3c2"
+    },
+    "build/lib/easy_tdx/ex/commands/get_instrument_quote.py": {
+      "bytes": 2619,
+      "sha256": "6e1fcf495d3d59f5aeca7a00dd578763e4cece569e7f7711500b49bed85416bf"
+    },
+    "build/lib/easy_tdx/ex/commands/get_instrument_quote_list.py": {
+      "bytes": 6354,
+      "sha256": "87092c98ebc07cd591d407fcedb1508a1a717e5db777056fdc4e989f5e367039"
+    },
+    "build/lib/easy_tdx/ex/commands/get_markets.py": {
+      "bytes": 1391,
+      "sha256": "26ef2c273f03b2c0b39e70b7dd9da7f864ae97685429f9b864a0385027073d30"
+    },
+    "build/lib/easy_tdx/ex/commands/get_minute_time.py": {
+      "bytes": 2493,
+      "sha256": "02687eba6f5c235fc7c47f5e14169b226addf4e367fe514105c3a3aaff333e72"
+    },
+    "build/lib/easy_tdx/ex/commands/get_transaction.py": {
+      "bytes": 3096,
+      "sha256": "f04916785153830714fd4d08aadfc50c894aa9b2be21e77e4fb8363fce86270f"
+    },
+    "build/lib/easy_tdx/ex/commands/login.py": {
+      "bytes": 1363,
+      "sha256": "14b08d61122112692c3bb741be8e53fed9a377c1e67e8ce9ae761d0d3c09132a"
+    },
+    "build/lib/easy_tdx/ex/commands/setup.py": {
+      "bytes": 419,
+      "sha256": "0d12bdb0e6eeb7aecfa1d92833e5bd48657ccf3c06e2d0976ec370dabbb3db2c"
+    },
+    "build/lib/easy_tdx/ex/mac_client.py": {
+      "bytes": 31618,
+      "sha256": "6fef25de3ff881b1f0bef8d7b834c93a976481c3c8d9b7c19b8a9f278553d5a3"
+    },
+    "build/lib/easy_tdx/ex/models.py": {
+      "bytes": 2838,
+      "sha256": "4feb1d8598575ce5c1ecddcd7a77d4331fa5b1ac6b46e3cbab96bf1b1eff52f7"
+    },
+    "build/lib/easy_tdx/ex/transport/__init__.py": {
+      "bytes": 31,
+      "sha256": "a7950e46f4e935bcdb80b921c84e479d33968abd6a848d18764cc88c0c18c9a2"
+    },
+    "build/lib/easy_tdx/ex/transport/async_.py": {
+      "bytes": 4041,
+      "sha256": "e35d15fd3966b455979f9a220dd70eccd327a4fbf8b76214ab69bd38f9807fd6"
+    },
+    "build/lib/easy_tdx/ex/transport/sync.py": {
+      "bytes": 5107,
+      "sha256": "68580bd7f93d103235f7895b76c7ba8df2e60f4e491c9b798b8ca20a62c5de4f"
+    },
+    "build/lib/easy_tdx/exceptions.py": {
+      "bytes": 526,
+      "sha256": "8407990ff8747b2addc0c8d1e0913938305e6550404a6394ff20224825c6dc03"
+    },
+    "build/lib/easy_tdx/factor/__init__.py": {
+      "bytes": 830,
+      "sha256": "c3e0080d8d7fdc083e187cf6a9abf3efa3c78e1c5be051ccd63ced46868bb68d"
+    },
+    "build/lib/easy_tdx/factor/analysis.py": {
+      "bytes": 5747,
+      "sha256": "8b8996f92b189f14311d5b713e6fb338f4536f83737aa535785a8082f4c6bec9"
+    },
+    "build/lib/easy_tdx/factor/base.py": {
+      "bytes": 1530,
+      "sha256": "891a8cb073a74cfd5088dbdbf82e373b016e975fab121547d43df57d286c80a1"
+    },
+    "build/lib/easy_tdx/factor/builtin/__init__.py": {
+      "bytes": 1021,
+      "sha256": "c2cf297dc689077e41d00999818b2b48001ea7cec6f29be926bc14031f41f3d3"
+    },
+    "build/lib/easy_tdx/factor/builtin/chanlun.py": {
+      "bytes": 2610,
+      "sha256": "8cb112a2f88acb3e237d40b4d293b821f52d6f85164db5a16b928f0d23cfba99"
+    },
+    "build/lib/easy_tdx/factor/builtin/momentum.py": {
+      "bytes": 965,
+      "sha256": "3e46b326b82967c439f3fff6d0be343a497c68315bb783ab9ce7e82ef26b0e3d"
+    },
+    "build/lib/easy_tdx/factor/builtin/quality.py": {
+      "bytes": 1525,
+      "sha256": "6618321f138f6414680333222f241d6235789364dc22890778b96068295cdc2c"
+    },
+    "build/lib/easy_tdx/factor/builtin/technical.py": {
+      "bytes": 1763,
+      "sha256": "245ac5dba194bf439cda4c8ad76cc62ea628a9e67806f724f15685eea2ae9598"
+    },
+    "build/lib/easy_tdx/factor/builtin/value.py": {
+      "bytes": 792,
+      "sha256": "beaedec20d5f0fdf89b0874d6ee10eac85b4bd5fb06832554f3b420b37df9465"
+    },
+    "build/lib/easy_tdx/factor/builtin/volatility.py": {
+      "bytes": 1594,
+      "sha256": "4b00fc9251b9b319e0031691e531f93ba6529ac5e9113022c5c427e87aaeaaf4"
+    },
+    "build/lib/easy_tdx/factor/builtin/volume.py": {
+      "bytes": 1768,
+      "sha256": "e1f151dccf149447bf80894b49d7f38e428684f6f2f0d99b0102630796fb0a9e"
+    },
+    "build/lib/easy_tdx/factor/engine.py": {
+      "bytes": 4121,
+      "sha256": "942e8acc71b4dc7322a3a11aacac3c1cb1ddb54dcf441ef8c3c2705c4bcdb43b"
+    },
+    "build/lib/easy_tdx/factor/transform.py": {
+      "bytes": 5531,
+      "sha256": "832d72a3786488f9ff567a1f5383743ebd33b72ab239b3bcdf87e59a5c912045"
+    },
+    "build/lib/easy_tdx/indicator.py": {
+      "bytes": 10430,
+      "sha256": "d82c7bc139d139dfffbb510035f6a81bab3730086b82dce836e554ff891ad99b"
+    },
+    "build/lib/easy_tdx/mac/__init__.py": {
+      "bytes": 78,
+      "sha256": "855269bc332167152560d489dcfd16035fc58338d72e6302efcacc11e959a82d"
+    },
+    "build/lib/easy_tdx/mac/adjust.py": {
+      "bytes": 6295,
+      "sha256": "f91db65e617990233ec335ac4202d639afb142f6c7a7fd2b4e3af4573aa6e9bb"
+    },
+    "build/lib/easy_tdx/mac/client.py": {
+      "bytes": 74718,
+      "sha256": "773285a5af772f6d8793f4db650621804db4162c6e5854bc1630d1bc89aed40e"
+    },
+    "build/lib/easy_tdx/mac/commands/__init__.py": {
+      "bytes": 990,
+      "sha256": "a17f77a3edabff52a0f7e7fe2fc10f9facf6eeec7ae20005a1ee0c28008cfbe7"
+    },
+    "build/lib/easy_tdx/mac/commands/board_list.py": {
+      "bytes": 3147,
+      "sha256": "98180977a6490bc8bcb25a5cb20b57b0d5369375b79e2b1967740cc0fcefb446"
+    },
+    "build/lib/easy_tdx/mac/commands/board_members_quotes.py": {
+      "bytes": 3924,
+      "sha256": "999948dc839448344744fce972b61296e54faeb9a6abdcb9729bd3e2622e8e6f"
+    },
+    "build/lib/easy_tdx/mac/commands/chart_sampling.py": {
+      "bytes": 1586,
+      "sha256": "529f38436571d27fdbfedf487f9a6143000d6ffa587b81ce206d380c56f2d5ab"
+    },
+    "build/lib/easy_tdx/mac/commands/file_query.py": {
+      "bytes": 2574,
+      "sha256": "36a3c76f27a01b1bdae405f13abe6df7351eb420d7935a7c7a2ec60b2e64e154"
+    },
+    "build/lib/easy_tdx/mac/commands/goods_list.py": {
+      "bytes": 2392,
+      "sha256": "4a98c8f66649f0f2ccc27d80747f5adfde396283ab30e9aa85737e154d75bb0f"
+    },
+    "build/lib/easy_tdx/mac/commands/kline_offset.py": {
+      "bytes": 1073,
+      "sha256": "4e059c1eaa001936bc212a331717bab740803b439b6ed6e5ed878bcbce0f6873"
+    },
+    "build/lib/easy_tdx/mac/commands/server_info.py": {
+      "bytes": 2484,
+      "sha256": "f7845840003aae63336430bffc1cc26a484479a4b9ae8992f5959b506f2fd564"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_auction.py": {
+      "bytes": 1916,
+      "sha256": "8b4cdd2cb7263566a477320b07da4e569f9573c4058c90e2fc95ef235d74e289"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_bar.py": {
+      "bytes": 3523,
+      "sha256": "705e0b14560ebbd29c437dca1fef12dd8ab9057461287e3fca930450e797628c"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_belong_board.py": {
+      "bytes": 2545,
+      "sha256": "0c63ff99e8b7e6f4fd7b65270af3168e394086622f9884f15f183b119eebedb6"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_capital_flow.py": {
+      "bytes": 2693,
+      "sha256": "ac23646ea7cace81790deb1164167127606c7ec282dcc6f7bac1d65aaa711464"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_info.py": {
+      "bytes": 2458,
+      "sha256": "a061d6b70e3b49a4aeab547192a62baa13626c759e93d13ebeace00aff42d0c0"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_quotes.py": {
+      "bytes": 3232,
+      "sha256": "837b7104b5c8ee6fa31b66de8a2c68e026fd0c991617f819a0b4fe0dcd399e3c"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_tick_chart.py": {
+      "bytes": 3096,
+      "sha256": "7d5419050861b046b592e29c4f560cda678a24bc1e4799247e2e1fe841ed019b"
+    },
+    "build/lib/easy_tdx/mac/commands/symbol_transaction.py": {
+      "bytes": 2239,
+      "sha256": "4d430adea99450f2467cdfa49bfd630fd7195d65436ec630c04cfe7386e4e784"
+    },
+    "build/lib/easy_tdx/mac/commands/tick_charts.py": {
+      "bytes": 5057,
+      "sha256": "3f013e94af5ff3348a051ef8dd981e54382cdb714d2eb10bc39f53c1cbe900c5"
+    },
+    "build/lib/easy_tdx/mac/commands/unusual.py": {
+      "bytes": 5588,
+      "sha256": "436d91b77a2949b4d57f0173f8efc0955b58743678e9e819c2b11f3344bbfda6"
+    },
+    "build/lib/easy_tdx/mac/enums.py": {
+      "bytes": 6222,
+      "sha256": "c28d83c879cd2bbad6fa94a0df52ddae5befafbcbd0cb1468a6c1adea8757ef9"
+    },
+    "build/lib/easy_tdx/mac/models.py": {
+      "bytes": 3938,
+      "sha256": "663c7606f7d014f5210aaebcfd8cb1dccb37417b8aaa189cc48bda0890c7a0e1"
+    },
+    "build/lib/easy_tdx/models/__init__.py": {
+      "bytes": 784,
+      "sha256": "4c087f7388dee244e38c94a0a22a9b3194aeb054237dfaaeed10e1257264b60d"
+    },
+    "build/lib/easy_tdx/models/bar.py": {
+      "bytes": 649,
+      "sha256": "33bbfde4630ab4bc5727b16ac5a9354d61817d8037776d249547e84968fbbad6"
+    },
+    "build/lib/easy_tdx/models/enums.py": {
+      "bytes": 399,
+      "sha256": "fb04994e8732d5fd519176261bf4c3119760a277f1f03a6cc6e431ec4224bc34"
+    },
+    "build/lib/easy_tdx/models/finance.py": {
+      "bytes": 4791,
+      "sha256": "f606d6328cba002eef9f8296d13d33a4bc4dd21a1953057381a5b5d9c083074a"
+    },
+    "build/lib/easy_tdx/models/quote.py": {
+      "bytes": 2891,
+      "sha256": "8f0715515ee5da1f7f9cc2d359699033dfae6bbc04122a929d543473d4cac143"
+    },
+    "build/lib/easy_tdx/models/security.py": {
+      "bytes": 757,
+      "sha256": "629666a72a9c686c1a424490a8bc37768e7ac430e15f1f1704b076f34bdc5d7e"
+    },
+    "build/lib/easy_tdx/models/stats.py": {
+      "bytes": 2119,
+      "sha256": "e481e2c68b8c9ed91b50e045002c9e6c2c37b5313c6507f5b8213098d35b48c0"
+    },
+    "build/lib/easy_tdx/models/timeseries.py": {
+      "bytes": 1062,
+      "sha256": "c2a4586bf0e40717f4ba654382777e3c4b704f768a6a823168af2604f201af41"
+    },
+    "build/lib/easy_tdx/offline/__init__.py": {
+      "bytes": 2027,
+      "sha256": "99350ac99c1a35aec318ad7930049d40eb3edf651becc83521a0f273ae483606"
+    },
+    "build/lib/easy_tdx/offline/block.py": {
+      "bytes": 2782,
+      "sha256": "d41d0670b989ff865aa31d9134051ea5678b0e5c6bbf39b3381f52205ddd27c7"
+    },
+    "build/lib/easy_tdx/offline/daily_bar.py": {
+      "bytes": 4497,
+      "sha256": "73673fb766661da47372c4ad80af616253cfaa1bf3ccd36dbf61572c62ffb99e"
+    },
+    "build/lib/easy_tdx/offline/ex_daily_bar.py": {
+      "bytes": 2260,
+      "sha256": "32ed238c7d5b8d78c06384e97847da85e6525736c4b81aba960407d44164e33b"
+    },
+    "build/lib/easy_tdx/offline/finders.py": {
+      "bytes": 1100,
+      "sha256": "a5259c6ef4a30c53eac70397d76a76068145132ae5879bc9ec09a4ebc288c629"
+    },
+    "build/lib/easy_tdx/offline/gbbq.py": {
+      "bytes": 17821,
+      "sha256": "3ed909d6a9f144843acc40537a8ccef024bda0e2a9dd2ce8537259cbb41b08d2"
+    },
+    "build/lib/easy_tdx/offline/history_financial.py": {
+      "bytes": 1896,
+      "sha256": "a5a84e5fb73270b6903af8b7a316abb6ca95f378fabfffc054e0adf2c896dec7"
+    },
+    "build/lib/easy_tdx/offline/min_bar.py": {
+      "bytes": 3577,
+      "sha256": "d04d795754c41e7f0eb591d6f5e13a35f0d2ad03b94afbda5069c6e594238331"
+    },
+    "build/lib/easy_tdx/offline/paths.py": {
+      "bytes": 1897,
+      "sha256": "45d7536607ca255fd82a38b3234a6d86e5db9b65e1a9a64e7fabe018297baaf1"
+    },
+    "build/lib/easy_tdx/offline/write_daily.py": {
+      "bytes": 6213,
+      "sha256": "41abe3d95c8e6bce1ff70e17b279ed93df6f282487e71b6ae0488afb3b2331d8"
+    },
+    "build/lib/easy_tdx/offline/write_ex_daily.py": {
+      "bytes": 2385,
+      "sha256": "9c41c55a2768a4ab5c379542e0cca570f0142c263bc2c78e54d4116c1fc11ec8"
+    },
+    "build/lib/easy_tdx/offline/write_min_bar.py": {
+      "bytes": 5442,
+      "sha256": "1ef1ff2fae81653f4fc51df93ca9e0e740d6133fc60a387319f42ea676ebdcfb"
+    },
+    "build/lib/easy_tdx/portfolio/__init__.py": {
+      "bytes": 652,
+      "sha256": "6b98d1cbe1b2cd378b01de15ba2e6a72418cf11387caa05253f1f5201e145edf"
+    },
+    "build/lib/easy_tdx/portfolio/optimizer.py": {
+      "bytes": 7267,
+      "sha256": "ca80f014806d14f9902d304ea11225a60f67b6d3f568c7a8ee860fcfdb6c7372"
+    },
+    "build/lib/easy_tdx/portfolio/rebalance.py": {
+      "bytes": 10472,
+      "sha256": "f0e66c73cf3f0d9c795f18051587719c9d29f392a7c592ca8bf126c7d5989276"
+    },
+    "build/lib/easy_tdx/portfolio/risk.py": {
+      "bytes": 1951,
+      "sha256": "41185ef01c050f0afebbcb1ebdfdc648ee26f711d88b4aa9a02d9e50ca716451"
+    },
+    "build/lib/easy_tdx/portfolio/types.py": {
+      "bytes": 553,
+      "sha256": "941aacb1f6dc966e9aca64e67d416847fbdf3fd06e04447bd4bae355d35de86e"
+    },
+    "build/lib/easy_tdx/py.typed": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "build/lib/easy_tdx/realtime/__init__.py": {
+      "bytes": 998,
+      "sha256": "d75f040bfaad082cfd775c972cbf6f8693e03d2dd4ab024834937782e8e6af13"
+    },
+    "build/lib/easy_tdx/realtime/engine.py": {
+      "bytes": 6121,
+      "sha256": "064a71598faf0b3f3639e0b806f55d94d0c62244c003fd679363326dab15ed9a"
+    },
+    "build/lib/easy_tdx/realtime/feed.py": {
+      "bytes": 11483,
+      "sha256": "3724b601c0f8a4e605941fc5617d90c3c526da6f3430c85b496ea23069f08264"
+    },
+    "build/lib/easy_tdx/screen/__init__.py": {
+      "bytes": 925,
+      "sha256": "2e70137304b31421c4a2ce9a64a0b72a8110ee7025d1401651cefded506e1cf7"
+    },
+    "build/lib/easy_tdx/screen/cli.py": {
+      "bytes": 15176,
+      "sha256": "794c87f7968ca50c9ca6be20ddd2f1e14835f74eb44a54c0eb04af18d836c35f"
+    },
+    "build/lib/easy_tdx/screen/ranker.py": {
+      "bytes": 11101,
+      "sha256": "054aa50c46536b61bf88a50ede7b533105687e5b3a06f17e33f09408c114b754"
+    },
+    "build/lib/easy_tdx/screen/scanner.py": {
+      "bytes": 24069,
+      "sha256": "1bb4d2919cd0dca953aada6d58fb6f06d56e1f7d38d3ce65d38872c8d749dce6"
+    },
+    "build/lib/easy_tdx/screen/strength.py": {
+      "bytes": 16100,
+      "sha256": "3f1c21f510df3ee82c6a4a7231c1cffdf901ffc0ece9722a2c28ed9169f3353c"
+    },
+    "build/lib/easy_tdx/sina/__init__.py": {
+      "bytes": 805,
+      "sha256": "641cb1ed4703a094ebc19c1dcebe5addfd79a10e4e3ed5c4f0934ccd846ca38c"
+    },
+    "build/lib/easy_tdx/sina/client.py": {
+      "bytes": 6416,
+      "sha256": "be9636619586cf42361c9b6580840153a2b6de152ca0f24beec9a106a3d99be5"
+    },
+    "build/lib/easy_tdx/sina/models.py": {
+      "bytes": 1459,
+      "sha256": "288fd2533f69c6dcebbc9874df0f1d3b53820bf807941fc0b27f51bdf68a72a4"
+    },
+    "build/lib/easy_tdx/ths_web.py": {
+      "bytes": 10693,
+      "sha256": "39d7c5bedec0463de6a3b29fc61685fd315c88241a54147b62163121cd93e710"
+    },
+    "build/lib/easy_tdx/transport/__init__.py": {
+      "bytes": 122,
+      "sha256": "e5e8345a82634cb914af4da7ea29078d61ed4887893cee6e8a391562aac592be"
+    },
+    "build/lib/easy_tdx/transport/async_.py": {
+      "bytes": 5320,
+      "sha256": "fe81e9dae792bc2db3186a158fcf0fe5c07dbef4fe31a3d10f233d0be4c01308"
+    },
+    "build/lib/easy_tdx/transport/sync.py": {
+      "bytes": 10286,
+      "sha256": "9212ea29694f41645ead3f6d542de6f9bb24cdb642e0516e6dc2e0c66d310903"
+    },
+    "build/lib/easy_tdx/tray.py": {
+      "bytes": 4588,
+      "sha256": "3e97ca04cba78d410a532bdf63c487fe7d5f464bf1d0c7bd9405e391d42696c0"
+    },
+    "build/lib/easy_tdx/unified.py": {
+      "bytes": 20377,
+      "sha256": "4b43661835f58955c47897752c9eec8f4ab4370cf93b4629e7ed35f2ab067c91"
+    },
+    "build/lib/easy_tdx/web/__init__.py": {
+      "bytes": 1108,
+      "sha256": "622fcf91d851b8adcf4e5ed45ceff17eae90a4e38b070a86e0e210e7798675ec"
+    },
+    "build/lib/easy_tdx/web/app.py": {
+      "bytes": 12213,
+      "sha256": "2a34a873a70b0fd8795e021487df9244bba36b65234154f65895398b1cf81b57"
+    },
+    "build/lib/easy_tdx/web/backtest_schemas.py": {
+      "bytes": 18349,
+      "sha256": "a7c89b60e7d3cd70cbe4c77fcaabeed29737893c37d426cd27affe747155ee38"
+    },
+    "build/lib/easy_tdx/web/convert.py": {
+      "bytes": 7147,
+      "sha256": "ac84ba883bd10a5a7854dc747b99ca5c24875c4cfcb9101dc96286c7226058dd"
+    },
+    "build/lib/easy_tdx/web/deps.py": {
+      "bytes": 1689,
+      "sha256": "69543c4cccbf9b39195f18e3c697e20fb12d073f939406e7e11f9d84145203b1"
+    },
+    "build/lib/easy_tdx/web/errors.py": {
+      "bytes": 1554,
+      "sha256": "c2a22c9b2f483c03d82bafb5cab110f02b2d10e3aeb34282227d4881be2e84d4"
+    },
+    "build/lib/easy_tdx/web/routers/__init__.py": {
+      "bytes": 25,
+      "sha256": "51bf83470168d705beb38744164cc071189699478cdb8ceebd28fd927f332148"
+    },
+    "build/lib/easy_tdx/web/routers/announcement.py": {
+      "bytes": 1210,
+      "sha256": "93449a95007e266462156dbf1a4dca01b3d314c41b8e96500bbcad3161f10686"
+    },
+    "build/lib/easy_tdx/web/routers/backtest.py": {
+      "bytes": 30199,
+      "sha256": "845e3a26ce7664c7898f0b9c8074c5ec33f3fdbdcfbb4073f811b2a403ef2be3"
+    },
+    "build/lib/easy_tdx/web/routers/bars.py": {
+      "bytes": 7741,
+      "sha256": "7c580d49f938ad7206f7c362f3f5567f2e2f5a65755bb8c255b314ad00ea7194"
+    },
+    "build/lib/easy_tdx/web/routers/block.py": {
+      "bytes": 773,
+      "sha256": "4e8461d11513bfd2ebbb7c21ef3051e72bf075a261fe1fff9bb91fb1f86ab2f7"
+    },
+    "build/lib/easy_tdx/web/routers/board_mac.py": {
+      "bytes": 4300,
+      "sha256": "ec2e6aa3478173a708e754a8d4d61e104c931846715c9edf8948f9b9a4795198"
+    },
+    "build/lib/easy_tdx/web/routers/chanlun.py": {
+      "bytes": 1463,
+      "sha256": "fe7cf8057cc2c0ce4164e2d5bfe8c7fcfb700e2464d513960c1dfe752f007abb"
+    },
+    "build/lib/easy_tdx/web/routers/ex_market.py": {
+      "bytes": 3178,
+      "sha256": "edb1f4d217672b1560b7b85b67a9e8811c5382af96b0a39ad7ad4af108882b9f"
+    },
+    "build/lib/easy_tdx/web/routers/finance.py": {
+      "bytes": 2881,
+      "sha256": "b34314113ffb6916973e785c0f5afbd554dbf0a98046cc7278f529ab16ca85b0"
+    },
+    "build/lib/easy_tdx/web/routers/indicator.py": {
+      "bytes": 1189,
+      "sha256": "b776887a2ba00cf3d620cfb6754c1079708ec9187d1c950d9672a2789027f52f"
+    },
+    "build/lib/easy_tdx/web/routers/mac_data.py": {
+      "bytes": 1682,
+      "sha256": "e21f10392958304021bb177ce6fba5cb5cd43ac996a921d13fda646e94fe5926"
+    },
+    "build/lib/easy_tdx/web/routers/mac_quotes.py": {
+      "bytes": 2613,
+      "sha256": "789bc08315b51b535f55165b2aa93cc58e412a55b98389f159504b976090fc33"
+    },
+    "build/lib/easy_tdx/web/routers/market.py": {
+      "bytes": 6159,
+      "sha256": "4f56b0851066116c66e59041dc301f16ed5cfab615f239b2c40335951c72f803"
+    },
+    "build/lib/easy_tdx/web/routers/realtime.py": {
+      "bytes": 3696,
+      "sha256": "388a65dd78d6c1dd149ea3f2b1423a1ffa3ae2cca54e7e8692b5c8410d327d38"
+    },
+    "build/lib/easy_tdx/web/routers/server.py": {
+      "bytes": 5355,
+      "sha256": "5437d71abc4019454d38b7872acfa2b11f41e873cbb3d438c1658c3427dc447a"
+    },
+    "build/lib/easy_tdx/web/routers/sina.py": {
+      "bytes": 1326,
+      "sha256": "9c24257bebc5bba7a935287abe6350de22f18e24b4665d60f8d214dcff7b50e3"
+    },
+    "build/lib/easy_tdx/web/routers/stock_industry.py": {
+      "bytes": 3025,
+      "sha256": "a370303b47c708b2dc12f30e741006d899c467086a7a811b9f2a46b175f6ac0e"
+    },
+    "build/lib/easy_tdx/web/routers/strategies.py": {
+      "bytes": 3207,
+      "sha256": "92366199e526e7707ad8c259151636d1ba974d89c70872734e38d5f92777c6ce"
+    },
+    "build/lib/easy_tdx/web/routers/ths.py": {
+      "bytes": 1256,
+      "sha256": "51c937249ad8775a21b512353a9786bd733dc6440a6347a71a2b14b01de4be7e"
+    },
+    "build/lib/easy_tdx/web/schemas.py": {
+      "bytes": 4413,
+      "sha256": "c66ded8f3d46651cb5b155fd7cb547b05e307cf53b75f4f590b6c2e2429ad982"
+    },
+    "build/lib/easy_tdx/web/signal_scan.py": {
+      "bytes": 13346,
+      "sha256": "735754b9894a1cd3c7cf0c05f08d2fae731bf2183969f0d6655ee8d035f75361"
+    },
+    "build/lib/easy_tdx/web/strategy_store.py": {
+      "bytes": 9577,
+      "sha256": "307e22b03ed584d268635b8fe7a2119a3a5a5ad08bc19b6547a8a97773785d20"
+    },
+    "build/lib/easy_tdx/web/task_runner.py": {
+      "bytes": 10159,
+      "sha256": "8051ee6d6aae978f27d3edd88e8577444418b7df4d99042f6f34691360b37ea6"
+    },
+    "build/lib/wyckoff_cn/__init__.py": {
+      "bytes": 103,
+      "sha256": "648c494d020fe0eab76326adc1733fe7b1026916569237cd3a54639af2591247"
+    },
+    "build/lib/wyckoff_cn/__main__.py": {
+      "bytes": 3818,
+      "sha256": "fe7e3f30351fcc5287722b09bac5a7a9a4a6b626e7134c8e9da4400551af6867"
+    },
+    "build/lib/wyckoff_cn/bootstrap.py": {
+      "bytes": 2803,
+      "sha256": "01b38c1ba8b91957c7e69197c4103213d36932979e5bed2e4aaa9c094eaffae0"
+    },
+    "build/lib/wyckoff_cn/common.py": {
+      "bytes": 1723,
+      "sha256": "680b662595d3b7f29bb3314efbf7c546b1b77160b014b151a1a012d056690b73"
+    },
+    "build/lib/wyckoff_cn/data.py": {
+      "bytes": 10451,
+      "sha256": "cba49b9e2fa7b8db5a22bf15502815f787e58864d773e150405e9c97b7125d78"
+    },
+    "build/lib/wyckoff_cn/external.py": {
+      "bytes": 3919,
+      "sha256": "417ece4f51f9d15fef21efaa88602eebafcd40f1c914ca9f09323db0688c1b5f"
+    },
+    "build/lib/wyckoff_cn/market.py": {
+      "bytes": 11063,
+      "sha256": "6a4a08f9ddc0323dd16d8878c947e4be32cca7e538d590fc0e7e4ba688b437c0"
+    },
+    "build/lib/wyckoff_cn/portfolio.py": {
+      "bytes": 3767,
+      "sha256": "f4d5edc2964dc8f039621613049bdd91717e37aae0da2f146035d0c3bdb086be"
+    },
+    "build/lib/wyckoff_cn/providers.py": {
+      "bytes": 27405,
+      "sha256": "14c043c701630538a907655442d610c44e9b26b8b0eeb670a93f6331712ce7d2"
+    },
+    "build/lib/wyckoff_cn/reports.py": {
+      "bytes": 15147,
+      "sha256": "40287302678d2183b7fa0ebbeee4e2a74537af3b323ac2a8a4dc2febc71bc921"
+    },
+    "build/lib/wyckoff_cn/research.py": {
+      "bytes": 25746,
+      "sha256": "88c4b8da44b37541d90e902eaac4acc5bb73063aabc817f68c0eb4318d6da2a7"
+    },
+    "build/lib/wyckoff_cn/server.py": {
+      "bytes": 17169,
+      "sha256": "4985e576ec253f74dcaa3afba16bcd3f0bbcfa7a0bbd10ae757c2fbec5a92223"
+    },
+    "build/lib/wyckoff_cn/store.py": {
+      "bytes": 5797,
+      "sha256": "a452605c8e4a94510a3ee39ad7de44ac483507493f66f598bcd326e45a0836b0"
+    },
+    "build/lib/wyckoff_cn/workbench.html": {
+      "bytes": 38678,
+      "sha256": "5741745bf92751b61b74c1168cfb179425def6f796e75abbfc7b9484fde55021"
+    },
+    "data/说明.txt": {
+      "bytes": 257,
+      "sha256": "715b892fcb4bef79e9d7a04b696c9405a1823b764881ba6b2c364af0752f40c9"
+    },
+    "docs/全市场威科夫扫描与策略输出设计_V0.6.3.md": {
+      "bytes": 7100,
+      "sha256": "c64d66c2e007c635c92ba64476a2836d3ca33eb8e54f8452ec35f54a3f03a89a"
+    },
+    "docs/接口与架构.md": {
+      "bytes": 6590,
+      "sha256": "4d34f88376d0e400d273e860592cc01c3dea2dca30e12d4a76d8d0c19921895c"
+    },
+    "easy_tdx/LICENSE": {
+      "bytes": 1469,
+      "sha256": "a41a4498ebf218f3a7eccf7842d86cd3356e92d1e45352afce0bd1319cfd77df"
+    },
+    "easy_tdx/MyTT.py": {
+      "bytes": 20648,
+      "sha256": "d1b428e1ada3c510228826d9242cbf07061a6f0477f338b77be1841bb813cf54"
+    },
+    "easy_tdx/MyTT.pyi": {
+      "bytes": 5862,
+      "sha256": "56c406be10bad7b6d09821d6c795dfb6e9fea0f179618be9301002f131d8b308"
+    },
+    "easy_tdx/NOTICE": {
+      "bytes": 881,
+      "sha256": "78930d8e6ec1e7f084da5ddb406779b4e1da74e316f7d8252aa19deae64c9e4d"
+    },
+    "easy_tdx/__init__.py": {
+      "bytes": 2848,
+      "sha256": "0e40e63cdb1e1aae221a7130abbcf9785f8c2b1afb7c0e140f9338f5bdcb3ad2"
+    },
+    "easy_tdx/__main__.py": {
+      "bytes": 6408,
+      "sha256": "0366e4bcfbe9f27c01ecb7b0ad77949f9f6b7fca558165d0300c60be15a5e2d0"
+    },
+    "easy_tdx/_binary.py": {
+      "bytes": 1285,
+      "sha256": "d60111bd71ec4e5d0d65a60cd45d4851286c7d61702fd63c0183e8d536e4de67"
+    },
+    "easy_tdx/_df.py": {
+      "bytes": 8581,
+      "sha256": "1e8438ebe871a62a3c8ebe93a5bd0377c669bb6f6bf6c66b3d7b91ad5bf5a25b"
+    },
+    "easy_tdx/_health.py": {
+      "bytes": 6155,
+      "sha256": "bf3d05627a89b9213252556a6024dada491efd4db5e70671685ff47b946316a3"
+    },
+    "easy_tdx/_reconnect.py": {
+      "bytes": 14075,
+      "sha256": "03c05785f21a2fb7fd4850aa5e515f0c87568d0581c4d46119097cc1d6e66e10"
+    },
+    "easy_tdx/backtest/__init__.py": {
+      "bytes": 1203,
+      "sha256": "057f036ac9348f3e3f3b472fc22d3129a40fb7382c69569c5eeaf340571761b0"
+    },
+    "easy_tdx/backtest/attribution.py": {
+      "bytes": 7891,
+      "sha256": "26f52d3a7b37e23ff487494147a6f04fd335832c2b492de3972b35bbe2068f8d"
+    },
+    "easy_tdx/backtest/cli.py": {
+      "bytes": 14495,
+      "sha256": "46e0b6f3fcace94a2f027ba904ab6ad6e08ed973d1571dc19b3eda7cc1934171"
+    },
+    "easy_tdx/backtest/combo.py": {
+      "bytes": 14279,
+      "sha256": "f3bafbd7ebdee08b89aa767a2bdb5e904723fa5100d7553b4291661821b44fbe"
+    },
+    "easy_tdx/backtest/dsl.py": {
+      "bytes": 1486,
+      "sha256": "9bb372de387d20129260ba838f5db4140c85b24ca5c48a9d7f2693af6afa9559"
+    },
+    "easy_tdx/backtest/engine.py": {
+      "bytes": 19431,
+      "sha256": "fac818509fe1d24344acf0fb1f259852965ac7bfecec8501caa764300ea05668"
+    },
+    "easy_tdx/backtest/execution.py": {
+      "bytes": 20617,
+      "sha256": "2563b1dbdd4659b75c2b4932728699baec3dcad6107db989d2e27d2d1cad1e7a"
+    },
+    "easy_tdx/backtest/multi_strategy_engine.py": {
+      "bytes": 10505,
+      "sha256": "feb9435ba1f48bc12ad6c4a16988e646cd1879c271ae5c473dabab5051962359"
+    },
+    "easy_tdx/backtest/optimizer.py": {
+      "bytes": 9097,
+      "sha256": "cd058c7a98733693abf7cfba02fa5e9f1268e06a22285ab91e2f14e7d1d7b3ff"
+    },
+    "easy_tdx/backtest/orders.py": {
+      "bytes": 17907,
+      "sha256": "148c1a420e6bd03c06664478dfae37c74afe0d3181a30a4cfaf7185e181db0df"
+    },
+    "easy_tdx/backtest/performance.py": {
+      "bytes": 14144,
+      "sha256": "b966234e4b2c3dbcbffdb602a29e854539616980463ab6144b4b193bc16b229f"
+    },
+    "easy_tdx/backtest/portfolio.py": {
+      "bytes": 7391,
+      "sha256": "9f6760f93bc127a6e70f8bb62a34d0a7616347084111a54ad64f35f3a6d2eae9"
+    },
+    "easy_tdx/backtest/portfolio_engine.py": {
+      "bytes": 9603,
+      "sha256": "0a8ad51ecc19875489af7412f9b1d4d32d031af4d60db287742256606c23c38f"
+    },
+    "easy_tdx/backtest/slippage.py": {
+      "bytes": 3388,
+      "sha256": "82244d350d4e6992a2c5355973f027f0b4df3edb7e39cf088575372caef75376"
+    },
+    "easy_tdx/backtest/strategies/__init__.py": {
+      "bytes": 1111,
+      "sha256": "442f1e5f5de964a050caae8dfd79918d77c4686accbe5bcbbc96bcd734412162"
+    },
+    "easy_tdx/backtest/strategies/builtin.py": {
+      "bytes": 21986,
+      "sha256": "275914d59fa73ed582bc038ef128b5de14ec7436bbef12d04805e09c7f034ab3"
+    },
+    "easy_tdx/backtest/strategies/presets.py": {
+      "bytes": 3891,
+      "sha256": "b769db5f245fc1bdc978571f334969940dc46e79b6f7ad1bb3e89bd0e381bd2e"
+    },
+    "easy_tdx/backtest/strategies/registry.py": {
+      "bytes": 13360,
+      "sha256": "adf7a48dccdb385003eef700c27bd2f1e54b589c30ba96df37a33d98d71a62e3"
+    },
+    "easy_tdx/backtest/strategy.py": {
+      "bytes": 16167,
+      "sha256": "beb265a2af21c41b914fa3aed0999ca2e6d998f98e537a04f439f01fede1c886"
+    },
+    "easy_tdx/backtest/types.py": {
+      "bytes": 5661,
+      "sha256": "8fa4cdf2a5d6e0867e1b77424155ab62f0451a1c70c3493353072b0d5ed88877"
+    },
+    "easy_tdx/chanlun/__init__.py": {
+      "bytes": 903,
+      "sha256": "dc2a0e6c07250ca956625fa71bcb412f196d07201aaef009d3dd94fb19ecaf3f"
+    },
+    "easy_tdx/chanlun/analyser.py": {
+      "bytes": 9504,
+      "sha256": "e25013d4f8f0837ca32a10841037c76a4f353b6bc63565985941c7f1fdfcecf7"
+    },
+    "easy_tdx/chanlun/beichi.py": {
+      "bytes": 5764,
+      "sha256": "8ee722fe20b02e43bc36f7c3e99d63dc1bc205ea0a6fe2a74087a38586fcf1c3"
+    },
+    "easy_tdx/chanlun/bi.py": {
+      "bytes": 3987,
+      "sha256": "62514b06476da3dff6c989da76a455cf71cc544d5b81300689c91e2f69af08db"
+    },
+    "easy_tdx/chanlun/config.py": {
+      "bytes": 2639,
+      "sha256": "6a2692172b118de240e9459d9e86d562dd87230c02e0b96dffc2664e3c66fd35"
+    },
+    "easy_tdx/chanlun/fractal.py": {
+      "bytes": 2163,
+      "sha256": "c27a5ededbdca0972a5c77066dd7eb163bd275406168e6ea3041346f41b7ca38"
+    },
+    "easy_tdx/chanlun/kline_merge.py": {
+      "bytes": 3399,
+      "sha256": "b8a7105106426bcffd194a764633c67f2cc720f8b3c1418830dbdb3cebe31a2e"
+    },
+    "easy_tdx/chanlun/macd.py": {
+      "bytes": 2544,
+      "sha256": "1ea27d89f666da0ac338163860192fa04ed229ccfa8c6a0e801db86e3580cf88"
+    },
+    "easy_tdx/chanlun/mmd.py": {
+      "bytes": 5471,
+      "sha256": "895c5188f7e9269299fc27d1e79842d0f57d3eb27ab5f8f389c12e2e8776b00c"
+    },
+    "easy_tdx/chanlun/multi_level.py": {
+      "bytes": 8283,
+      "sha256": "d6ce72058ef86837fe3d9c39aa3ab91f737fc7947c5f4b10001f187a10248f78"
+    },
+    "easy_tdx/chanlun/types.py": {
+      "bytes": 5958,
+      "sha256": "4c22e573eb4dc29edef59f317baf5d68f65b2b51ba5c720f215fb2d627f150a1"
+    },
+    "easy_tdx/chanlun/xd.py": {
+      "bytes": 3662,
+      "sha256": "f4aca985c83786210d36db7118e6eeb9f8356bf733c3b4458f5d77330583cc57"
+    },
+    "easy_tdx/chanlun/zs.py": {
+      "bytes": 3058,
+      "sha256": "3e59af415647cb3484c9d24c20701455bfa9c7dd3a9833ae09068ebe000e59b3"
+    },
+    "easy_tdx/chanlun/zsd.py": {
+      "bytes": 3532,
+      "sha256": "4ddebe89ec6a091185d0e1c6ade286791d5ebc8a27c244446f2bd7324cb5a1bf"
+    },
+    "easy_tdx/cli/__init__.py": {
+      "bytes": 2665,
+      "sha256": "754b36f13d05241df95d37f7626b6b0db26a1cd42cbd9cee45077b99fbcf5a74"
+    },
+    "easy_tdx/cli/cmd_admin.py": {
+      "bytes": 1474,
+      "sha256": "bc5e06cebbaa3c0a5de46856678d89df39fae3b7fb154bf72e5a1a463daf0b57"
+    },
+    "easy_tdx/cli/cmd_announcement.py": {
+      "bytes": 3410,
+      "sha256": "bfecfd9fa9b19ad547d49b7b2220860f0279300e14997bf24ae97187ecd957cc"
+    },
+    "easy_tdx/cli/cmd_auction.py": {
+      "bytes": 831,
+      "sha256": "1ba20fc8bebfca5f483d28fa90917c6d917facd1c5c4f852a9ef328202d3ba70"
+    },
+    "easy_tdx/cli/cmd_board.py": {
+      "bytes": 7806,
+      "sha256": "fffed25034c11b84c8016f5207c105a80379da57ab5348b1185a7f0ec81a5131"
+    },
+    "easy_tdx/cli/cmd_capital.py": {
+      "bytes": 871,
+      "sha256": "82d7e452b5a7494c2046b75dfba890479f471fb4cbaa363b49985c168d563814"
+    },
+    "easy_tdx/cli/cmd_chanlun.py": {
+      "bytes": 8004,
+      "sha256": "e917d42f9127b3b6f37e1c3b9c5274b1028d144f284a82292de33ec6e50cdddb"
+    },
+    "easy_tdx/cli/cmd_company.py": {
+      "bytes": 9295,
+      "sha256": "2451939a3d462c76eee724f42d252dffef97f196c3639cfafca0a16ec4094c56"
+    },
+    "easy_tdx/cli/cmd_ex.py": {
+      "bytes": 5086,
+      "sha256": "27450f186f599013c5f7e529b2ed5c3515404fbbcb122d1616f735f94d8e441d"
+    },
+    "easy_tdx/cli/cmd_factor.py": {
+      "bytes": 2813,
+      "sha256": "c55ebd53e55552cad9e135f29bf024ba9fc182964f67784711861d8711d40285"
+    },
+    "easy_tdx/cli/cmd_finance.py": {
+      "bytes": 2066,
+      "sha256": "cfc13d5c6a679f4e97d5cc8eddd36432ab41326a49e7f2e202168a4cdf9e9b55"
+    },
+    "easy_tdx/cli/cmd_indicator.py": {
+      "bytes": 4337,
+      "sha256": "a603caf14ea88bc02766d86e38d3f46e5c4c82e9506e2d07356337cbc52d7b40"
+    },
+    "easy_tdx/cli/cmd_info.py": {
+      "bytes": 1512,
+      "sha256": "d971b34e071dddd115978278ec3da468882a42d2803c5db3c58b49d612f02727"
+    },
+    "easy_tdx/cli/cmd_kline.py": {
+      "bytes": 2052,
+      "sha256": "563ec818df88fbdf96ff1c1b095e1249ff06a53e3e09b19f895cca255e4b00bd"
+    },
+    "easy_tdx/cli/cmd_monitor.py": {
+      "bytes": 1653,
+      "sha256": "9f9efe013405c64304c97e53f93e627abb0ee30bec5b4b72b659032a37967363"
+    },
+    "easy_tdx/cli/cmd_offline.py": {
+      "bytes": 21307,
+      "sha256": "eea0635b9d42ee761f0ea0caa946137b3aa882939d8bfd634915a0cfb3cf5f78"
+    },
+    "easy_tdx/cli/cmd_pfactor.py": {
+      "bytes": 1834,
+      "sha256": "b7ba8177e4968bbf979eda287971ec57730f514a7332497e88ce54f534f452e4"
+    },
+    "easy_tdx/cli/cmd_quote.py": {
+      "bytes": 2449,
+      "sha256": "8d79bd71043e9494c52d6d35b67e9641f6329344f7007d47983ae3ed06fbc449"
+    },
+    "easy_tdx/cli/cmd_run_all.py": {
+      "bytes": 21151,
+      "sha256": "b2db7d7620914076921969088f74f7f2fb6471c420a3c0543d4da4eabf138186"
+    },
+    "easy_tdx/cli/cmd_tick.py": {
+      "bytes": 1215,
+      "sha256": "7db4cfd8b38e94d5d06d0bc8a0a2255f960a53933aa88bb1caed74feed1a3df1"
+    },
+    "easy_tdx/cli/cmd_transaction.py": {
+      "bytes": 1251,
+      "sha256": "86342d2459739fa7308d20e8b4be7eb9677b60fba28bf90b1423c72faf8272c0"
+    },
+    "easy_tdx/cli/cmd_web.py": {
+      "bytes": 2099,
+      "sha256": "8c9cdab5855b299df3921c2f1401f7d18fd1f1651bee0439a8e402cb59a610bf"
+    },
+    "easy_tdx/cli/conn.py": {
+      "bytes": 1509,
+      "sha256": "6159e72a45a239c221f11a41813d081a9d9a05d9935c92e1895ca7ab62aa3a4e"
+    },
+    "easy_tdx/cli/output.py": {
+      "bytes": 2334,
+      "sha256": "b2e2adb30b6b40e35d567a49c2119282a1a24dffa06f002a2fd7823a22f92d36"
+    },
+    "easy_tdx/cli/parsers.py": {
+      "bytes": 4550,
+      "sha256": "f2ab62015f8b56d37d958a199bd123b82ad642dcc94f077d8c472983950b2457"
+    },
+    "easy_tdx/client.py": {
+      "bytes": 64926,
+      "sha256": "ce14df4d0c895a14f7a1f0755ffee5d0437a249c1c6ae9d02546e5f61c3018f0"
+    },
+    "easy_tdx/cninfo/__init__.py": {
+      "bytes": 517,
+      "sha256": "139c5c37f510f3df8efb6de044bc058c7a32b2d0486e55cf2a97eac835eeefca"
+    },
+    "easy_tdx/cninfo/client.py": {
+      "bytes": 10862,
+      "sha256": "ba9523d83779db3ac5a8c4217ac387e39815ed746329ec001bd5ba304e252eb2"
+    },
+    "easy_tdx/cninfo/models.py": {
+      "bytes": 2119,
+      "sha256": "539e14951da32189bda28a302af6936f77e74c4410005f608ff513730b97057e"
+    },
+    "easy_tdx/codec/__init__.py": {
+      "bytes": 466,
+      "sha256": "ab09c13f142da828c4c129698e2f06687d178d9d4b3b3e30fff80eb6911ec338"
+    },
+    "easy_tdx/codec/bitmap.py": {
+      "bytes": 16630,
+      "sha256": "e786c7e676dbfaa88c564bd517263f2531418ff76c4ab3037e9d4ac3be31acd0"
+    },
+    "easy_tdx/codec/block.py": {
+      "bytes": 1982,
+      "sha256": "c3fd7719e3188cf4611947e4284b29ceb67d2466fe1cab45c5b4be676210eaa8"
+    },
+    "easy_tdx/codec/datetime_.py": {
+      "bytes": 2052,
+      "sha256": "86893c5b8781620bbc7a9899b55b010a23cb796167f605071666d881e898f7cf"
+    },
+    "easy_tdx/codec/financial.py": {
+      "bytes": 3232,
+      "sha256": "4d5276ccd0378a54698925a97d330cb484ae1d9c07f16b1a9451e1eccc9cddf2"
+    },
+    "easy_tdx/codec/frame.py": {
+      "bytes": 2376,
+      "sha256": "4585499c1a438b65ceab96d1622be966b351e92477ff5e65571dae80fc7acf82"
+    },
+    "easy_tdx/codec/industry.py": {
+      "bytes": 825,
+      "sha256": "9ca76e17816e94a48eb55dbde7f135edf83d33039158d0950927c652a71e3891"
+    },
+    "easy_tdx/codec/mac_frame.py": {
+      "bytes": 1455,
+      "sha256": "83f1287931d7a5424c34bf378fa85ac67bb827f68f6c4d2ddc5702ed0fe6cce4"
+    },
+    "easy_tdx/codec/price.py": {
+      "bytes": 1595,
+      "sha256": "87f41331e6ddae10bde1ca1c1f788685920db0e97789868232c92993bf4ae6e6"
+    },
+    "easy_tdx/codec/price_rules.py": {
+      "bytes": 2906,
+      "sha256": "5b7d04ce66c940a0c47c62bbeff0c76d2cb4965fd1fe5b4d26036494be999fe8"
+    },
+    "easy_tdx/codec/volume.py": {
+      "bytes": 1424,
+      "sha256": "a034c3235067023809f17aaaa5fa0f59f3ce153fd74fa46d32d4eb0ca06c2a7b"
+    },
+    "easy_tdx/commands/__init__.py": {
+      "bytes": 210,
+      "sha256": "7e9626586a7bb62e02b24b05aaaee20237d0f5dff54962d71cfa37ea7e7de412"
+    },
+    "easy_tdx/commands/base.py": {
+      "bytes": 813,
+      "sha256": "2afe9112989927dd3389053cdef73daecca92d7c9d89fb8c6a317f24b60cc566"
+    },
+    "easy_tdx/commands/block_info.py": {
+      "bytes": 1926,
+      "sha256": "cefdeb49fc5f73baf27659061ca79ca9dd5c5b1387bcb57bc65eb3bf8e552da2"
+    },
+    "easy_tdx/commands/company_info.py": {
+      "bytes": 3115,
+      "sha256": "c29aaaea6a964295e3fe0c420166eb7c3bf3b1a6a260786963f9750a19693df3"
+    },
+    "easy_tdx/commands/finance_info.py": {
+      "bytes": 4017,
+      "sha256": "bbe6ad8a72659b38eaf7c16f9a050009f5c23a98b7825a5131a468c25be7639d"
+    },
+    "easy_tdx/commands/fund_flow.py": {
+      "bytes": 2463,
+      "sha256": "36937121ffb8bb9e2295f90c7d946d55fa391fb64bb6d6f6d107cef6f422e519"
+    },
+    "easy_tdx/commands/minute_time.py": {
+      "bytes": 2366,
+      "sha256": "f95eb3743bc4cbc0f3015bf520fd1f4b4556ad6474288f8e3057d098a349ba23"
+    },
+    "easy_tdx/commands/report_file.py": {
+      "bytes": 993,
+      "sha256": "3955b186b40a6211b758420835667e1066420728ce54e6699cc3b7c03b9559ac"
+    },
+    "easy_tdx/commands/security_bars.py": {
+      "bytes": 7482,
+      "sha256": "c153b7e02965444f55f0cecd09920012990db96499dbc0b0a5d6b0e3baff64e4"
+    },
+    "easy_tdx/commands/security_count.py": {
+      "bytes": 757,
+      "sha256": "33ca4ad12157128f843b3f3475f3a4626ab65f7fc880a82c1836ea051bbaf1f1"
+    },
+    "easy_tdx/commands/security_list.py": {
+      "bytes": 2528,
+      "sha256": "ab316255aac608216990267707c2abd1e3a42cff4216ad442c3176673dc3a614"
+    },
+    "easy_tdx/commands/security_quotes.py": {
+      "bytes": 9441,
+      "sha256": "a5ebdbcdd74002548a1f2e65e71b868704251e047eb3f2a9ed039011fcf36791"
+    },
+    "easy_tdx/commands/setup.py": {
+      "bytes": 635,
+      "sha256": "d36c33859f21716a74d2f62a02487e51165f71b7bbdd0b8fb7fa54826619c437"
+    },
+    "easy_tdx/commands/transaction.py": {
+      "bytes": 4078,
+      "sha256": "7d83d66a8327a2c6fe6004223b9aa139ac21286cb6ef1bf0f3eb64b21c3148ce"
+    },
+    "easy_tdx/commands/xdxr_info.py": {
+      "bytes": 4044,
+      "sha256": "1078da76cd223fe02d60aa8fcb1e3466f1cf09a20b2c2019914b0d51bbb2570d"
+    },
+    "easy_tdx/config.py": {
+      "bytes": 10024,
+      "sha256": "b4e66a4f7e0bc6e85710cfbc83098d857477245be8fb9fc450559145531fd6ba"
+    },
+    "easy_tdx/ex/__init__.py": {
+      "bytes": 433,
+      "sha256": "92507114d01e28f09a2ac7a8a4e1be0f6b39b84284f67da6ee35612e420fd497"
+    },
+    "easy_tdx/ex/_hk_transaction.py": {
+      "bytes": 7830,
+      "sha256": "3cf628a1683c31a21c72c8c82bb9178c23a87f4da08294df5373b0623879cb9a"
+    },
+    "easy_tdx/ex/client.py": {
+      "bytes": 20386,
+      "sha256": "c35887c2774a705be8ddfcbe5d7234971e087bbb53b80e64e583b6809872778b"
+    },
+    "easy_tdx/ex/commands/__init__.py": {
+      "bytes": 34,
+      "sha256": "8fe451f413624b71eecf8c0fc2ce572523e132318487ff12c9e36f3d97d33f3f"
+    },
+    "easy_tdx/ex/commands/get_history_bars_range.py": {
+      "bytes": 2564,
+      "sha256": "7e4f67d79882114444838f6c97e1e9cad891906c617491c22eac0e17918a25f4"
+    },
+    "easy_tdx/ex/commands/get_instrument_bars.py": {
+      "bytes": 2276,
+      "sha256": "d96cd01b1eccfcb6c75c945fb7d291994eb98785fd47171c91a795db3a482cab"
+    },
+    "easy_tdx/ex/commands/get_instrument_count.py": {
+      "bytes": 523,
+      "sha256": "a8d7045fe09704730e3ffbf3e2e87d75ce9bbb16290930cb53e427bcc97adab4"
+    },
+    "easy_tdx/ex/commands/get_instrument_info.py": {
+      "bytes": 1696,
+      "sha256": "e93422e8d41c29fcce67839a13b19ee99ff48fcaaa23ec2a3cab1edf67b6e3c2"
+    },
+    "easy_tdx/ex/commands/get_instrument_quote.py": {
+      "bytes": 2619,
+      "sha256": "6e1fcf495d3d59f5aeca7a00dd578763e4cece569e7f7711500b49bed85416bf"
+    },
+    "easy_tdx/ex/commands/get_instrument_quote_list.py": {
+      "bytes": 6354,
+      "sha256": "87092c98ebc07cd591d407fcedb1508a1a717e5db777056fdc4e989f5e367039"
+    },
+    "easy_tdx/ex/commands/get_markets.py": {
+      "bytes": 1391,
+      "sha256": "26ef2c273f03b2c0b39e70b7dd9da7f864ae97685429f9b864a0385027073d30"
+    },
+    "easy_tdx/ex/commands/get_minute_time.py": {
+      "bytes": 2493,
+      "sha256": "02687eba6f5c235fc7c47f5e14169b226addf4e367fe514105c3a3aaff333e72"
+    },
+    "easy_tdx/ex/commands/get_transaction.py": {
+      "bytes": 3096,
+      "sha256": "f04916785153830714fd4d08aadfc50c894aa9b2be21e77e4fb8363fce86270f"
+    },
+    "easy_tdx/ex/commands/login.py": {
+      "bytes": 1363,
+      "sha256": "14b08d61122112692c3bb741be8e53fed9a377c1e67e8ce9ae761d0d3c09132a"
+    },
+    "easy_tdx/ex/commands/setup.py": {
+      "bytes": 419,
+      "sha256": "0d12bdb0e6eeb7aecfa1d92833e5bd48657ccf3c06e2d0976ec370dabbb3db2c"
+    },
+    "easy_tdx/ex/mac_client.py": {
+      "bytes": 31618,
+      "sha256": "6fef25de3ff881b1f0bef8d7b834c93a976481c3c8d9b7c19b8a9f278553d5a3"
+    },
+    "easy_tdx/ex/models.py": {
+      "bytes": 2838,
+      "sha256": "4feb1d8598575ce5c1ecddcd7a77d4331fa5b1ac6b46e3cbab96bf1b1eff52f7"
+    },
+    "easy_tdx/ex/transport/__init__.py": {
+      "bytes": 31,
+      "sha256": "a7950e46f4e935bcdb80b921c84e479d33968abd6a848d18764cc88c0c18c9a2"
+    },
+    "easy_tdx/ex/transport/async_.py": {
+      "bytes": 4041,
+      "sha256": "e35d15fd3966b455979f9a220dd70eccd327a4fbf8b76214ab69bd38f9807fd6"
+    },
+    "easy_tdx/ex/transport/sync.py": {
+      "bytes": 5107,
+      "sha256": "68580bd7f93d103235f7895b76c7ba8df2e60f4e491c9b798b8ca20a62c5de4f"
+    },
+    "easy_tdx/exceptions.py": {
+      "bytes": 526,
+      "sha256": "8407990ff8747b2addc0c8d1e0913938305e6550404a6394ff20224825c6dc03"
+    },
+    "easy_tdx/factor/__init__.py": {
+      "bytes": 830,
+      "sha256": "c3e0080d8d7fdc083e187cf6a9abf3efa3c78e1c5be051ccd63ced46868bb68d"
+    },
+    "easy_tdx/factor/analysis.py": {
+      "bytes": 5747,
+      "sha256": "8b8996f92b189f14311d5b713e6fb338f4536f83737aa535785a8082f4c6bec9"
+    },
+    "easy_tdx/factor/base.py": {
+      "bytes": 1530,
+      "sha256": "891a8cb073a74cfd5088dbdbf82e373b016e975fab121547d43df57d286c80a1"
+    },
+    "easy_tdx/factor/builtin/__init__.py": {
+      "bytes": 1021,
+      "sha256": "c2cf297dc689077e41d00999818b2b48001ea7cec6f29be926bc14031f41f3d3"
+    },
+    "easy_tdx/factor/builtin/chanlun.py": {
+      "bytes": 2610,
+      "sha256": "8cb112a2f88acb3e237d40b4d293b821f52d6f85164db5a16b928f0d23cfba99"
+    },
+    "easy_tdx/factor/builtin/momentum.py": {
+      "bytes": 965,
+      "sha256": "3e46b326b82967c439f3fff6d0be343a497c68315bb783ab9ce7e82ef26b0e3d"
+    },
+    "easy_tdx/factor/builtin/quality.py": {
+      "bytes": 1525,
+      "sha256": "6618321f138f6414680333222f241d6235789364dc22890778b96068295cdc2c"
+    },
+    "easy_tdx/factor/builtin/technical.py": {
+      "bytes": 1763,
+      "sha256": "245ac5dba194bf439cda4c8ad76cc62ea628a9e67806f724f15685eea2ae9598"
+    },
+    "easy_tdx/factor/builtin/value.py": {
+      "bytes": 792,
+      "sha256": "beaedec20d5f0fdf89b0874d6ee10eac85b4bd5fb06832554f3b420b37df9465"
+    },
+    "easy_tdx/factor/builtin/volatility.py": {
+      "bytes": 1594,
+      "sha256": "4b00fc9251b9b319e0031691e531f93ba6529ac5e9113022c5c427e87aaeaaf4"
+    },
+    "easy_tdx/factor/builtin/volume.py": {
+      "bytes": 1768,
+      "sha256": "e1f151dccf149447bf80894b49d7f38e428684f6f2f0d99b0102630796fb0a9e"
+    },
+    "easy_tdx/factor/engine.py": {
+      "bytes": 4121,
+      "sha256": "942e8acc71b4dc7322a3a11aacac3c1cb1ddb54dcf441ef8c3c2705c4bcdb43b"
+    },
+    "easy_tdx/factor/transform.py": {
+      "bytes": 5531,
+      "sha256": "832d72a3786488f9ff567a1f5383743ebd33b72ab239b3bcdf87e59a5c912045"
+    },
+    "easy_tdx/indicator.py": {
+      "bytes": 10430,
+      "sha256": "d82c7bc139d139dfffbb510035f6a81bab3730086b82dce836e554ff891ad99b"
+    },
+    "easy_tdx/mac/__init__.py": {
+      "bytes": 78,
+      "sha256": "855269bc332167152560d489dcfd16035fc58338d72e6302efcacc11e959a82d"
+    },
+    "easy_tdx/mac/adjust.py": {
+      "bytes": 6295,
+      "sha256": "f91db65e617990233ec335ac4202d639afb142f6c7a7fd2b4e3af4573aa6e9bb"
+    },
+    "easy_tdx/mac/client.py": {
+      "bytes": 74718,
+      "sha256": "773285a5af772f6d8793f4db650621804db4162c6e5854bc1630d1bc89aed40e"
+    },
+    "easy_tdx/mac/commands/__init__.py": {
+      "bytes": 990,
+      "sha256": "a17f77a3edabff52a0f7e7fe2fc10f9facf6eeec7ae20005a1ee0c28008cfbe7"
+    },
+    "easy_tdx/mac/commands/board_list.py": {
+      "bytes": 3147,
+      "sha256": "98180977a6490bc8bcb25a5cb20b57b0d5369375b79e2b1967740cc0fcefb446"
+    },
+    "easy_tdx/mac/commands/board_members_quotes.py": {
+      "bytes": 3924,
+      "sha256": "999948dc839448344744fce972b61296e54faeb9a6abdcb9729bd3e2622e8e6f"
+    },
+    "easy_tdx/mac/commands/chart_sampling.py": {
+      "bytes": 1586,
+      "sha256": "529f38436571d27fdbfedf487f9a6143000d6ffa587b81ce206d380c56f2d5ab"
+    },
+    "easy_tdx/mac/commands/file_query.py": {
+      "bytes": 2574,
+      "sha256": "36a3c76f27a01b1bdae405f13abe6df7351eb420d7935a7c7a2ec60b2e64e154"
+    },
+    "easy_tdx/mac/commands/goods_list.py": {
+      "bytes": 2392,
+      "sha256": "4a98c8f66649f0f2ccc27d80747f5adfde396283ab30e9aa85737e154d75bb0f"
+    },
+    "easy_tdx/mac/commands/kline_offset.py": {
+      "bytes": 1073,
+      "sha256": "4e059c1eaa001936bc212a331717bab740803b439b6ed6e5ed878bcbce0f6873"
+    },
+    "easy_tdx/mac/commands/server_info.py": {
+      "bytes": 2484,
+      "sha256": "f7845840003aae63336430bffc1cc26a484479a4b9ae8992f5959b506f2fd564"
+    },
+    "easy_tdx/mac/commands/symbol_auction.py": {
+      "bytes": 1916,
+      "sha256": "8b4cdd2cb7263566a477320b07da4e569f9573c4058c90e2fc95ef235d74e289"
+    },
+    "easy_tdx/mac/commands/symbol_bar.py": {
+      "bytes": 3523,
+      "sha256": "705e0b14560ebbd29c437dca1fef12dd8ab9057461287e3fca930450e797628c"
+    },
+    "easy_tdx/mac/commands/symbol_belong_board.py": {
+      "bytes": 2545,
+      "sha256": "0c63ff99e8b7e6f4fd7b65270af3168e394086622f9884f15f183b119eebedb6"
+    },
+    "easy_tdx/mac/commands/symbol_capital_flow.py": {
+      "bytes": 2693,
+      "sha256": "ac23646ea7cace81790deb1164167127606c7ec282dcc6f7bac1d65aaa711464"
+    },
+    "easy_tdx/mac/commands/symbol_info.py": {
+      "bytes": 2458,
+      "sha256": "a061d6b70e3b49a4aeab547192a62baa13626c759e93d13ebeace00aff42d0c0"
+    },
+    "easy_tdx/mac/commands/symbol_quotes.py": {
+      "bytes": 3232,
+      "sha256": "837b7104b5c8ee6fa31b66de8a2c68e026fd0c991617f819a0b4fe0dcd399e3c"
+    },
+    "easy_tdx/mac/commands/symbol_tick_chart.py": {
+      "bytes": 3096,
+      "sha256": "7d5419050861b046b592e29c4f560cda678a24bc1e4799247e2e1fe841ed019b"
+    },
+    "easy_tdx/mac/commands/symbol_transaction.py": {
+      "bytes": 2239,
+      "sha256": "4d430adea99450f2467cdfa49bfd630fd7195d65436ec630c04cfe7386e4e784"
+    },
+    "easy_tdx/mac/commands/tick_charts.py": {
+      "bytes": 5057,
+      "sha256": "3f013e94af5ff3348a051ef8dd981e54382cdb714d2eb10bc39f53c1cbe900c5"
+    },
+    "easy_tdx/mac/commands/unusual.py": {
+      "bytes": 5588,
+      "sha256": "436d91b77a2949b4d57f0173f8efc0955b58743678e9e819c2b11f3344bbfda6"
+    },
+    "easy_tdx/mac/enums.py": {
+      "bytes": 6222,
+      "sha256": "c28d83c879cd2bbad6fa94a0df52ddae5befafbcbd0cb1468a6c1adea8757ef9"
+    },
+    "easy_tdx/mac/models.py": {
+      "bytes": 3938,
+      "sha256": "663c7606f7d014f5210aaebcfd8cb1dccb37417b8aaa189cc48bda0890c7a0e1"
+    },
+    "easy_tdx/models/__init__.py": {
+      "bytes": 784,
+      "sha256": "4c087f7388dee244e38c94a0a22a9b3194aeb054237dfaaeed10e1257264b60d"
+    },
+    "easy_tdx/models/bar.py": {
+      "bytes": 649,
+      "sha256": "33bbfde4630ab4bc5727b16ac5a9354d61817d8037776d249547e84968fbbad6"
+    },
+    "easy_tdx/models/enums.py": {
+      "bytes": 399,
+      "sha256": "fb04994e8732d5fd519176261bf4c3119760a277f1f03a6cc6e431ec4224bc34"
+    },
+    "easy_tdx/models/finance.py": {
+      "bytes": 4791,
+      "sha256": "f606d6328cba002eef9f8296d13d33a4bc4dd21a1953057381a5b5d9c083074a"
+    },
+    "easy_tdx/models/quote.py": {
+      "bytes": 2891,
+      "sha256": "8f0715515ee5da1f7f9cc2d359699033dfae6bbc04122a929d543473d4cac143"
+    },
+    "easy_tdx/models/security.py": {
+      "bytes": 757,
+      "sha256": "629666a72a9c686c1a424490a8bc37768e7ac430e15f1f1704b076f34bdc5d7e"
+    },
+    "easy_tdx/models/stats.py": {
+      "bytes": 2119,
+      "sha256": "e481e2c68b8c9ed91b50e045002c9e6c2c37b5313c6507f5b8213098d35b48c0"
+    },
+    "easy_tdx/models/timeseries.py": {
+      "bytes": 1062,
+      "sha256": "c2a4586bf0e40717f4ba654382777e3c4b704f768a6a823168af2604f201af41"
+    },
+    "easy_tdx/offline/__init__.py": {
+      "bytes": 2027,
+      "sha256": "99350ac99c1a35aec318ad7930049d40eb3edf651becc83521a0f273ae483606"
+    },
+    "easy_tdx/offline/block.py": {
+      "bytes": 2782,
+      "sha256": "d41d0670b989ff865aa31d9134051ea5678b0e5c6bbf39b3381f52205ddd27c7"
+    },
+    "easy_tdx/offline/daily_bar.py": {
+      "bytes": 4497,
+      "sha256": "73673fb766661da47372c4ad80af616253cfaa1bf3ccd36dbf61572c62ffb99e"
+    },
+    "easy_tdx/offline/ex_daily_bar.py": {
+      "bytes": 2260,
+      "sha256": "32ed238c7d5b8d78c06384e97847da85e6525736c4b81aba960407d44164e33b"
+    },
+    "easy_tdx/offline/finders.py": {
+      "bytes": 1100,
+      "sha256": "a5259c6ef4a30c53eac70397d76a76068145132ae5879bc9ec09a4ebc288c629"
+    },
+    "easy_tdx/offline/gbbq.py": {
+      "bytes": 17821,
+      "sha256": "3ed909d6a9f144843acc40537a8ccef024bda0e2a9dd2ce8537259cbb41b08d2"
+    },
+    "easy_tdx/offline/history_financial.py": {
+      "bytes": 1896,
+      "sha256": "a5a84e5fb73270b6903af8b7a316abb6ca95f378fabfffc054e0adf2c896dec7"
+    },
+    "easy_tdx/offline/min_bar.py": {
+      "bytes": 3577,
+      "sha256": "d04d795754c41e7f0eb591d6f5e13a35f0d2ad03b94afbda5069c6e594238331"
+    },
+    "easy_tdx/offline/paths.py": {
+      "bytes": 1897,
+      "sha256": "45d7536607ca255fd82a38b3234a6d86e5db9b65e1a9a64e7fabe018297baaf1"
+    },
+    "easy_tdx/offline/write_daily.py": {
+      "bytes": 6213,
+      "sha256": "41abe3d95c8e6bce1ff70e17b279ed93df6f282487e71b6ae0488afb3b2331d8"
+    },
+    "easy_tdx/offline/write_ex_daily.py": {
+      "bytes": 2385,
+      "sha256": "9c41c55a2768a4ab5c379542e0cca570f0142c263bc2c78e54d4116c1fc11ec8"
+    },
+    "easy_tdx/offline/write_min_bar.py": {
+      "bytes": 5442,
+      "sha256": "1ef1ff2fae81653f4fc51df93ca9e0e740d6133fc60a387319f42ea676ebdcfb"
+    },
+    "easy_tdx/portfolio/__init__.py": {
+      "bytes": 652,
+      "sha256": "6b98d1cbe1b2cd378b01de15ba2e6a72418cf11387caa05253f1f5201e145edf"
+    },
+    "easy_tdx/portfolio/optimizer.py": {
+      "bytes": 7267,
+      "sha256": "ca80f014806d14f9902d304ea11225a60f67b6d3f568c7a8ee860fcfdb6c7372"
+    },
+    "easy_tdx/portfolio/rebalance.py": {
+      "bytes": 10472,
+      "sha256": "f0e66c73cf3f0d9c795f18051587719c9d29f392a7c592ca8bf126c7d5989276"
+    },
+    "easy_tdx/portfolio/risk.py": {
+      "bytes": 1951,
+      "sha256": "41185ef01c050f0afebbcb1ebdfdc648ee26f711d88b4aa9a02d9e50ca716451"
+    },
+    "easy_tdx/portfolio/types.py": {
+      "bytes": 553,
+      "sha256": "941aacb1f6dc966e9aca64e67d416847fbdf3fd06e04447bd4bae355d35de86e"
+    },
+    "easy_tdx/py.typed": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "easy_tdx/realtime/__init__.py": {
+      "bytes": 998,
+      "sha256": "d75f040bfaad082cfd775c972cbf6f8693e03d2dd4ab024834937782e8e6af13"
+    },
+    "easy_tdx/realtime/engine.py": {
+      "bytes": 6121,
+      "sha256": "064a71598faf0b3f3639e0b806f55d94d0c62244c003fd679363326dab15ed9a"
+    },
+    "easy_tdx/realtime/feed.py": {
+      "bytes": 11483,
+      "sha256": "3724b601c0f8a4e605941fc5617d90c3c526da6f3430c85b496ea23069f08264"
+    },
+    "easy_tdx/screen/__init__.py": {
+      "bytes": 925,
+      "sha256": "2e70137304b31421c4a2ce9a64a0b72a8110ee7025d1401651cefded506e1cf7"
+    },
+    "easy_tdx/screen/cli.py": {
+      "bytes": 15176,
+      "sha256": "794c87f7968ca50c9ca6be20ddd2f1e14835f74eb44a54c0eb04af18d836c35f"
+    },
+    "easy_tdx/screen/ranker.py": {
+      "bytes": 11101,
+      "sha256": "054aa50c46536b61bf88a50ede7b533105687e5b3a06f17e33f09408c114b754"
+    },
+    "easy_tdx/screen/scanner.py": {
+      "bytes": 24069,
+      "sha256": "1bb4d2919cd0dca953aada6d58fb6f06d56e1f7d38d3ce65d38872c8d749dce6"
+    },
+    "easy_tdx/screen/strength.py": {
+      "bytes": 16100,
+      "sha256": "3f1c21f510df3ee82c6a4a7231c1cffdf901ffc0ece9722a2c28ed9169f3353c"
+    },
+    "easy_tdx/sina/__init__.py": {
+      "bytes": 805,
+      "sha256": "641cb1ed4703a094ebc19c1dcebe5addfd79a10e4e3ed5c4f0934ccd846ca38c"
+    },
+    "easy_tdx/sina/client.py": {
+      "bytes": 6416,
+      "sha256": "be9636619586cf42361c9b6580840153a2b6de152ca0f24beec9a106a3d99be5"
+    },
+    "easy_tdx/sina/models.py": {
+      "bytes": 1459,
+      "sha256": "288fd2533f69c6dcebbc9874df0f1d3b53820bf807941fc0b27f51bdf68a72a4"
+    },
+    "easy_tdx/ths_web.py": {
+      "bytes": 10693,
+      "sha256": "39d7c5bedec0463de6a3b29fc61685fd315c88241a54147b62163121cd93e710"
+    },
+    "easy_tdx/transport/__init__.py": {
+      "bytes": 122,
+      "sha256": "e5e8345a82634cb914af4da7ea29078d61ed4887893cee6e8a391562aac592be"
+    },
+    "easy_tdx/transport/async_.py": {
+      "bytes": 5320,
+      "sha256": "fe81e9dae792bc2db3186a158fcf0fe5c07dbef4fe31a3d10f233d0be4c01308"
+    },
+    "easy_tdx/transport/sync.py": {
+      "bytes": 10286,
+      "sha256": "9212ea29694f41645ead3f6d542de6f9bb24cdb642e0516e6dc2e0c66d310903"
+    },
+    "easy_tdx/tray.py": {
+      "bytes": 4588,
+      "sha256": "3e97ca04cba78d410a532bdf63c487fe7d5f464bf1d0c7bd9405e391d42696c0"
+    },
+    "easy_tdx/unified.py": {
+      "bytes": 20377,
+      "sha256": "4b43661835f58955c47897752c9eec8f4ab4370cf93b4629e7ed35f2ab067c91"
+    },
+    "easy_tdx/web/__init__.py": {
+      "bytes": 1108,
+      "sha256": "622fcf91d851b8adcf4e5ed45ceff17eae90a4e38b070a86e0e210e7798675ec"
+    },
+    "easy_tdx/web/app.py": {
+      "bytes": 12213,
+      "sha256": "2a34a873a70b0fd8795e021487df9244bba36b65234154f65895398b1cf81b57"
+    },
+    "easy_tdx/web/backtest_schemas.py": {
+      "bytes": 18349,
+      "sha256": "a7c89b60e7d3cd70cbe4c77fcaabeed29737893c37d426cd27affe747155ee38"
+    },
+    "easy_tdx/web/convert.py": {
+      "bytes": 7147,
+      "sha256": "ac84ba883bd10a5a7854dc747b99ca5c24875c4cfcb9101dc96286c7226058dd"
+    },
+    "easy_tdx/web/deps.py": {
+      "bytes": 1689,
+      "sha256": "69543c4cccbf9b39195f18e3c697e20fb12d073f939406e7e11f9d84145203b1"
+    },
+    "easy_tdx/web/errors.py": {
+      "bytes": 1554,
+      "sha256": "c2a22c9b2f483c03d82bafb5cab110f02b2d10e3aeb34282227d4881be2e84d4"
+    },
+    "easy_tdx/web/routers/__init__.py": {
+      "bytes": 25,
+      "sha256": "51bf83470168d705beb38744164cc071189699478cdb8ceebd28fd927f332148"
+    },
+    "easy_tdx/web/routers/announcement.py": {
+      "bytes": 1210,
+      "sha256": "93449a95007e266462156dbf1a4dca01b3d314c41b8e96500bbcad3161f10686"
+    },
+    "easy_tdx/web/routers/backtest.py": {
+      "bytes": 30199,
+      "sha256": "845e3a26ce7664c7898f0b9c8074c5ec33f3fdbdcfbb4073f811b2a403ef2be3"
+    },
+    "easy_tdx/web/routers/bars.py": {
+      "bytes": 7741,
+      "sha256": "7c580d49f938ad7206f7c362f3f5567f2e2f5a65755bb8c255b314ad00ea7194"
+    },
+    "easy_tdx/web/routers/block.py": {
+      "bytes": 773,
+      "sha256": "4e8461d11513bfd2ebbb7c21ef3051e72bf075a261fe1fff9bb91fb1f86ab2f7"
+    },
+    "easy_tdx/web/routers/board_mac.py": {
+      "bytes": 4300,
+      "sha256": "ec2e6aa3478173a708e754a8d4d61e104c931846715c9edf8948f9b9a4795198"
+    },
+    "easy_tdx/web/routers/chanlun.py": {
+      "bytes": 1463,
+      "sha256": "fe7cf8057cc2c0ce4164e2d5bfe8c7fcfb700e2464d513960c1dfe752f007abb"
+    },
+    "easy_tdx/web/routers/ex_market.py": {
+      "bytes": 3178,
+      "sha256": "edb1f4d217672b1560b7b85b67a9e8811c5382af96b0a39ad7ad4af108882b9f"
+    },
+    "easy_tdx/web/routers/finance.py": {
+      "bytes": 2881,
+      "sha256": "b34314113ffb6916973e785c0f5afbd554dbf0a98046cc7278f529ab16ca85b0"
+    },
+    "easy_tdx/web/routers/indicator.py": {
+      "bytes": 1189,
+      "sha256": "b776887a2ba00cf3d620cfb6754c1079708ec9187d1c950d9672a2789027f52f"
+    },
+    "easy_tdx/web/routers/mac_data.py": {
+      "bytes": 1682,
+      "sha256": "e21f10392958304021bb177ce6fba5cb5cd43ac996a921d13fda646e94fe5926"
+    },
+    "easy_tdx/web/routers/mac_quotes.py": {
+      "bytes": 2613,
+      "sha256": "789bc08315b51b535f55165b2aa93cc58e412a55b98389f159504b976090fc33"
+    },
+    "easy_tdx/web/routers/market.py": {
+      "bytes": 6159,
+      "sha256": "4f56b0851066116c66e59041dc301f16ed5cfab615f239b2c40335951c72f803"
+    },
+    "easy_tdx/web/routers/realtime.py": {
+      "bytes": 3696,
+      "sha256": "388a65dd78d6c1dd149ea3f2b1423a1ffa3ae2cca54e7e8692b5c8410d327d38"
+    },
+    "easy_tdx/web/routers/server.py": {
+      "bytes": 5355,
+      "sha256": "5437d71abc4019454d38b7872acfa2b11f41e873cbb3d438c1658c3427dc447a"
+    },
+    "easy_tdx/web/routers/sina.py": {
+      "bytes": 1326,
+      "sha256": "9c24257bebc5bba7a935287abe6350de22f18e24b4665d60f8d214dcff7b50e3"
+    },
+    "easy_tdx/web/routers/stock_industry.py": {
+      "bytes": 3025,
+      "sha256": "a370303b47c708b2dc12f30e741006d899c467086a7a811b9f2a46b175f6ac0e"
+    },
+    "easy_tdx/web/routers/strategies.py": {
+      "bytes": 3207,
+      "sha256": "92366199e526e7707ad8c259151636d1ba974d89c70872734e38d5f92777c6ce"
+    },
+    "easy_tdx/web/routers/ths.py": {
+      "bytes": 1256,
+      "sha256": "51c937249ad8775a21b512353a9786bd733dc6440a6347a71a2b14b01de4be7e"
+    },
+    "easy_tdx/web/schemas.py": {
+      "bytes": 4413,
+      "sha256": "c66ded8f3d46651cb5b155fd7cb547b05e307cf53b75f4f590b6c2e2429ad982"
+    },
+    "easy_tdx/web/signal_scan.py": {
+      "bytes": 13346,
+      "sha256": "735754b9894a1cd3c7cf0c05f08d2fae731bf2183969f0d6655ee8d035f75361"
+    },
+    "easy_tdx/web/strategy_store.py": {
+      "bytes": 9577,
+      "sha256": "307e22b03ed584d268635b8fe7a2119a3a5a5ad08bc19b6547a8a97773785d20"
+    },
+    "easy_tdx/web/task_runner.py": {
+      "bytes": 10159,
+      "sha256": "8051ee6d6aae978f27d3edd88e8577444418b7df4d99042f6f34691360b37ea6"
+    },
+    "examples/card_request_template.json": {
+      "bytes": 548,
+      "sha256": "d15554a9e3c5afe16b15e01afeef5efc19155c86f516f63832190719f3f5b5a8"
+    },
+    "examples/descriptive_protocol.json": {
+      "bytes": 327,
+      "sha256": "9e13989743f40c059741f16de557e84dbb5c70ec66ab05bdf4dc98d9afe2fc10"
+    },
+    "examples/import_metadata_template.json": {
+      "bytes": 251,
+      "sha256": "71b28e8f0e01e3d2ee8f24e0628253aaaed56b35c3cfb1b4d31e390da6b74622"
+    },
+    "examples/order_plan_template.json": {
+      "bytes": 562,
+      "sha256": "695f13ec1457814a0858cdb1ba7dde75b345c2d1e401743b2b4b053b3e154821"
+    },
+    "examples/行情导入模板.csv": {
+      "bytes": 138,
+      "sha256": "1e2ad31d5403c5e98079587224ec6fa0869b5ef8e60b1d01a4fd212f7b16d7a7"
+    },
+    "integrations/README.md": {
+      "bytes": 4379,
+      "sha256": "6e2dbc34c43ef6c3c8144420329e13c280b14411034d93ca886966341558a39d"
+    },
+    "integrations/a_stock_data/LICENSE": {
+      "bytes": 10760,
+      "sha256": "199bab40163ad21135c2c4d5db43bffdadb14ed80762b048f04931cc48700bbf"
+    },
+    "integrations/a_stock_data/SOURCE.md": {
+      "bytes": 408,
+      "sha256": "684b51a2f3a607e8a6685f754660130fb587d2ff23ab723cdeb0166648f78edb"
+    },
+    "integrations/easy-tdx/LICENSE": {
+      "bytes": 1469,
+      "sha256": "a41a4498ebf218f3a7eccf7842d86cd3356e92d1e45352afce0bd1319cfd77df"
+    },
+    "integrations/easy-tdx/NOTICE": {
+      "bytes": 881,
+      "sha256": "78930d8e6ec1e7f084da5ddb406779b4e1da74e316f7d8252aa19deae64c9e4d"
+    },
+    "integrations/instock/LICENSE": {
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    "integrations/instock/SOURCE.md": {
+      "bytes": 455,
+      "sha256": "eee06cb1be1f6bb7b4311575127add2444d71c85e9a170bf00e8257bbd0140b2"
+    },
+    "integrations/附件包审查_2026-10-09.md": {
+      "bytes": 9290,
+      "sha256": "4a6c5e94206f13ca34a21a20d0a185f13407e10bf182540ddcc523c7c343bb2b"
+    },
+    "pyproject.toml": {
+      "bytes": 544,
+      "sha256": "929aa819aca356bf069146ab49d59b05aaa27dfb9618f494c218cd5220ab884c"
+    },
+    "reports/unit_tests.txt": {
+      "bytes": 5991,
+      "sha256": "8e7b26cc81f69c6ca04e2bc5f8d6f70ad54ad4e82aad055907f3bd4a71979595"
+    },
+    "reports/unit_tests_V0.6.txt": {
+      "bytes": 6319,
+      "sha256": "623a47a9f3981439712f1d508f8a44bb4a791c36866b6c549e1f754d82c3d6fc"
+    },
+    "reports/修复验收_V0.6.1.md": {
+      "bytes": 884,
+      "sha256": "361565088bff8939fefe8bbf8dabb07ae659ffbd9026129266b209a126e80838"
+    },
+    "reports/有效性闸口.json": {
+      "bytes": 681,
+      "sha256": "090a10d3773bf88a87a1a6f5c0a1ef4c8d44ce1950f923d977cf87aebf3a8ced"
+    },
+    "reports/本机审计.json": {
+      "bytes": 413,
+      "sha256": "82ca76ae285d6d59dd3eade1b33b339eb0262e16a60551abcd9810718d5d6d8e"
+    },
+    "reports/样本事实复算.json": {
+      "bytes": 3022,
+      "sha256": "fc0be26e0bf2ad58f26d81238ee61b9e3b21f3f4d02f039f7ecf02f07e7ac0af"
+    },
+    "reports/演示数据初始化.json": {
+      "bytes": 301,
+      "sha256": "cef7b1f5335f9792c2d35d99c49d3eeb529c11698225e56dc46ddaefe7c71f46"
+    },
+    "runtime_manifest.json": {
+      "bytes": 2215,
+      "sha256": "9e20ff4c5c5768319944d3a61bffa8b9f52d8b5057aa1a89ebb4075820cac6dc"
+    },
+    "start.sh": {
+      "bytes": 95,
+      "sha256": "fe32f9974c2ef3d384d3dde832e92589a6eba742a8e4c458d230ccfde210266d"
+    },
+    "tests/http_smoke.py": {
+      "bytes": 5957,
+      "sha256": "3475b71b413ee8e7de3a71f579c9ef2cd7eeeb1b330c161cf783aa90168c4af1"
+    },
+    "tests/test_external_notes.py": {
+      "bytes": 3659,
+      "sha256": "bacd13cc3534a3656cdd2cf219cd71e163a6ba51712de6ace0da98e38c7cc887"
+    },
+    "tests/test_invariants.py": {
+      "bytes": 26223,
+      "sha256": "c33c68e0fe1d6af7faec63f49bc5a32768b68a5b5a5da1075182b9a5b88442b5"
+    },
+    "tests/test_providers.py": {
+      "bytes": 18497,
+      "sha256": "88f49873bc3750689df8e42e8d87def8e5c5376502a0c0c0c4db452ea4e8662c"
+    },
+    "tests/test_server_contract.py": {
+      "bytes": 791,
+      "sha256": "8095f6f25b4d8335ccaceda32ac6ac197529cae178b10178111a3e25a9316a54"
+    },
+    "wyckoff_cn/__init__.py": {
+      "bytes": 103,
+      "sha256": "648c494d020fe0eab76326adc1733fe7b1026916569237cd3a54639af2591247"
+    },
+    "wyckoff_cn/__main__.py": {
+      "bytes": 3818,
+      "sha256": "fe7e3f30351fcc5287722b09bac5a7a9a4a6b626e7134c8e9da4400551af6867"
+    },
+    "wyckoff_cn/bootstrap.py": {
+      "bytes": 2803,
+      "sha256": "01b38c1ba8b91957c7e69197c4103213d36932979e5bed2e4aaa9c094eaffae0"
+    },
+    "wyckoff_cn/common.py": {
+      "bytes": 1723,
+      "sha256": "680b662595d3b7f29bb3314efbf7c546b1b77160b014b151a1a012d056690b73"
+    },
+    "wyckoff_cn/data.py": {
+      "bytes": 10451,
+      "sha256": "cba49b9e2fa7b8db5a22bf15502815f787e58864d773e150405e9c97b7125d78"
+    },
+    "wyckoff_cn/external.py": {
+      "bytes": 3919,
+      "sha256": "417ece4f51f9d15fef21efaa88602eebafcd40f1c914ca9f09323db0688c1b5f"
+    },
+    "wyckoff_cn/market.py": {
+      "bytes": 11063,
+      "sha256": "6a4a08f9ddc0323dd16d8878c947e4be32cca7e538d590fc0e7e4ba688b437c0"
+    },
+    "wyckoff_cn/portfolio.py": {
+      "bytes": 3767,
+      "sha256": "f4d5edc2964dc8f039621613049bdd91717e37aae0da2f146035d0c3bdb086be"
+    },
+    "wyckoff_cn/providers.py": {
+      "bytes": 27405,
+      "sha256": "14c043c701630538a907655442d610c44e9b26b8b0eeb670a93f6331712ce7d2"
+    },
+    "wyckoff_cn/reports.py": {
+      "bytes": 15147,
+      "sha256": "40287302678d2183b7fa0ebbeee4e2a74537af3b323ac2a8a4dc2febc71bc921"
+    },
+    "wyckoff_cn/research.py": {
+      "bytes": 25746,
+      "sha256": "88c4b8da44b37541d90e902eaac4acc5bb73063aabc817f68c0eb4318d6da2a7"
+    },
+    "wyckoff_cn/server.py": {
+      "bytes": 17169,
+      "sha256": "4985e576ec253f74dcaa3afba16bcd3f0bbcfa7a0bbd10ae757c2fbec5a92223"
+    },
+    "wyckoff_cn/store.py": {
+      "bytes": 5797,
+      "sha256": "a452605c8e4a94510a3ee39ad7de44ac483507493f66f598bcd326e45a0836b0"
+    },
+    "wyckoff_cn/workbench.html": {
+      "bytes": 38678,
+      "sha256": "5741745bf92751b61b74c1168cfb179425def6f796e75abbfc7b9484fde55021"
+    },
+    "wyckoff_cn_workbench.egg-info/PKG-INFO": {
+      "bytes": 292,
+      "sha256": "2fa9b62cde57ea66f79e6212c361f7e656a33bc3037f0be33b5c94fb0ccb109d"
+    },
+    "wyckoff_cn_workbench.egg-info/SOURCES.txt": {
+      "bytes": 7484,
+      "sha256": "167df39b14799ab060dadca8f36f0023df225576460dfa66836938aca435e040"
+    },
+    "wyckoff_cn_workbench.egg-info/dependency_links.txt": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "wyckoff_cn_workbench.egg-info/requires.txt": {
+      "bytes": 42,
+      "sha256": "377810afae883cd859fba70a6173890d9c5060cc6dab3328bf93987b02e892a6"
+    },
+    "wyckoff_cn_workbench.egg-info/top_level.txt": {
+      "bytes": 20,
+      "sha256": "6da4435e6a918218a53faf6db321fa2ad1333ea2ec88279f9a7a4d325a31f2a5"
+    },
+    "优化说明_V0.6.2.md": {
+      "bytes": 4501,
+      "sha256": "cfe9bdd97d0f37d2a1dd1c2f54348f0bc7b4f7b616a512ad3a93cd44006fcb30"
+    },
+    "使用说明.md": {
+      "bytes": 15746,
+      "sha256": "2cafdd267cab254203ab0a862e63d5c24418eb19fed12fcdf4c679191fa3e21b"
+    },
+    "修复与验收_V0.6.2.1.md": {
+      "bytes": 2472,
+      "sha256": "fb1239ed9132928680e0942174b7640071e28195ff7e7f3d01337a88960273ad"
+    },
+    "修复说明_V0.6.1.md": {
+      "bytes": 2477,
+      "sha256": "574af4268d54f2efbac50d61aec56faab630f2c586cfe8a3d5d5fb751893a226"
+    },
+    "升级与验收_V0.6.3.0.md": {
+      "bytes": 3713,
+      "sha256": "acba0b948224a4448a89a0a1836aa77d70d78830a5eee67728844c53df6685ba"
+    },
+    "原始资料_V0.2/01_六层架构与五步工作流.md": {
+      "bytes": 3919,
+      "sha256": "4f68b13cc0224ca395a3a97c9a7044e0abf78dd9c7247c7cc80d0b3bd083919d"
+    },
+    "原始资料_V0.2/02_数据时间与共享证据.md": {
+      "bytes": 7475,
+      "sha256": "ff4973c4187683952c510a273ad6205f5ea5af864468698b2794cea71013220a"
+    },
+    "原始资料_V0.2/03_结构阶段与事件.md": {
+      "bytes": 4471,
+      "sha256": "b4b1734d806d8eab82d1633b6f6744576d58951e648c0503be0612179ba722b0"
+    },
+    "原始资料_V0.2/04_候选场景与状态机.md": {
+      "bytes": 5178,
+      "sha256": "bebae3920e3a24ccd4686ecbf1a7c89b538c8108c3d858e37bb9c76c6d4ef352"
+    },
+    "原始资料_V0.2/05_A股风险与成交.md": {
+      "bytes": 4275,
+      "sha256": "384d6e9336ea7853a5f0f142db009f4251da779bd71221173bb871b146c22789"
+    },
+    "原始资料_V0.2/06_独立验证与六道准入.md": {
+      "bytes": 5771,
+      "sha256": "292fe62a3bbc7fa832cd2c66fe85aa23f8448e0f3e79e25d5984228befba01d0"
+    },
+    "原始资料_V0.2/07_盘后SOP与复盘.md": {
+      "bytes": 3489,
+      "sha256": "031fe6b542106ba50bfe9901338a8f2bd32829bdb1636165a656a2d7266ebeb2"
+    },
+    "原始资料_V0.2/08_数据缺口与建设状态.md": {
+      "bytes": 5194,
+      "sha256": "56c3d41af17ff35fb429dadf817bf6e34ba29eeb92960ce3830fcd7d9c5c3973"
+    },
+    "原始资料_V0.2/09_九项检验与点数图.md": {
+      "bytes": 5270,
+      "sha256": "d7676053c883eccccb7b5f44c17506225bfbf5102e0e3a8e5ecf5662be17062b"
+    },
+    "原始资料_V0.2/10_来源裁决与版本.md": {
+      "bytes": 4439,
+      "sha256": "cb50fbdc7699f34e21ca00ed792425f99776a2444d564a75ef2e4a48e6b813f9"
+    },
+    "原始资料_V0.2/11_数据源验收清单.md": {
+      "bytes": 9214,
+      "sha256": "83e3ed89a79647fe4db8f24c5d63b3f146bf48fc5036a6913b64d1ed6833e144"
+    },
+    "原始资料_V0.2/12_回测有效性闸口.md": {
+      "bytes": 5671,
+      "sha256": "f9964880f8a33a51476607b3f4b4235894109fc1fd1dc9f1f9af974b2595effa"
+    },
+    "原始资料_V0.2/13_本地技能与外部工具适配.md": {
+      "bytes": 4787,
+      "sha256": "8f07991e5f386c5a21ad37474d3a9a0120c84bc6de5ff23a05f06577b410bdd4"
+    },
+    "原始资料_V0.2/14_五书学习与来源裁决.md": {
+      "bytes": 7392,
+      "sha256": "fb282f9bc59308285994c8362ebb07c59b7b2bbbbbd159ba558d31d132fc4025"
+    },
+    "原始资料_V0.2/15_逐根逐波与响应协议.md": {
+      "bytes": 6167,
+      "sha256": "98b44c98489d9d02b70856b3cf34ba880248c15f917401b0a4042ee6ce3cf2fb"
+    },
+    "原始资料_V0.2/16_现代量价工具与数据准入.md": {
+      "bytes": 3589,
+      "sha256": "251f3194ab0c1c9fd63085acaa8af374015b809dbf5019f671e8cd95c4e50aee"
+    },
+    "原始资料_V0.2/17_持仓管理与行动序列训练.md": {
+      "bytes": 5333,
+      "sha256": "9a292913ab093ef0150ed44486e431170e1f3bef04c68c614b8b773374de4b70"
+    },
+    "原始资料_V0.2/README.md": {
+      "bytes": 6329,
+      "sha256": "f0e1affd3a8a0820eaf1862fef747e33f6557267e6e0630119e293e31f4f48e5"
+    },
+    "原始资料_V0.2/artifact_manifest.json": {
+      "bytes": 14521,
+      "sha256": "2192ee38c28eb408ccf0b331dda8d4c8aa5b426f23a53048b648d3c8f317650f"
+    },
+    "原始资料_V0.2/research_manifest.json": {
+      "bytes": 7119,
+      "sha256": "886c6a350fba95ce8ebcf7a65ec3bc298bfb814fdc9b1214248504611f2718f8"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/abnormal.pdf": {
+      "bytes": 112272,
+      "sha256": "eb227184cdae3c165ec24983c23d5f02ba44fc3578901169ce1a897f9389e636"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/abnormal.txt": {
+      "bytes": 3971,
+      "sha256": "e1cf8930450dd6fde3b6a09c27e1c48447709d1f34804a84edae3151e350071a"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/announcement_sources.json": {
+      "bytes": 772,
+      "sha256": "b58dbe322f8030d6a5c827927df1e9aca95cd2008021236a39eddd7787a96754"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/announcements.json": {
+      "bytes": 29063,
+      "sha256": "8306a3ca06ed4b5bd1082976fee95ca2a3db634d63bd6f1b547b1296763a73ca"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/archive_manifest.json": {
+      "bytes": 2818,
+      "sha256": "d571ae0779944a5a76922db197867e5a75fb02621b8f5b057c987225d7aba4e2"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/benchmark.txt": {
+      "bytes": 49558,
+      "sha256": "dc3e98563d04850d50320d2c38d4904349966245950ad7f56551768b2dd2653c"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/data_manifest.json": {
+      "bytes": 1321,
+      "sha256": "44650e0853e1a0169adef1436f5fe53917720d84d7fa969b05b492c95aea0d8e"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/interim.pdf": {
+      "bytes": 1197891,
+      "sha256": "ebf4bb2e1c18e60600b60d75d6c656f8077acda957401e4c226a6028e0244cce"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/interim.txt": {
+      "bytes": 407617,
+      "sha256": "cd49b490be8160df3a8dcf6603acf5722b366db54873ed496f2b6da7ffe6e187"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/market.txt": {
+      "bytes": 49663,
+      "sha256": "c0682949bce23f2e3d26625e5a5aef5357647838d64a11adf1d26f45d5ea19e1"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/meeting.pdf": {
+      "bytes": 67874,
+      "sha256": "58840792ce6c44672dc1997d973ef09adf4abab58f8094a260098759849dc0f9"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/meeting.txt": {
+      "bytes": 3222,
+      "sha256": "0901353fa15a93cd20a5e02c5cc6dbe9ea06c7d1b1db5ce78d04888bc1230352"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/quote.txt": {
+      "bytes": 1457,
+      "sha256": "6f44b2dd2aaf27730c884933d42372d8f75db5056c18ee2c42cfe112f7d0e2e5"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/stock_qfq.txt": {
+      "bytes": 40213,
+      "sha256": "fbb3804ec7bb2597c053ad156833b4819090ebc961ff70a343faa42db4328293"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/stock_raw.txt": {
+      "bytes": 40126,
+      "sha256": "210e6bf87e1646f5b21185d4e912b7e5027590bb5f4deedf184f1ded881b4e99"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/verified_metrics.json": {
+      "bytes": 1933,
+      "sha256": "971decadf44becbe9ae772f750185990421ea70d909126dc957106ea3c19285b"
+    },
+    "原始资料_V0.2/个股研究/605366_2026-10-08/宏柏新材_威科夫研究卡.md": {
+      "bytes": 9344,
+      "sha256": "3fb434bef518754fa578c495b0f5c39ab46d1f166b6462738df3f1afb24e937b"
+    },
+    "原始资料_V0.2/台账/bar_observations.csv": {
+      "bytes": 434,
+      "sha256": "212df5e62ea3cf06ffa50175e23a18a10ac430acfe841d401f3ce05e9e19b682"
+    },
+    "原始资料_V0.2/台账/checklists.csv": {
+      "bytes": 185,
+      "sha256": "db616b0c588652a74749f3fc80491e222762bfda0097ca83946ea527fa820c1c"
+    },
+    "原始资料_V0.2/台账/evidence.csv": {
+      "bytes": 297,
+      "sha256": "5d13ad562503f0ce491675d77b8337fced19d52e1f0c7ab92a9d76ef66137d24"
+    },
+    "原始资料_V0.2/台账/experiments.csv": {
+      "bytes": 244,
+      "sha256": "2988f3bfdc828bedf105b630c31ebef47c83235b11dd701faf2f9b72791de525"
+    },
+    "原始资料_V0.2/台账/management_reviews.csv": {
+      "bytes": 445,
+      "sha256": "2882f8dfeadbfdc03e88fc6e1e1298d2920a7970d5083948e5bfa9c969bb3db0"
+    },
+    "原始资料_V0.2/台账/orders.csv": {
+      "bytes": 358,
+      "sha256": "3593539b5c2186041e3f9080792fb6adcb375b47800ce7a99356cabb08458188"
+    },
+    "原始资料_V0.2/台账/outcomes.csv": {
+      "bytes": 296,
+      "sha256": "ac6eac8f7747fe7925e6fc92dd7859736e583079192f40cdcdaa11c7de51a109"
+    },
+    "原始资料_V0.2/台账/responses.csv": {
+      "bytes": 389,
+      "sha256": "79bc341f68130eb2523d8affb0c1b745b6f137b42ab9d6e8c1b0e5997252e4ae"
+    },
+    "原始资料_V0.2/台账/risk_events.csv": {
+      "bytes": 321,
+      "sha256": "00b96c09d835bd663285c0b05c810b00d337ca7a04cf7c800bfdff82deaaf95a"
+    },
+    "原始资料_V0.2/台账/shadow_events.csv": {
+      "bytes": 307,
+      "sha256": "9dab171143117eba492cadd5b4b5a815f317aa2841c0f41e2f0dc1f0fcf52ca7"
+    },
+    "原始资料_V0.2/台账/structures.csv": {
+      "bytes": 343,
+      "sha256": "aa6e84fba3e389326bd0d584cf715ed41e8a7f095f4e4407e7f98065289b7a92"
+    },
+    "原始资料_V0.2/台账/wave_observations.csv": {
+      "bytes": 476,
+      "sha256": "d9c5b373e848cce43dfe93060b8c3981478896daf7a6367d18c003d22279962b"
+    },
+    "原始资料_V0.2/台账/字段说明.md": {
+      "bytes": 5031,
+      "sha256": "67da9760243c5241c6cf9f83584437f8a862549f33660afb00a127b77f310df0"
+    },
+    "原始资料_V0.2/建设升级_个股不变校验基准.json": {
+      "bytes": 2070,
+      "sha256": "4f5105609a03ab86f734d09413f24e54d3c0605942fafe48da1c66a00d471ab4"
+    },
+    "原始资料_V0.2/建设验收_V0.2.md": {
+      "bytes": 2670,
+      "sha256": "40d8e9036da15d9eca14dadf4241e2fcdf46e893d7a9ec146422363b8606da03"
+    },
+    "原始资料_V0.2/建设验收结果.json": {
+      "bytes": 3517,
+      "sha256": "e58acd443822b7a2d925e004c7c6955fcc619b2d1957694047c622bf9d1b8e52"
+    },
+    "原始资料_V0.2/建设验收结果_V0.2.json": {
+      "bytes": 2845,
+      "sha256": "13b71184c67681b7bf8798442f0237a06095031b50bb1932a44c3009724e671a"
+    },
+    "原始资料_V0.2/建设验收记录.md": {
+      "bytes": 6564,
+      "sha256": "7b6238d74dc137b28dd29a67188997e51a4d34d932b0de6a77ac00ac07a03b82"
+    },
+    "原始资料_V0.2/技能包/wyckoff-a-share-data.skill": {
+      "bytes": 179585,
+      "sha256": "23b0bf07b38029822232bdd2e2eaa3d09cf44123939de6643ba05df438aa9bc9"
+    },
+    "原始资料_V0.2/技能包/wyckoff-backtest-gate.skill": {
+      "bytes": 24415,
+      "sha256": "19759c41092e1658162973dacb8c9d9c84e967b6c45ace9256ef95e5658cf0dd"
+    },
+    "原始资料_V0.2/技能包/wyckoff-evidence-audit.skill": {
+      "bytes": 10125,
+      "sha256": "1ce97ba65d924ca5413e3c86fdb046fa7b03b5592105205c62afb25881c6226f"
+    },
+    "原始资料_V0.2/技能包/wyckoff-local-data-engine.skill": {
+      "bytes": 48940,
+      "sha256": "2a7d0747dddf16e851c79cbf482e4ad23176f531e43af43b46f42b4b2f2a830f"
+    },
+    "原始资料_V0.2/技能包/wyckoff-qveris-source-discovery.skill": {
+      "bytes": 3113,
+      "sha256": "27f9d3861fdcd58802fbe5d8b5237b01ca3fb255b95b4586ca627de9da995e5e"
+    },
+    "原始资料_V0.2/数据检查快照.json": {
+      "bytes": 1571,
+      "sha256": "dfc3b739a071abd4b2eda5c4c6b18d524c2acc270a01af4a45f56a4eaeb1bad9"
+    },
+    "原始资料_V0.2/来源/source_manifest.json": {
+      "bytes": 17333,
+      "sha256": "49427383c86b0fe7b5f3d15ca4049008a6c5fb17ae6db5d2955838735dc179f1"
+    },
+    "原始资料_V0.2/来源/书籍笔记/B01_威科夫方法论深度解析_读书笔记.md": {
+      "bytes": 37849,
+      "sha256": "4b350889c6159f60a2d91d82ae1913985f00e62188552521d498598262ace2ae"
+    },
+    "原始资料_V0.2/来源/书籍笔记/B02_威科夫2.0_读书笔记.md": {
+      "bytes": 55326,
+      "sha256": "7000367644812bc69f99f4d0a761623313cc7700faeee477d9c3d1e0f6185ad1"
+    },
+    "原始资料_V0.2/来源/书籍笔记/B03_《顶级交易的三大技能》深度拆书笔记.md": {
+      "bytes": 343482,
+      "sha256": "c1cd4021f338981f007ae0f093c4145a4af5828a523d313a8d9c66eeb7c3b877"
+    },
+    "原始资料_V0.2/来源/书籍笔记/B04_《即将发生的交易：威科夫方法的现代改编》深度拆书笔记.md": {
+      "bytes": 192175,
+      "sha256": "a6b915b3655e7f0103214bbb7ab26f22641758b089ad89abb50476d2d0bf9835"
+    },
+    "原始资料_V0.2/来源/书籍笔记/B05_《量价分析完整指南》深度拆书笔记.md": {
+      "bytes": 239527,
+      "sha256": "c1dce8531d476431a63ec499bcc121b02c995c677b8c256a5722430f4c60221e"
+    },
+    "原始资料_V0.2/来源/书籍笔记/book_sources.json": {
+      "bytes": 3171,
+      "sha256": "5a28f275b1d223c5822b616c32e757faca56dc901d89945ed79e1c64d8fba7fd"
+    },
+    "原始资料_V0.2/来源/制度核验_2026-10-08.md": {
+      "bytes": 2068,
+      "sha256": "6662a0756cb3f6f3140d67e1ac94bae6ffdbbf38ba50bee31a957444e6b3d244"
+    },
+    "原始资料_V0.2/来源/原文_威科夫理论全景_系统归纳与客观应用.md": {
+      "bytes": 65370,
+      "sha256": "fc09a0df33bef990507cb1e6bc40a67c649260e4a9e5f66329009f6a76aa0623"
+    },
+    "原始资料_V0.2/来源/威科夫来源摘录与边界.md": {
+      "bytes": 2974,
+      "sha256": "f47ed894084d18dcbc4ec75d68b9912f2f8b3cfcdb3b5d3955f3581b20ab337d"
+    },
+    "原始资料_V0.2/模板/周复核.md": {
+      "bytes": 1662,
+      "sha256": "179275d9af83860327ae5264ce3363aba4b3f1c969a3b51afc64ac4b52666b8e"
+    },
+    "原始资料_V0.2/模板/回测闸口记录.md": {
+      "bytes": 2135,
+      "sha256": "0a52c39121084545a7e94e0bad51b36b1dc1fc5047ce41c824f3900cd234c750"
+    },
+    "原始资料_V0.2/模板/实验预登记.md": {
+      "bytes": 3088,
+      "sha256": "4c01e9153348bb992126091851fbeae98f9e6034b1d90beb7c4d2092a6323e40"
+    },
+    "原始资料_V0.2/模板/持仓管理复核.md": {
+      "bytes": 1372,
+      "sha256": "994f041552ae8f2ec48af9926ef66129f37186230705f48c6638e226c6854451"
+    },
+    "原始资料_V0.2/模板/教学流程验算.md": {
+      "bytes": 1440,
+      "sha256": "121a251dbff6ed1229043570cc831e2169403ee15a2da665114ed1355edac3a9"
+    },
+    "原始资料_V0.2/模板/数据源验收记录.md": {
+      "bytes": 2050,
+      "sha256": "bfd1686d3d4b22a3d7550ec8b94465a2e4b61b54fb5f6a615149d71acb576920"
+    },
+    "原始资料_V0.2/模板/每日研究卡.md": {
+      "bytes": 3764,
+      "sha256": "b5f0d6bb9f7dc7d74b0ae0ddf4312090177631fbe783640e72d3be3f3522d19a"
+    },
+    "原始资料_V0.2/模板/研究报告.md": {
+      "bytes": 1514,
+      "sha256": "f69a212418a5a3c882df64162b192866e56adb7a6be5c8933339669858799942"
+    },
+    "原始资料_V0.2/模板/行动序列训练.md": {
+      "bytes": 1106,
+      "sha256": "a02d4886a8c5de5997f34f487ddcda147c6b7f861af62ced0348c26bb640c71c"
+    },
+    "原始资料_V0.2/模板/逐根逐波观察卡.md": {
+      "bytes": 1661,
+      "sha256": "069071965f166869d9b3923d388d07c7a192959e7670d8a45830a31c246f0b84"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/01_六层架构与五步工作流.md": {
+      "bytes": 3581,
+      "sha256": "7900f05dfbf8b4de71d424e12c146ce18c684f845462c65b4222b57998ebf00b"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/02_数据时间与共享证据.md": {
+      "bytes": 6803,
+      "sha256": "55ed410c13eb739b4813d3203a7af9cafa5c582ee7d2df97ec3525844e7e92f4"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/03_结构阶段与事件.md": {
+      "bytes": 3764,
+      "sha256": "ac4ac344fbf9ab14e5b5ab337c3a99923ad95da11806949f58279f8f581cb33d"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/04_候选场景与状态机.md": {
+      "bytes": 4528,
+      "sha256": "2b699fa25ca1799c49bd5ade7bcf999982315f277df82a81d223a82e2ef3056d"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/05_A股风险与成交.md": {
+      "bytes": 4275,
+      "sha256": "384d6e9336ea7853a5f0f142db009f4251da779bd71221173bb871b146c22789"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/06_独立验证与六道准入.md": {
+      "bytes": 4933,
+      "sha256": "38145516f5815e3e9c5963177c6775d13ebe70e3692fe0920e3e3768b92df7de"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/07_盘后SOP与复盘.md": {
+      "bytes": 2750,
+      "sha256": "753afcd47726e82ba193d8697a6689164504e7839b09699cfc2f2f233c20c54b"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/08_数据缺口与建设状态.md": {
+      "bytes": 4463,
+      "sha256": "ae57c56c66c03c7586eb4bae8bbe4aae47592662e729a4f71a0936aaaacacbe3"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/09_九项检验与点数图.md": {
+      "bytes": 2873,
+      "sha256": "2f3f28832bac6ec3cb29beaf33302330f7018fd4e75ec75f4f2f44595e2e1732"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/10_来源裁决与版本.md": {
+      "bytes": 3390,
+      "sha256": "0abd6fec430f63357c7bce1e3c697efd0759cbabe14852718c4eb6469e0ef543"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/11_数据源验收清单.md": {
+      "bytes": 9214,
+      "sha256": "83e3ed89a79647fe4db8f24c5d63b3f146bf48fc5036a6913b64d1ed6833e144"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/12_回测有效性闸口.md": {
+      "bytes": 5204,
+      "sha256": "3314429be4859fcb85a1b2936eae74ef59941f03e9bb1663c5478d1a372b7ddb"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/13_本地技能与外部工具适配.md": {
+      "bytes": 4787,
+      "sha256": "8f07991e5f386c5a21ad37474d3a9a0120c84bc6de5ff23a05f06577b410bdd4"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/README.md": {
+      "bytes": 4751,
+      "sha256": "9f9fa07ae12259ba531cc0102d2d2f02a074e6958ba7d6b0966d59add4ce15ea"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/artifact_manifest.json": {
+      "bytes": 7426,
+      "sha256": "1d4024f391c2837cd937cbf2217fcbc1df0f214957ecfa5049ea2a6a89606cc6"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/research_manifest.json": {
+      "bytes": 3865,
+      "sha256": "0e4bb58d400bef15a7a8861cf9a7404f56087be1ae92af45c26135cb3de1cdd6"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/建设验收结果.json": {
+      "bytes": 3517,
+      "sha256": "e58acd443822b7a2d925e004c7c6955fcc619b2d1957694047c622bf9d1b8e52"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/建设验收记录.md": {
+      "bytes": 6564,
+      "sha256": "7b6238d74dc137b28dd29a67188997e51a4d34d932b0de6a77ac00ac07a03b82"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/数据检查快照.json": {
+      "bytes": 1571,
+      "sha256": "dfc3b739a071abd4b2eda5c4c6b18d524c2acc270a01af4a45f56a4eaeb1bad9"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/周复核.md": {
+      "bytes": 1172,
+      "sha256": "832e87b8ac399d9ecb8a7eeffaf4c50f017cb4a895f265a17ec505f0dfc85b3f"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/回测闸口记录.md": {
+      "bytes": 2135,
+      "sha256": "0a52c39121084545a7e94e0bad51b36b1dc1fc5047ce41c824f3900cd234c750"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/实验预登记.md": {
+      "bytes": 2534,
+      "sha256": "7725cc3fe40162646c3849c59cab5b1e7421f4f9b746cc641ffd6f4a5802e67c"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/教学流程验算.md": {
+      "bytes": 1440,
+      "sha256": "121a251dbff6ed1229043570cc831e2169403ee15a2da665114ed1355edac3a9"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/数据源验收记录.md": {
+      "bytes": 2050,
+      "sha256": "bfd1686d3d4b22a3d7550ec8b94465a2e4b61b54fb5f6a615149d71acb576920"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/每日研究卡.md": {
+      "bytes": 3099,
+      "sha256": "9bd757c3dbaaee9847fd3a9c964c9702a0dcb8c66f174d10699e3a0b7ca5a612"
+    },
+    "原始资料_V0.2/版本归档/升级前_2026-10-08/模板/研究报告.md": {
+      "bytes": 1163,
+      "sha256": "facf03d6217f82f398344cf0ec31cd8d7a2863ccb78d86c627daac254c5c248f"
+    },
+    "启动工作台.bat": {
+      "bytes": 202,
+      "sha256": "9fd7ce89ff239fda1da7aed92552677456f6a93fc404c7e359a21aa1c784c0bf"
+    },
+    "落地验收报告.md": {
+      "bytes": 4990,
+      "sha256": "32c5661a46a8b9541949057d33675f48b73cd6c6ddb99fcbdcbd5a04d6e3794f"
+    }
+  }
+}

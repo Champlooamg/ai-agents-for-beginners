@@ -1,0 +1,1 @@
+outcome_id,candidate_id,event_family_id,experiment_id,decision_record_id,label_start_at,label_end_at,label_mature_at,observed_at,exit_status,censor_reason,fill_model_version,gross_result,fees,slippage,net_result,max_adverse_excursion,max_favorable_excursion,metric_version,source_ref,record_mode

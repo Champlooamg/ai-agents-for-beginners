@@ -1,0 +1,414 @@
+{
+  "research_version": "wyckoff-cn-0.2",
+  "created_on": "2026-10-08",
+  "updated_at": "2026-10-08T23:16:21.311171+08:00",
+  "scope": "current_wyckoff_only_research_artifacts_including_frozen_sources_and_manual_case",
+  "excluded": [
+    "artifact_manifest.json",
+    "版本归档/**"
+  ],
+  "previous_manifest_ref": "版本归档/升级前_2026-10-08/artifact_manifest.json",
+  "file_count_excluding_this_manifest": 80,
+  "files": [
+    {
+      "file": "01_六层架构与五步工作流.md",
+      "bytes": 3919,
+      "sha256": "4f68b13cc0224ca395a3a97c9a7044e0abf78dd9c7247c7cc80d0b3bd083919d"
+    },
+    {
+      "file": "02_数据时间与共享证据.md",
+      "bytes": 7475,
+      "sha256": "ff4973c4187683952c510a273ad6205f5ea5af864468698b2794cea71013220a"
+    },
+    {
+      "file": "03_结构阶段与事件.md",
+      "bytes": 4471,
+      "sha256": "b4b1734d806d8eab82d1633b6f6744576d58951e648c0503be0612179ba722b0"
+    },
+    {
+      "file": "04_候选场景与状态机.md",
+      "bytes": 5178,
+      "sha256": "bebae3920e3a24ccd4686ecbf1a7c89b538c8108c3d858e37bb9c76c6d4ef352"
+    },
+    {
+      "file": "05_A股风险与成交.md",
+      "bytes": 4275,
+      "sha256": "384d6e9336ea7853a5f0f142db009f4251da779bd71221173bb871b146c22789"
+    },
+    {
+      "file": "06_独立验证与六道准入.md",
+      "bytes": 5771,
+      "sha256": "292fe62a3bbc7fa832cd2c66fe85aa23f8448e0f3e79e25d5984228befba01d0"
+    },
+    {
+      "file": "07_盘后SOP与复盘.md",
+      "bytes": 3489,
+      "sha256": "031fe6b542106ba50bfe9901338a8f2bd32829bdb1636165a656a2d7266ebeb2"
+    },
+    {
+      "file": "08_数据缺口与建设状态.md",
+      "bytes": 5194,
+      "sha256": "56c3d41af17ff35fb429dadf817bf6e34ba29eeb92960ce3830fcd7d9c5c3973"
+    },
+    {
+      "file": "09_九项检验与点数图.md",
+      "bytes": 5270,
+      "sha256": "d7676053c883eccccb7b5f44c17506225bfbf5102e0e3a8e5ecf5662be17062b"
+    },
+    {
+      "file": "10_来源裁决与版本.md",
+      "bytes": 4439,
+      "sha256": "cb50fbdc7699f34e21ca00ed792425f99776a2444d564a75ef2e4a48e6b813f9"
+    },
+    {
+      "file": "11_数据源验收清单.md",
+      "bytes": 9214,
+      "sha256": "83e3ed89a79647fe4db8f24c5d63b3f146bf48fc5036a6913b64d1ed6833e144"
+    },
+    {
+      "file": "12_回测有效性闸口.md",
+      "bytes": 5671,
+      "sha256": "f9964880f8a33a51476607b3f4b4235894109fc1fd1dc9f1f9af974b2595effa"
+    },
+    {
+      "file": "13_本地技能与外部工具适配.md",
+      "bytes": 4787,
+      "sha256": "8f07991e5f386c5a21ad37474d3a9a0120c84bc6de5ff23a05f06577b410bdd4"
+    },
+    {
+      "file": "14_五书学习与来源裁决.md",
+      "bytes": 7392,
+      "sha256": "fb282f9bc59308285994c8362ebb07c59b7b2bbbbbd159ba558d31d132fc4025"
+    },
+    {
+      "file": "15_逐根逐波与响应协议.md",
+      "bytes": 6167,
+      "sha256": "98b44c98489d9d02b70856b3cf34ba880248c15f917401b0a4042ee6ce3cf2fb"
+    },
+    {
+      "file": "16_现代量价工具与数据准入.md",
+      "bytes": 3589,
+      "sha256": "251f3194ab0c1c9fd63085acaa8af374015b809dbf5019f671e8cd95c4e50aee"
+    },
+    {
+      "file": "17_持仓管理与行动序列训练.md",
+      "bytes": 5333,
+      "sha256": "9a292913ab093ef0150ed44486e431170e1f3bef04c68c614b8b773374de4b70"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6329,
+      "sha256": "f0e1affd3a8a0820eaf1862fef747e33f6557267e6e0630119e293e31f4f48e5"
+    },
+    {
+      "file": "research_manifest.json",
+      "bytes": 7119,
+      "sha256": "886c6a350fba95ce8ebcf7a65ec3bc298bfb814fdc9b1214248504611f2718f8"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/abnormal.pdf",
+      "bytes": 112272,
+      "sha256": "eb227184cdae3c165ec24983c23d5f02ba44fc3578901169ce1a897f9389e636"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/abnormal.txt",
+      "bytes": 3971,
+      "sha256": "e1cf8930450dd6fde3b6a09c27e1c48447709d1f34804a84edae3151e350071a"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/announcement_sources.json",
+      "bytes": 772,
+      "sha256": "b58dbe322f8030d6a5c827927df1e9aca95cd2008021236a39eddd7787a96754"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/announcements.json",
+      "bytes": 29063,
+      "sha256": "8306a3ca06ed4b5bd1082976fee95ca2a3db634d63bd6f1b547b1296763a73ca"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/archive_manifest.json",
+      "bytes": 2818,
+      "sha256": "d571ae0779944a5a76922db197867e5a75fb02621b8f5b057c987225d7aba4e2"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/benchmark.txt",
+      "bytes": 49558,
+      "sha256": "dc3e98563d04850d50320d2c38d4904349966245950ad7f56551768b2dd2653c"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/data_manifest.json",
+      "bytes": 1321,
+      "sha256": "44650e0853e1a0169adef1436f5fe53917720d84d7fa969b05b492c95aea0d8e"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/interim.pdf",
+      "bytes": 1197891,
+      "sha256": "ebf4bb2e1c18e60600b60d75d6c656f8077acda957401e4c226a6028e0244cce"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/interim.txt",
+      "bytes": 407617,
+      "sha256": "cd49b490be8160df3a8dcf6603acf5722b366db54873ed496f2b6da7ffe6e187"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/market.txt",
+      "bytes": 49663,
+      "sha256": "c0682949bce23f2e3d26625e5a5aef5357647838d64a11adf1d26f45d5ea19e1"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/meeting.pdf",
+      "bytes": 67874,
+      "sha256": "58840792ce6c44672dc1997d973ef09adf4abab58f8094a260098759849dc0f9"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/meeting.txt",
+      "bytes": 3222,
+      "sha256": "0901353fa15a93cd20a5e02c5cc6dbe9ea06c7d1b1db5ce78d04888bc1230352"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/quote.txt",
+      "bytes": 1457,
+      "sha256": "6f44b2dd2aaf27730c884933d42372d8f75db5056c18ee2c42cfe112f7d0e2e5"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/stock_qfq.txt",
+      "bytes": 40213,
+      "sha256": "fbb3804ec7bb2597c053ad156833b4819090ebc961ff70a343faa42db4328293"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/stock_raw.txt",
+      "bytes": 40126,
+      "sha256": "210e6bf87e1646f5b21185d4e912b7e5027590bb5f4deedf184f1ded881b4e99"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/verified_metrics.json",
+      "bytes": 1933,
+      "sha256": "971decadf44becbe9ae772f750185990421ea70d909126dc957106ea3c19285b"
+    },
+    {
+      "file": "个股研究/605366_2026-10-08/宏柏新材_威科夫研究卡.md",
+      "bytes": 9344,
+      "sha256": "3fb434bef518754fa578c495b0f5c39ab46d1f166b6462738df3f1afb24e937b"
+    },
+    {
+      "file": "台账/bar_observations.csv",
+      "bytes": 434,
+      "sha256": "212df5e62ea3cf06ffa50175e23a18a10ac430acfe841d401f3ce05e9e19b682"
+    },
+    {
+      "file": "台账/checklists.csv",
+      "bytes": 185,
+      "sha256": "db616b0c588652a74749f3fc80491e222762bfda0097ca83946ea527fa820c1c"
+    },
+    {
+      "file": "台账/evidence.csv",
+      "bytes": 297,
+      "sha256": "5d13ad562503f0ce491675d77b8337fced19d52e1f0c7ab92a9d76ef66137d24"
+    },
+    {
+      "file": "台账/experiments.csv",
+      "bytes": 244,
+      "sha256": "2988f3bfdc828bedf105b630c31ebef47c83235b11dd701faf2f9b72791de525"
+    },
+    {
+      "file": "台账/management_reviews.csv",
+      "bytes": 445,
+      "sha256": "2882f8dfeadbfdc03e88fc6e1e1298d2920a7970d5083948e5bfa9c969bb3db0"
+    },
+    {
+      "file": "台账/orders.csv",
+      "bytes": 358,
+      "sha256": "3593539b5c2186041e3f9080792fb6adcb375b47800ce7a99356cabb08458188"
+    },
+    {
+      "file": "台账/outcomes.csv",
+      "bytes": 296,
+      "sha256": "ac6eac8f7747fe7925e6fc92dd7859736e583079192f40cdcdaa11c7de51a109"
+    },
+    {
+      "file": "台账/responses.csv",
+      "bytes": 389,
+      "sha256": "79bc341f68130eb2523d8affb0c1b745b6f137b42ab9d6e8c1b0e5997252e4ae"
+    },
+    {
+      "file": "台账/risk_events.csv",
+      "bytes": 321,
+      "sha256": "00b96c09d835bd663285c0b05c810b00d337ca7a04cf7c800bfdff82deaaf95a"
+    },
+    {
+      "file": "台账/shadow_events.csv",
+      "bytes": 307,
+      "sha256": "9dab171143117eba492cadd5b4b5a815f317aa2841c0f41e2f0dc1f0fcf52ca7"
+    },
+    {
+      "file": "台账/structures.csv",
+      "bytes": 343,
+      "sha256": "aa6e84fba3e389326bd0d584cf715ed41e8a7f095f4e4407e7f98065289b7a92"
+    },
+    {
+      "file": "台账/wave_observations.csv",
+      "bytes": 476,
+      "sha256": "d9c5b373e848cce43dfe93060b8c3981478896daf7a6367d18c003d22279962b"
+    },
+    {
+      "file": "台账/字段说明.md",
+      "bytes": 5031,
+      "sha256": "67da9760243c5241c6cf9f83584437f8a862549f33660afb00a127b77f310df0"
+    },
+    {
+      "file": "建设升级_个股不变校验基准.json",
+      "bytes": 2070,
+      "sha256": "4f5105609a03ab86f734d09413f24e54d3c0605942fafe48da1c66a00d471ab4"
+    },
+    {
+      "file": "建设验收_V0.2.md",
+      "bytes": 2670,
+      "sha256": "40d8e9036da15d9eca14dadf4241e2fcdf46e893d7a9ec146422363b8606da03"
+    },
+    {
+      "file": "建设验收结果.json",
+      "bytes": 3517,
+      "sha256": "e58acd443822b7a2d925e004c7c6955fcc619b2d1957694047c622bf9d1b8e52"
+    },
+    {
+      "file": "建设验收结果_V0.2.json",
+      "bytes": 2845,
+      "sha256": "13b71184c67681b7bf8798442f0237a06095031b50bb1932a44c3009724e671a"
+    },
+    {
+      "file": "建设验收记录.md",
+      "bytes": 6564,
+      "sha256": "7b6238d74dc137b28dd29a67188997e51a4d34d932b0de6a77ac00ac07a03b82"
+    },
+    {
+      "file": "技能包/wyckoff-a-share-data.skill",
+      "bytes": 179585,
+      "sha256": "23b0bf07b38029822232bdd2e2eaa3d09cf44123939de6643ba05df438aa9bc9"
+    },
+    {
+      "file": "技能包/wyckoff-backtest-gate.skill",
+      "bytes": 24415,
+      "sha256": "19759c41092e1658162973dacb8c9d9c84e967b6c45ace9256ef95e5658cf0dd"
+    },
+    {
+      "file": "技能包/wyckoff-evidence-audit.skill",
+      "bytes": 10125,
+      "sha256": "1ce97ba65d924ca5413e3c86fdb046fa7b03b5592105205c62afb25881c6226f"
+    },
+    {
+      "file": "技能包/wyckoff-local-data-engine.skill",
+      "bytes": 48940,
+      "sha256": "2a7d0747dddf16e851c79cbf482e4ad23176f531e43af43b46f42b4b2f2a830f"
+    },
+    {
+      "file": "技能包/wyckoff-qveris-source-discovery.skill",
+      "bytes": 3113,
+      "sha256": "27f9d3861fdcd58802fbe5d8b5237b01ca3fb255b95b4586ca627de9da995e5e"
+    },
+    {
+      "file": "数据检查快照.json",
+      "bytes": 1571,
+      "sha256": "dfc3b739a071abd4b2eda5c4c6b18d524c2acc270a01af4a45f56a4eaeb1bad9"
+    },
+    {
+      "file": "来源/source_manifest.json",
+      "bytes": 17333,
+      "sha256": "49427383c86b0fe7b5f3d15ca4049008a6c5fb17ae6db5d2955838735dc179f1"
+    },
+    {
+      "file": "来源/书籍笔记/B01_威科夫方法论深度解析_读书笔记.md",
+      "bytes": 37849,
+      "sha256": "4b350889c6159f60a2d91d82ae1913985f00e62188552521d498598262ace2ae"
+    },
+    {
+      "file": "来源/书籍笔记/B02_威科夫2.0_读书笔记.md",
+      "bytes": 55326,
+      "sha256": "7000367644812bc69f99f4d0a761623313cc7700faeee477d9c3d1e0f6185ad1"
+    },
+    {
+      "file": "来源/书籍笔记/B03_《顶级交易的三大技能》深度拆书笔记.md",
+      "bytes": 343482,
+      "sha256": "c1cd4021f338981f007ae0f093c4145a4af5828a523d313a8d9c66eeb7c3b877"
+    },
+    {
+      "file": "来源/书籍笔记/B04_《即将发生的交易：威科夫方法的现代改编》深度拆书笔记.md",
+      "bytes": 192175,
+      "sha256": "a6b915b3655e7f0103214bbb7ab26f22641758b089ad89abb50476d2d0bf9835"
+    },
+    {
+      "file": "来源/书籍笔记/B05_《量价分析完整指南》深度拆书笔记.md",
+      "bytes": 239527,
+      "sha256": "c1dce8531d476431a63ec499bcc121b02c995c677b8c256a5722430f4c60221e"
+    },
+    {
+      "file": "来源/书籍笔记/book_sources.json",
+      "bytes": 3171,
+      "sha256": "5a28f275b1d223c5822b616c32e757faca56dc901d89945ed79e1c64d8fba7fd"
+    },
+    {
+      "file": "来源/制度核验_2026-10-08.md",
+      "bytes": 2068,
+      "sha256": "6662a0756cb3f6f3140d67e1ac94bae6ffdbbf38ba50bee31a957444e6b3d244"
+    },
+    {
+      "file": "来源/原文_威科夫理论全景_系统归纳与客观应用.md",
+      "bytes": 65370,
+      "sha256": "fc09a0df33bef990507cb1e6bc40a67c649260e4a9e5f66329009f6a76aa0623"
+    },
+    {
+      "file": "来源/威科夫来源摘录与边界.md",
+      "bytes": 2974,
+      "sha256": "f47ed894084d18dcbc4ec75d68b9912f2f8b3cfcdb3b5d3955f3581b20ab337d"
+    },
+    {
+      "file": "模板/周复核.md",
+      "bytes": 1662,
+      "sha256": "179275d9af83860327ae5264ce3363aba4b3f1c969a3b51afc64ac4b52666b8e"
+    },
+    {
+      "file": "模板/回测闸口记录.md",
+      "bytes": 2135,
+      "sha256": "0a52c39121084545a7e94e0bad51b36b1dc1fc5047ce41c824f3900cd234c750"
+    },
+    {
+      "file": "模板/实验预登记.md",
+      "bytes": 3088,
+      "sha256": "4c01e9153348bb992126091851fbeae98f9e6034b1d90beb7c4d2092a6323e40"
+    },
+    {
+      "file": "模板/持仓管理复核.md",
+      "bytes": 1372,
+      "sha256": "994f041552ae8f2ec48af9926ef66129f37186230705f48c6638e226c6854451"
+    },
+    {
+      "file": "模板/教学流程验算.md",
+      "bytes": 1440,
+      "sha256": "121a251dbff6ed1229043570cc831e2169403ee15a2da665114ed1355edac3a9"
+    },
+    {
+      "file": "模板/数据源验收记录.md",
+      "bytes": 2050,
+      "sha256": "bfd1686d3d4b22a3d7550ec8b94465a2e4b61b54fb5f6a615149d71acb576920"
+    },
+    {
+      "file": "模板/每日研究卡.md",
+      "bytes": 3764,
+      "sha256": "b5f0d6bb9f7dc7d74b0ae0ddf4312090177631fbe783640e72d3be3f3522d19a"
+    },
+    {
+      "file": "模板/研究报告.md",
+      "bytes": 1514,
+      "sha256": "f69a212418a5a3c882df64162b192866e56adb7a6be5c8933339669858799942"
+    },
+    {
+      "file": "模板/行动序列训练.md",
+      "bytes": 1106,
+      "sha256": "a02d4886a8c5de5997f34f487ddcda147c6b7f861af62ced0348c26bb640c71c"
+    },
+    {
+      "file": "模板/逐根逐波观察卡.md",
+      "bytes": 1661,
+      "sha256": "069071965f166869d9b3923d388d07c7a192959e7670d8a45830a31c246f0b84"
+    }
+  ]
+}

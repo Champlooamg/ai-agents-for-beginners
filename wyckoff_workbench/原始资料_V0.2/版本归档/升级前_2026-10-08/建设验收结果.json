@@ -1,0 +1,123 @@
+{
+  "checked_on": "2026-10-08",
+  "scope": "P0_documentation_only",
+  "issues": [],
+  "active_modules": [
+    "W-LPS-BU",
+    "W-SPRING-TEST",
+    "W-WEAKNESS"
+  ],
+  "legacy_scope_disabled": true,
+  "json_files_checked_before_report": 3,
+  "csv_tables": [
+    {
+      "file": "台账/checklists.csv",
+      "columns": 13,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/evidence.csv",
+      "columns": 17,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/experiments.csv",
+      "columns": 18,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/orders.csv",
+      "columns": 26,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/outcomes.csv",
+      "columns": 21,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/risk_events.csv",
+      "columns": 22,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/shadow_events.csv",
+      "columns": 24,
+      "data_rows": 0
+    },
+    {
+      "file": "台账/structures.csv",
+      "columns": 26,
+      "data_rows": 0
+    }
+  ],
+  "local_links_checked": 23,
+  "active_scope_leak_scan": "no_forbidden_pattern_rules",
+  "source_anchor_occurrences": 17,
+  "protected_files": [
+    {
+      "file": "引擎/闸门.py",
+      "sha256": "a0b36df098112f1a5c969f1c8caf9efec125a399bc5b08f67dc9ebcb82284ab1",
+      "unchanged": true
+    },
+    {
+      "file": "引擎/config.json",
+      "sha256": "a8761bb7f32325039457a11b98f3c2ffbadbfbfda1e1b754ddfa63cf483dcae6",
+      "unchanged": true
+    },
+    {
+      "file": "99_体系/口径字典.md",
+      "sha256": "2c9a2ebaf76c3cc2b35e57c3dbd3ce292d225148bcae13abd3338c64947f4a61",
+      "unchanged": true
+    },
+    {
+      "file": "99_体系/升级验收单.md",
+      "sha256": "cbd7f9966b611b79ae6d77bca64f679a924360ffba78e53703ed938336bfbde3",
+      "unchanged": true
+    },
+    {
+      "file": "99_体系/L0_公理十二条.md",
+      "sha256": "b5f3be814b11b30a5f36ab7bc5232774fe693db700bae4512a1e077ca6ba32e0",
+      "unchanged": true
+    },
+    {
+      "file": "99_体系/九检验卡.md",
+      "sha256": "a251c85baab7ed98c08c55dedb3106cb988348a3ac57056851803e3701c98992",
+      "unchanged": true
+    },
+    {
+      "file": "引擎量化/qdb.py",
+      "sha256": "b298880896774eebbf52c0323d454ac771d30bd21c9191815c99ddfa97d998b1",
+      "unchanged": true
+    },
+    {
+      "file": "引擎量化/回放.py",
+      "sha256": "2a8100512fd57b8dfab1e5b60a26a49b94abdb6e7bcf74eecea7bd73b9862fd6",
+      "unchanged": true
+    },
+    {
+      "file": "引擎量化/回放_lib.py",
+      "sha256": "f6a32ad4771442a103a059616f5bddb99496bd5cd25b84492e70f5d5bd5beda5",
+      "unchanged": true
+    },
+    {
+      "file": "引擎量化/config_quant.json",
+      "sha256": "7f3a93b1e9db420589325db1131c3ea0c1a40f67259cad67f94afbe47efce25c",
+      "unchanged": true
+    },
+    {
+      "file": "../微信文章/过往/个人投研体系-威科夫主线-v2定版.md",
+      "sha256": "69eea1a8da95f28ac68d98f0a58c6981c21488701c02ab1bddb950fc91afeea9",
+      "unchanged": true
+    }
+  ],
+  "registry_columns_checked": true,
+  "source_archive_matches": true,
+  "real_shadow_records": 0,
+  "effectiveness_tests": "not_run",
+  "manual_review": "source_group_readonly_review_no_blocker_one_expiry_clarification_applied",
+  "final_local_links_checked": 26,
+  "source_anchors_sampled": 5,
+  "final_source_anchor_review": "topic_and_numeric_nature_checked",
+  "final_json_files_checked": 5
+}

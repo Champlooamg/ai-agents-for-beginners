@@ -1,0 +1,20 @@
+[
+  {
+    "file": "interim.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225534750.PDF",
+    "sha256": "ebf4bb2e1c18e60600b60d75d6c656f8077acda957401e4c226a6028e0244cce",
+    "fetched_at": "2026-10-08T22:50:50.363445+08:00"
+  },
+  {
+    "file": "abnormal.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225584776.PDF",
+    "sha256": "eb227184cdae3c165ec24983c23d5f02ba44fc3578901169ce1a897f9389e636",
+    "fetched_at": "2026-10-08T22:50:50.458909+08:00"
+  },
+  {
+    "file": "meeting.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586911.PDF",
+    "sha256": "58840792ce6c44672dc1997d973ef09adf4abab58f8094a260098759849dc0f9",
+    "fetched_at": "2026-10-08T22:50:50.538030+08:00"
+  }
+]

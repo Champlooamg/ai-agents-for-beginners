@@ -1,0 +1,11 @@
+{
+  "version": "descriptive-facts-2",
+  "purpose": "descriptive_only",
+  "volume_window": 20,
+  "relative_strength_window": 20,
+  "window_unit": "quoted_rows_not_certified_sessions",
+  "current_bar_in_volume_reference": false,
+  "technical_theory": "wyckoff_only",
+  "optimized": false,
+  "performance_validation": "not_run"
+}

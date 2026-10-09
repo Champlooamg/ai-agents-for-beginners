@@ -1,0 +1,1 @@
+order_id,candidate_id,experiment_id,symbol,decision_at,earliest_order_at,submitted_at,side,order_type,limit_price,requested_quantity,old_sellable_quantity,today_bought_quantity,already_reserved_quantity,order_mode,fill_status,filled_at,filled_quantity,fill_price,remaining_quantity,fees,fill_model_version,rule_id,blocked_reason,assumption_flags,record_mode

@@ -1,0 +1,237 @@
+{
+  "schema_version": "wyckoff-cn-records-0.2",
+  "research_version": "wyckoff-cn-0.2",
+  "created_on": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "project_status": "active_research_documentation",
+  "theory_scope": "wyckoff_only",
+  "purpose": "manual_structured_research",
+  "production_permission": false,
+  "automatic_orders_enabled": false,
+  "baseline": {
+    "id": "W-BASE",
+    "status": "pending_definition_and_validation"
+  },
+  "modules": [
+    {
+      "id": "W-LPS-BU",
+      "purpose": "long_candidate_research",
+      "mode": "shadow",
+      "collection_status": "not_started",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "W-SPRING-TEST",
+      "purpose": "long_candidate_research",
+      "mode": "shadow",
+      "collection_status": "not_started",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "W-WEAKNESS",
+      "purpose": "risk_observation_only",
+      "mode": "shadow",
+      "collection_status": "not_started",
+      "validation_status": "not_run"
+    }
+  ],
+  "point_and_figure": {
+    "theory": "wyckoff",
+    "implementation_status": "not_implemented",
+    "method_frozen": false,
+    "first_buying_test_default": "unknown",
+    "classic_accumulation_unknown_dependencies": [
+      1,
+      8,
+      9
+    ],
+    "reaccumulation_unknown_dependencies": [
+      8
+    ]
+  },
+  "scope": {
+    "exchanges": [
+      "SSE",
+      "SZSE"
+    ],
+    "board": "main",
+    "instrument": "ordinary_A_share",
+    "direction": "long_cash_only",
+    "permission_verified": false,
+    "timeframe": "completed_daily",
+    "historical_universe_snapshot": null,
+    "min_history_sessions": null,
+    "liquidity_rule": null
+  },
+  "unfrozen_parameters": {
+    "market_participation_rule": null,
+    "pivot_method": null,
+    "pivot_confirmation_lag": null,
+    "range_boundary_method": null,
+    "sos_definition": null,
+    "sow_definition": null,
+    "lps_bu_test_rule": null,
+    "spring_reclaim_test_rule": null,
+    "response_rule": null,
+    "invalidation_rule": null,
+    "expiry_sessions": null,
+    "volume_reference_window": null,
+    "relative_strength_window": null,
+    "benchmark_id": null,
+    "projection_method": null,
+    "checklist_variant": null,
+    "holding_exit_rule": null,
+    "cost_schedule_version": null,
+    "portfolio_risk_budget": null,
+    "fill_model_version": null,
+    "trial_budget": null,
+    "primary_metric": null,
+    "train_validation_holdout_split": null,
+    "acceptance_criteria": null,
+    "wave_segmentation_version": null,
+    "wave_volume_assignment": null,
+    "label_definition_version": null,
+    "response_window": null,
+    "relative_range_reference": null,
+    "exit_priority_rule": null,
+    "addition_rule": null,
+    "stress_loss_model": null,
+    "annotation_reproducibility_criteria": null
+  },
+  "validation_gates": {
+    "redundancy": "not_run",
+    "conditional_increment": "not_run",
+    "ablation": "not_run",
+    "out_of_sample": "not_run",
+    "stability": "not_run",
+    "complexity_benefit": "not_run"
+  },
+  "data_check_ref": "数据检查快照.json",
+  "readiness": {
+    "documentation": "built_v0.2",
+    "local_skills": "installed_reference_only",
+    "qveris_cli": "credential_available_via_os_keyring",
+    "qveris_mcp": "configured_and_handshake_verified",
+    "data_contract": "incomplete",
+    "source_acceptance": "not_started",
+    "backtest_gate": "specified_not_executed",
+    "definitions_frozen": false,
+    "live_shadow_started": false,
+    "manual_observation_snapshot_exists": true
+  },
+  "data_source_plan": {
+    "priority_is_integration_order_only": true,
+    "candidates": [
+      {
+        "source_id": "a-stock-data-v3.10.1",
+        "priority": 1,
+        "status": "not_run",
+        "allowed_use": "none_until_acceptance"
+      },
+      {
+        "source_id": "yuanastock",
+        "priority": 2,
+        "status": "not_run",
+        "allowed_use": "none_until_acceptance"
+      },
+      {
+        "source_id": "qveris-cn-financial-pro-history-quotation-v1",
+        "priority": null,
+        "tool_id": "cn_financial_pro.history_quotation.v1",
+        "provider_id": "cn_financial_pro",
+        "status": "discovered_unverified_no_call",
+        "schema_status": "valid",
+        "allowed_use": "none_until_acceptance",
+        "cost_status": "estimated_and_inconsistent"
+      }
+    ],
+    "discovery_tool": {
+      "name": "qveris-cli",
+      "version": "0.11.3",
+      "mcp_version": "0.14.5",
+      "status": "credential_available_via_os_keyring",
+      "is_market_data_source": false
+    }
+  },
+  "local_skills": [
+    "wyckoff-evidence-audit",
+    "wyckoff-backtest-gate",
+    "wyckoff-a-share-data",
+    "wyckoff-qveris-source-discovery",
+    "wyckoff-local-data-engine"
+  ],
+  "record_modes": [
+    "prospective_shadow",
+    "historical_reconstruction",
+    "manual_observation_snapshot",
+    "synthetic_demo"
+  ],
+  "unknown_policy": "preserve_null_and_block_dependent_conclusions",
+  "record_immutability": "append_revisions_without_overwriting_frozen_decisions",
+  "previous_research_version": "wyckoff-cn-0.1",
+  "upgrade_scope": "documentation_and_manual_record_protocol_only",
+  "updated_on": "2026-10-08",
+  "book_sources_ref": "来源/书籍笔记/book_sources.json",
+  "book_decisions_ref": "14_五书学习与来源裁决.md",
+  "modern_instruments": [
+    {
+      "id": "volume_profile",
+      "status": "disabled_data_and_validation_pending",
+      "allowed_use": "none",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "anchored_vwap",
+      "status": "disabled_data_and_validation_pending",
+      "allowed_use": "none",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "delta",
+      "status": "disabled_data_and_validation_pending",
+      "allowed_use": "none",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "footprint",
+      "status": "disabled_data_and_validation_pending",
+      "allowed_use": "none",
+      "validation_status": "not_run"
+    }
+  ],
+  "record_extensions": {
+    "base_csv_schema": "v0.1_preserved",
+    "supplementary_csv_schema": "v0.2",
+    "automatic_semantic_validator": "not_implemented",
+    "tables": [
+      "bar_observations",
+      "wave_observations",
+      "responses",
+      "management_reviews"
+    ]
+  },
+  "learning_validation": {
+    "original_books_verified": false,
+    "annotation_reproducibility": "not_run",
+    "known_examples_eligible_for_oos": false,
+    "training_replay_eligible_for_prospective_shadow": false,
+    "source_decisions_count": 25
+  },
+  "exit_variants": [
+    {
+      "id": "EXIT-STRUCTURE",
+      "status": "planned_incomplete",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "EXIT-ZONE-BEHAVIOR",
+      "status": "planned_incomplete",
+      "validation_status": "not_run"
+    },
+    {
+      "id": "EXIT-TRAIL",
+      "status": "planned_incomplete",
+      "validation_status": "not_run"
+    }
+  ]
+}

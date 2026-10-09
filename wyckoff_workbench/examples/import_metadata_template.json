@@ -1,0 +1,9 @@
+{
+  "source_id": "REPLACE_WITH_REAL_SOURCE",
+  "source_ref": "REPLACE_WITH_SOURCE_DESCRIPTION",
+  "record_mode": "manual_observation_snapshot",
+  "price_basis": "raw",
+  "volume_unit": "unknown",
+  "amount_unit": "unknown",
+  "unit_basis": "unknown"
+}

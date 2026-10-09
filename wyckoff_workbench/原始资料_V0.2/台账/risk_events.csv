@@ -1,0 +1,1 @@
+risk_event_id,structure_id,candidate_id,symbol,snapshot_id,decision_at,last_dependency_at,risk_type,previous_risk_state,new_risk_state,evidence_ids,exit_requested_at,sellable_quantity,today_bought_quantity,reserved_quantity,order_ids,remaining_exposure,blocked_reason,rule_version,record_mode,record_sha256,supersedes_id

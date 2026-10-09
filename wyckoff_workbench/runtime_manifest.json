@@ -1,0 +1,61 @@
+{
+  "version": "0.6.3.0",
+  "purpose": "local_descriptive_full_market_observation",
+  "timezone": "Asia/Shanghai",
+  "python_runtime_min": "3.10",
+  "runtime_third_party_dependencies": [],
+  "based_on_version": "0.6.2.1",
+  "preserves": {
+    "legacy_origin_metadata": true,
+    "descriptive_facts_1_replay": true,
+    "descriptive_facts_2_previous_close_contract": true,
+    "candidate_state_and_evidence_rules": true
+  },
+  "market_data": {
+    "provider": "a-stock-data-3.10.1/tdx_daily_package",
+    "connection": "explicit_user_click_http_no_fallback",
+    "scope": "ordinary_A_shares_present_in_package_for_selected_date",
+    "exchanges": [
+      "SSE",
+      "SZSE",
+      "BSE"
+    ],
+    "historical_before_bse_package_start": "partial_scope_explicitly_reported",
+    "unpriced_security_state": "unknown_not_inferred",
+    "universe_completeness": "not_exchange_certified",
+    "point_in_time_history": "not_certified",
+    "corporate_actions_and_adjustment": "not_certified",
+    "live_smoke_test": {
+      "requested_date": "2026-10-08",
+      "result": "blocked_by_environment_network_URLError",
+      "rows_imported": 0,
+      "automatic_fallback": false
+    }
+  },
+  "workbench_capabilities": {
+    "full_market_package_capture": true,
+    "coverage_and_structure_audit": true,
+    "single_day_direction_counts": true,
+    "full_market_observation_csv": true,
+    "automated_candidate_selection": "BLOCK",
+    "conditional_strategy_cards": "BLOCK",
+    "short_medium_holding_time_output": "BLOCK",
+    "backtest": "BLOCK",
+    "prospective_shadow": "BLOCK",
+    "production_permission": false,
+    "automatic_orders_enabled": false
+  },
+  "validation": {
+    "unit_tests": "74_passed",
+    "python_compileall": "passed",
+    "embedded_javascript_node_check": "passed",
+    "wheel_build_temp_install_import": "passed_version_0.6.3.0",
+    "demo_bootstrap_and_doctor": "passed",
+    "http_end_to_end": "blocked_socket_permission_error",
+    "browser_visual_test": "not_run",
+    "provider_live_data": "not_connected_no_data_imported",
+    "strategy_effectiveness": "not_run",
+    "six_validation_gates": "not_run"
+  },
+  "release_status": "descriptive_observation_only_not_investment_recommendation"
+}

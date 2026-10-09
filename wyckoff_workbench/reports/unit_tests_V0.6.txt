@@ -1,0 +1,57 @@
+test_external_output_is_archived_but_does_not_change_analysis (test_external_notes.ExternalNoteTests.test_external_output_is_archived_but_does_not_change_analysis) ... ok
+test_future_report_date_is_refused (test_external_notes.ExternalNoteTests.test_future_report_date_is_refused) ... ok
+test_invalid_unicode_and_oversize_are_refused (test_external_notes.ExternalNoteTests.test_invalid_unicode_and_oversize_are_refused) ... ok
+test_tampering_is_detected_and_raw_is_exported (test_external_notes.ExternalNoteTests.test_tampering_is_detected_and_raw_is_exported) ... ok
+test_buy_needs_cash_fees_and_lot (test_invariants.OrderPlanTests.test_buy_needs_cash_fees_and_lot) ... ok
+test_reserved_old_stock_cannot_be_sold_twice (test_invariants.OrderPlanTests.test_reserved_old_stock_cannot_be_sold_twice) ... ok
+test_same_instant_order_not_accepted (test_invariants.OrderPlanTests.test_same_instant_order_not_accepted) ... ok
+test_t_plus_one_cannot_be_overridden_by_price (test_invariants.OrderPlanTests.test_t_plus_one_cannot_be_overridden_by_price) ... ok
+test_unknown_rule_calendar_block (test_invariants.OrderPlanTests.test_unknown_rule_calendar_block) ... ok
+test_valid_plan_is_never_a_fill (test_invariants.OrderPlanTests.test_valid_plan_is_never_a_fill) ... ok
+test_amount_missing_preserved (test_invariants.WorkbenchTests.test_amount_missing_preserved) ... ok
+test_append_revision_preserves_old_card (test_invariants.WorkbenchTests.test_append_revision_preserves_old_card) ... ok
+test_attached_sample_real_values_recomputed (test_invariants.WorkbenchTests.test_attached_sample_real_values_recomputed) ... ok
+test_backdated_decision_rejected (test_invariants.WorkbenchTests.test_backdated_decision_rejected) ... ok
+test_benchmark_dependencies_resolve_to_evidence (test_invariants.WorkbenchTests.test_benchmark_dependencies_resolve_to_evidence) ... ok
+test_candidate_uses_new_decision_not_registration_card (test_invariants.WorkbenchTests.test_candidate_uses_new_decision_not_registration_card) ... ok
+test_counterfactual_future_cannot_change_prefix (test_invariants.WorkbenchTests.test_counterfactual_future_cannot_change_prefix) ... ok
+test_database_refuses_update_and_delete (test_invariants.WorkbenchTests.test_database_refuses_update_and_delete) ... ok
+test_declared_source_times_do_not_certify_pit (test_invariants.WorkbenchTests.test_declared_source_times_do_not_certify_pit) ... ok
+test_duplicate_evidence_rejected (test_invariants.WorkbenchTests.test_duplicate_evidence_rejected) ... ok
+test_duplicates_rejected (test_invariants.WorkbenchTests.test_duplicates_rejected) ... ok
+test_expiry_cannot_be_claimed_early (test_invariants.WorkbenchTests.test_expiry_cannot_be_claimed_early) ... ok
+test_facts_stop_at_requested_date (test_invariants.WorkbenchTests.test_facts_stop_at_requested_date) ... ok
+test_failed_candidate_retained_and_duplicate_refused (test_invariants.WorkbenchTests.test_failed_candidate_retained_and_duplicate_refused) ... ok
+test_freeze_cannot_accept_user_timestamp (test_invariants.WorkbenchTests.test_freeze_cannot_accept_user_timestamp) ... ok
+test_future_capture_rejected (test_invariants.WorkbenchTests.test_future_capture_rejected) ... ok
+test_future_cutoff_rejected (test_invariants.WorkbenchTests.test_future_cutoff_rejected) ... ok
+test_idempotent_import_preserves_first_ingestion (test_invariants.WorkbenchTests.test_idempotent_import_preserves_first_ingestion) ... ok
+test_incomplete_earlier_bar_is_not_hidden (test_invariants.WorkbenchTests.test_incomplete_earlier_bar_is_not_hidden) ... ok
+test_invalid_ohlc_rejected (test_invariants.WorkbenchTests.test_invalid_ohlc_rejected) ... ok
+test_missing_time_basis_rejected (test_invariants.WorkbenchTests.test_missing_time_basis_rejected) ... ok
+test_no_implicit_validation_upgrade (test_invariants.WorkbenchTests.test_no_implicit_validation_upgrade) ... ok
+test_no_timezone_rejected (test_invariants.WorkbenchTests.test_no_timezone_rejected) ... ok
+test_nonfinite_number_rejected (test_invariants.WorkbenchTests.test_nonfinite_number_rejected) ... ok
+test_original_source_mutation_detected (test_invariants.WorkbenchTests.test_original_source_mutation_detected) ... ok
+test_out_of_order_rejected (test_invariants.WorkbenchTests.test_out_of_order_rejected) ... ok
+test_prospective_claim_rejected (test_invariants.WorkbenchTests.test_prospective_claim_rejected) ... ok
+test_relative_strength_requires_matching_dates (test_invariants.WorkbenchTests.test_relative_strength_requires_matching_dates) ... ok
+test_response_cannot_bypass_test (test_invariants.WorkbenchTests.test_response_cannot_bypass_test) ... ok
+test_scene_must_pass_test_before_response (test_invariants.WorkbenchTests.test_scene_must_pass_test_before_response) ... ok
+test_source_time_missing_blocks_historical_claim (test_invariants.WorkbenchTests.test_source_time_missing_blocks_historical_claim) ... ok
+test_synthetic_not_mislabeled_as_real (test_invariants.WorkbenchTests.test_synthetic_not_mislabeled_as_real) ... ok
+test_unknown_evidence_rejected (test_invariants.WorkbenchTests.test_unknown_evidence_rejected) ... ok
+test_volume_reference_excludes_current_volume (test_invariants.WorkbenchTests.test_volume_reference_excludes_current_volume) ... ok
+test_warmup_missing_is_not_zero (test_invariants.WorkbenchTests.test_warmup_missing_is_not_zero) ... ok
+test_zero_range_keeps_location_unknown (test_invariants.WorkbenchTests.test_zero_range_keeps_location_unknown) ... ok
+test_easy_tdx_daily_frame_is_sorted_cut_off_and_current_bar_blocked (test_providers.ProviderTests.test_easy_tdx_daily_frame_is_sorted_cut_off_and_current_bar_blocked) ... ok
+test_easy_tdx_rejects_missing_columns_and_duplicate_dates (test_providers.ProviderTests.test_easy_tdx_rejects_missing_columns_and_duplicate_dates) ... ok
+test_instock_row_keeps_completeness_unknown (test_providers.ProviderTests.test_instock_row_keeps_completeness_unknown) ... ok
+test_local_capture_integrity_is_checked (test_providers.ProviderTests.test_local_capture_integrity_is_checked) ... ok
+test_tdx_missing_symbol_does_not_fallback (test_providers.ProviderTests.test_tdx_missing_symbol_does_not_fallback) ... ok
+test_tdx_strict_parse_and_units (test_providers.ProviderTests.test_tdx_strict_parse_and_units) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.660s
+
+OK

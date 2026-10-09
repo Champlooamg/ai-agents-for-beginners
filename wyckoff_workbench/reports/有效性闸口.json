@@ -1,0 +1,17 @@
+{
+  "descriptive_workflow": "AVAILABLE",
+  "backtest_gate": "BLOCK",
+  "result_validity": "not_run",
+  "prospective_shadow": "BLOCK",
+  "production_permission": false,
+  "automatic_orders_enabled": false,
+  "blockers": [
+    "真实来源/用途验收未完成",
+    "历史PIT、公司行动、日历、证券状态/历史股票池未验收",
+    "W-BASE及两个场景的可执行定义未冻结验证",
+    "订单、T+1批次库存及历史费用模型未实现",
+    "试验预算、成熟标签与样本外切分未预登记",
+    "六道独立验证全部not_run"
+  ],
+  "note": "本机功能可用不等于策略通过验证。当前没有绩效统计或交易接口。"
+}

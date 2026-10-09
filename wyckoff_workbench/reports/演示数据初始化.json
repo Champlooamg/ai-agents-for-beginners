@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "snapshot-ab80ced713fa213f3a46",
+  "protocol_id": "protocol-df6deb18aaf7caf84c1d",
+  "row_counts": {
+    "sh605366": 640,
+    "sh000300": 640,
+    "sh000001": 640
+  },
+  "purpose": "archived_descriptive_example",
+  "historical_pit": "not_certified",
+  "fresh_data_fetched": false
+}

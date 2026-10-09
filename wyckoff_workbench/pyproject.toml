@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wyckoff-cn-workbench"
+version = "0.6.3.0"
+description = "A descriptive, append-only full-market Wyckoff research workbench"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+easy-tdx = ["pandas>=2.0,<3", "tzdata>=2024.1"]
+
+[tool.setuptools.packages.find]
+include = ["wyckoff_cn*", "easy_tdx*"]
+
+[tool.setuptools.package-data]
+wyckoff_cn = ["workbench.html"]
+easy_tdx = ["py.typed", "*.pyi", "LICENSE", "NOTICE"]

@@ -1,0 +1,1 @@
+event_id,candidate_id,event_family_id,symbol,scenario,structure_id,structure_revision_id,experiment_id,rule_version,snapshot_id,previous_state,new_state,event_at,confirmed_at,last_dependency_at,decision_at,evidence_ids,conflict_ids,data_blocked,path_ambiguous,reason,record_mode,record_sha256,supersedes_id

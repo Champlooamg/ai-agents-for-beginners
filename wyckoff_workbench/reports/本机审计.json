@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "errors": [],
+  "integrity": {
+    "ok": true,
+    "record_count": 2,
+    "errors": [],
+    "scope": "local_integrity_only"
+  },
+  "frozen_cards_checked": 0,
+  "checked_at": "2026-10-09T04:10:20.810256+00:00",
+  "historical_pit_certified": false,
+  "strategy_effectiveness": "not_run",
+  "scope": "本机哈希/引用/已冻结事实复算/时间链；不等于供应商数据真实性验收"
+}

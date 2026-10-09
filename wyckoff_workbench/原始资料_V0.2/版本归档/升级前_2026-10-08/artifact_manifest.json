@@ -1,0 +1,223 @@
+{
+  "research_version": "wyckoff-cn-0.1",
+  "created_on": "2026-10-08",
+  "scope": "wyckoff_only_research_artifacts",
+  "file_count_excluding_this_manifest": 43,
+  "files": [
+    {
+      "file": "01_六层架构与五步工作流.md",
+      "bytes": 3581,
+      "sha256": "7900f05dfbf8b4de71d424e12c146ce18c684f845462c65b4222b57998ebf00b"
+    },
+    {
+      "file": "02_数据时间与共享证据.md",
+      "bytes": 6803,
+      "sha256": "55ed410c13eb739b4813d3203a7af9cafa5c582ee7d2df97ec3525844e7e92f4"
+    },
+    {
+      "file": "03_结构阶段与事件.md",
+      "bytes": 3764,
+      "sha256": "ac4ac344fbf9ab14e5b5ab337c3a99923ad95da11806949f58279f8f581cb33d"
+    },
+    {
+      "file": "04_候选场景与状态机.md",
+      "bytes": 4528,
+      "sha256": "2b699fa25ca1799c49bd5ade7bcf999982315f277df82a81d223a82e2ef3056d"
+    },
+    {
+      "file": "05_A股风险与成交.md",
+      "bytes": 4275,
+      "sha256": "384d6e9336ea7853a5f0f142db009f4251da779bd71221173bb871b146c22789"
+    },
+    {
+      "file": "06_独立验证与六道准入.md",
+      "bytes": 4933,
+      "sha256": "38145516f5815e3e9c5963177c6775d13ebe70e3692fe0920e3e3768b92df7de"
+    },
+    {
+      "file": "07_盘后SOP与复盘.md",
+      "bytes": 2750,
+      "sha256": "753afcd47726e82ba193d8697a6689164504e7839b09699cfc2f2f233c20c54b"
+    },
+    {
+      "file": "08_数据缺口与建设状态.md",
+      "bytes": 4463,
+      "sha256": "ae57c56c66c03c7586eb4bae8bbe4aae47592662e729a4f71a0936aaaacacbe3"
+    },
+    {
+      "file": "09_九项检验与点数图.md",
+      "bytes": 2873,
+      "sha256": "2f3f28832bac6ec3cb29beaf33302330f7018fd4e75ec75f4f2f44595e2e1732"
+    },
+    {
+      "file": "10_来源裁决与版本.md",
+      "bytes": 3390,
+      "sha256": "0abd6fec430f63357c7bce1e3c697efd0759cbabe14852718c4eb6469e0ef543"
+    },
+    {
+      "file": "11_数据源验收清单.md",
+      "bytes": 9214,
+      "sha256": "83e3ed89a79647fe4db8f24c5d63b3f146bf48fc5036a6913b64d1ed6833e144"
+    },
+    {
+      "file": "12_回测有效性闸口.md",
+      "bytes": 5204,
+      "sha256": "3314429be4859fcb85a1b2936eae74ef59941f03e9bb1663c5478d1a372b7ddb"
+    },
+    {
+      "file": "13_本地技能与外部工具适配.md",
+      "bytes": 4787,
+      "sha256": "8f07991e5f386c5a21ad37474d3a9a0120c84bc6de5ff23a05f06577b410bdd4"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4751,
+      "sha256": "9f9fa07ae12259ba531cc0102d2d2f02a074e6958ba7d6b0966d59add4ce15ea"
+    },
+    {
+      "file": "research_manifest.json",
+      "bytes": 3865,
+      "sha256": "0e4bb58d400bef15a7a8861cf9a7404f56087be1ae92af45c26135cb3de1cdd6"
+    },
+    {
+      "file": "台账/checklists.csv",
+      "bytes": 185,
+      "sha256": "db616b0c588652a74749f3fc80491e222762bfda0097ca83946ea527fa820c1c"
+    },
+    {
+      "file": "台账/evidence.csv",
+      "bytes": 297,
+      "sha256": "5d13ad562503f0ce491675d77b8337fced19d52e1f0c7ab92a9d76ef66137d24"
+    },
+    {
+      "file": "台账/experiments.csv",
+      "bytes": 244,
+      "sha256": "2988f3bfdc828bedf105b630c31ebef47c83235b11dd701faf2f9b72791de525"
+    },
+    {
+      "file": "台账/orders.csv",
+      "bytes": 358,
+      "sha256": "3593539b5c2186041e3f9080792fb6adcb375b47800ce7a99356cabb08458188"
+    },
+    {
+      "file": "台账/outcomes.csv",
+      "bytes": 296,
+      "sha256": "ac6eac8f7747fe7925e6fc92dd7859736e583079192f40cdcdaa11c7de51a109"
+    },
+    {
+      "file": "台账/risk_events.csv",
+      "bytes": 321,
+      "sha256": "00b96c09d835bd663285c0b05c810b00d337ca7a04cf7c800bfdff82deaaf95a"
+    },
+    {
+      "file": "台账/shadow_events.csv",
+      "bytes": 307,
+      "sha256": "9dab171143117eba492cadd5b4b5a815f317aa2841c0f41e2f0dc1f0fcf52ca7"
+    },
+    {
+      "file": "台账/structures.csv",
+      "bytes": 343,
+      "sha256": "aa6e84fba3e389326bd0d584cf715ed41e8a7f095f4e4407e7f98065289b7a92"
+    },
+    {
+      "file": "台账/字段说明.md",
+      "bytes": 3399,
+      "sha256": "15055f190345be0bbc53182f91b9c4c7c396f322f8e6ecc061428a00cca06cfa"
+    },
+    {
+      "file": "建设验收结果.json",
+      "bytes": 3517,
+      "sha256": "e58acd443822b7a2d925e004c7c6955fcc619b2d1957694047c622bf9d1b8e52"
+    },
+    {
+      "file": "建设验收记录.md",
+      "bytes": 6564,
+      "sha256": "7b6238d74dc137b28dd29a67188997e51a4d34d932b0de6a77ac00ac07a03b82"
+    },
+    {
+      "file": "技能包/wyckoff-a-share-data.skill",
+      "bytes": 179585,
+      "sha256": "23b0bf07b38029822232bdd2e2eaa3d09cf44123939de6643ba05df438aa9bc9"
+    },
+    {
+      "file": "技能包/wyckoff-backtest-gate.skill",
+      "bytes": 24415,
+      "sha256": "19759c41092e1658162973dacb8c9d9c84e967b6c45ace9256ef95e5658cf0dd"
+    },
+    {
+      "file": "技能包/wyckoff-evidence-audit.skill",
+      "bytes": 10125,
+      "sha256": "1ce97ba65d924ca5413e3c86fdb046fa7b03b5592105205c62afb25881c6226f"
+    },
+    {
+      "file": "技能包/wyckoff-local-data-engine.skill",
+      "bytes": 48940,
+      "sha256": "2a7d0747dddf16e851c79cbf482e4ad23176f531e43af43b46f42b4b2f2a830f"
+    },
+    {
+      "file": "技能包/wyckoff-qveris-source-discovery.skill",
+      "bytes": 3113,
+      "sha256": "27f9d3861fdcd58802fbe5d8b5237b01ca3fb255b95b4586ca627de9da995e5e"
+    },
+    {
+      "file": "数据检查快照.json",
+      "bytes": 1571,
+      "sha256": "dfc3b739a071abd4b2eda5c4c6b18d524c2acc270a01af4a45f56a4eaeb1bad9"
+    },
+    {
+      "file": "来源/source_manifest.json",
+      "bytes": 17333,
+      "sha256": "49427383c86b0fe7b5f3d15ca4049008a6c5fb17ae6db5d2955838735dc179f1"
+    },
+    {
+      "file": "来源/制度核验_2026-10-08.md",
+      "bytes": 2068,
+      "sha256": "6662a0756cb3f6f3140d67e1ac94bae6ffdbbf38ba50bee31a957444e6b3d244"
+    },
+    {
+      "file": "来源/原文_威科夫理论全景_系统归纳与客观应用.md",
+      "bytes": 65370,
+      "sha256": "fc09a0df33bef990507cb1e6bc40a67c649260e4a9e5f66329009f6a76aa0623"
+    },
+    {
+      "file": "来源/威科夫来源摘录与边界.md",
+      "bytes": 2974,
+      "sha256": "f47ed894084d18dcbc4ec75d68b9912f2f8b3cfcdb3b5d3955f3581b20ab337d"
+    },
+    {
+      "file": "模板/周复核.md",
+      "bytes": 1172,
+      "sha256": "832e87b8ac399d9ecb8a7eeffaf4c50f017cb4a895f265a17ec505f0dfc85b3f"
+    },
+    {
+      "file": "模板/回测闸口记录.md",
+      "bytes": 2135,
+      "sha256": "0a52c39121084545a7e94e0bad51b36b1dc1fc5047ce41c824f3900cd234c750"
+    },
+    {
+      "file": "模板/实验预登记.md",
+      "bytes": 2534,
+      "sha256": "7725cc3fe40162646c3849c59cab5b1e7421f4f9b746cc641ffd6f4a5802e67c"
+    },
+    {
+      "file": "模板/教学流程验算.md",
+      "bytes": 1440,
+      "sha256": "121a251dbff6ed1229043570cc831e2169403ee15a2da665114ed1355edac3a9"
+    },
+    {
+      "file": "模板/数据源验收记录.md",
+      "bytes": 2050,
+      "sha256": "bfd1686d3d4b22a3d7550ec8b94465a2e4b61b54fb5f6a615149d71acb576920"
+    },
+    {
+      "file": "模板/每日研究卡.md",
+      "bytes": 3099,
+      "sha256": "9bd757c3dbaaee9847fd3a9c964c9702a0dcb8c66f174d10699e3a0b7ca5a612"
+    },
+    {
+      "file": "模板/研究报告.md",
+      "bytes": 1163,
+      "sha256": "facf03d6217f82f398344cf0ec31cd8d7a2863ccb78d86c627daac254c5c248f"
+    }
+  ]
+}

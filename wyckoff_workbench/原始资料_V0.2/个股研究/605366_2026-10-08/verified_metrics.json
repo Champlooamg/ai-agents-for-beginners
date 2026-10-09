@@ -1,0 +1,55 @@
+{
+  "record_mode": "manual_observation_snapshot",
+  "historical_labels_mode": "historical_reconstruction",
+  "theory": "wyckoff_only",
+  "production_permission": false,
+  "data_last_date": "2026-10-08",
+  "quote_timestamp": "20261008161438",
+  "close": 11.04,
+  "change_pct": 6.05,
+  "turnover_pct": 12.34,
+  "amount_yuan": 1014084063.0,
+  "volume_hands": 953546.0,
+  "raw_rows": 640,
+  "qfq_rows": 641,
+  "same_recent_90_raw_qfq": true,
+  "checks": "symbol/date/unique/ordered/OHLC/quote-volume validated; full calendar completeness, historical availability, source acceptance not certified",
+  "performance": [
+    {
+      "sessions": 5,
+      "start": "2026-09-23",
+      "stock_price_change_pct": 26.171428571428557,
+      "benchmark_change_pct": -4.582403570290083,
+      "excess_percentage_points": 30.75383214171864,
+      "prior_volume_mean_hands": 795806.8,
+      "current_volume_multiple": 1.1982129330887847
+    },
+    {
+      "sessions": 10,
+      "start": "2026-09-16",
+      "stock_price_change_pct": 27.482678983833697,
+      "benchmark_change_pct": -3.7941909750975,
+      "excess_percentage_points": 31.276869958931197,
+      "prior_volume_mean_hands": 538321.6,
+      "current_volume_multiple": 1.7713314866057763
+    },
+    {
+      "sessions": 20,
+      "start": "2026-09-02",
+      "stock_price_change_pct": 38.86792452830188,
+      "benchmark_change_pct": -5.22607938504297,
+      "excess_percentage_points": 44.09400391334485,
+      "prior_volume_mean_hands": 361245.6,
+      "current_volume_multiple": 2.639605852638759
+    },
+    {
+      "sessions": 60,
+      "start": "2026-07-08",
+      "stock_price_change_pct": 5.6459330143540765,
+      "benchmark_change_pct": -9.362783958885757,
+      "excess_percentage_points": 15.008716973239833,
+      "prior_volume_mean_hands": 301568.56666666665,
+      "current_volume_multiple": 3.1619542133977934
+    }
+  ]
+}

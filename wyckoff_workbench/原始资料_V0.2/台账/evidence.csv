@@ -1,0 +1,1 @@
+evidence_id,canonical_key,snapshot_id,symbol,event_at,source_available_at,ingested_at,available_at,source_id,source_ref,source_sha256,fact,feature_id,dependency_ids,formula_version,missing_dependencies,record_mode,availability_basis,evidence_status,missing_reason,source_revision_id,supersedes_id

@@ -1,0 +1,20 @@
+{
+  "card_id": "REPLACE_WITH_REAL_CARD_ID",
+  "rule_ref": "REPLACE_WITH_HISTORICAL_RULE_REFERENCE",
+  "side": "sell",
+  "quantity": 100,
+  "limit_price": 10,
+  "buy_lot_size": 100,
+  "earliest_order_at": "REPLACE_WITH_VERIFIED_NEXT_ORDER_TIME",
+  "calendar_verified": false,
+  "security_rules_verified": false,
+  "risk_budget_verified": false,
+  "reserved_quantity": 0,
+  "inventory_lots": [
+    {
+      "bought_at": "REPLACE_WITH_REAL_FILL_TIME",
+      "sellable_from": "REPLACE_WITH_CALENDAR_VERIFIED_SELLABLE_TIME",
+      "remaining_quantity": 100
+    }
+  ]
+}

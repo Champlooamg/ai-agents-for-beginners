@@ -1,0 +1,89 @@
+{
+  "record_id": "605366-20261008-manual-01",
+  "decision_at": "2026-10-08T22:53:59.163198+08:00",
+  "record_mode": "manual_observation_snapshot",
+  "production_permission": false,
+  "files": [
+    {
+      "path": "abnormal.pdf",
+      "bytes": 112272,
+      "sha256": "eb227184cdae3c165ec24983c23d5f02ba44fc3578901169ce1a897f9389e636"
+    },
+    {
+      "path": "abnormal.txt",
+      "bytes": 3971,
+      "sha256": "e1cf8930450dd6fde3b6a09c27e1c48447709d1f34804a84edae3151e350071a"
+    },
+    {
+      "path": "announcement_sources.json",
+      "bytes": 772,
+      "sha256": "b58dbe322f8030d6a5c827927df1e9aca95cd2008021236a39eddd7787a96754"
+    },
+    {
+      "path": "announcements.json",
+      "bytes": 29063,
+      "sha256": "8306a3ca06ed4b5bd1082976fee95ca2a3db634d63bd6f1b547b1296763a73ca"
+    },
+    {
+      "path": "benchmark.txt",
+      "bytes": 49558,
+      "sha256": "dc3e98563d04850d50320d2c38d4904349966245950ad7f56551768b2dd2653c"
+    },
+    {
+      "path": "data_manifest.json",
+      "bytes": 1321,
+      "sha256": "44650e0853e1a0169adef1436f5fe53917720d84d7fa969b05b492c95aea0d8e"
+    },
+    {
+      "path": "interim.pdf",
+      "bytes": 1197891,
+      "sha256": "ebf4bb2e1c18e60600b60d75d6c656f8077acda957401e4c226a6028e0244cce"
+    },
+    {
+      "path": "interim.txt",
+      "bytes": 407617,
+      "sha256": "cd49b490be8160df3a8dcf6603acf5722b366db54873ed496f2b6da7ffe6e187"
+    },
+    {
+      "path": "market.txt",
+      "bytes": 49663,
+      "sha256": "c0682949bce23f2e3d26625e5a5aef5357647838d64a11adf1d26f45d5ea19e1"
+    },
+    {
+      "path": "meeting.pdf",
+      "bytes": 67874,
+      "sha256": "58840792ce6c44672dc1997d973ef09adf4abab58f8094a260098759849dc0f9"
+    },
+    {
+      "path": "meeting.txt",
+      "bytes": 3222,
+      "sha256": "0901353fa15a93cd20a5e02c5cc6dbe9ea06c7d1b1db5ce78d04888bc1230352"
+    },
+    {
+      "path": "quote.txt",
+      "bytes": 1457,
+      "sha256": "6f44b2dd2aaf27730c884933d42372d8f75db5056c18ee2c42cfe112f7d0e2e5"
+    },
+    {
+      "path": "stock_qfq.txt",
+      "bytes": 40213,
+      "sha256": "fbb3804ec7bb2597c053ad156833b4819090ebc961ff70a343faa42db4328293"
+    },
+    {
+      "path": "stock_raw.txt",
+      "bytes": 40126,
+      "sha256": "210e6bf87e1646f5b21185d4e912b7e5027590bb5f4deedf184f1ded881b4e99"
+    },
+    {
+      "path": "verified_metrics.json",
+      "bytes": 1933,
+      "sha256": "971decadf44becbe9ae772f750185990421ea70d909126dc957106ea3c19285b"
+    },
+    {
+      "path": "宏柏新材_威科夫研究卡.md",
+      "bytes": 9344,
+      "sha256": "3fb434bef518754fa578c495b0f5c39ab46d1f166b6462738df3f1afb24e937b"
+    }
+  ],
+  "verification": "raw hashes and derived OHLC/identity/date/volume checks passed; no trading or backtest performed"
+}

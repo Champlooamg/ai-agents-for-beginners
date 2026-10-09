@@ -1,0 +1,104 @@
+{
+  "research_version": "wyckoff-cn-0.2",
+  "checked_at": "2026-10-08T23:15:37.002935+08:00",
+  "scope": "document_configuration_and_record_protocol_integrity_only",
+  "status": "pass",
+  "checks": {
+    "json_parsing": {
+      "files": 11,
+      "pass": true
+    },
+    "local_protocol_links": {
+      "checked": 78,
+      "issues": [],
+      "pass": true
+    },
+    "book_snapshots": {
+      "sources": [
+        {
+          "source_id": "B01",
+          "snapshot_hash_and_metadata_match": true,
+          "original_currently_matches_snapshot": true,
+          "lines": 479
+        },
+        {
+          "source_id": "B02",
+          "snapshot_hash_and_metadata_match": true,
+          "original_currently_matches_snapshot": true,
+          "lines": 527
+        },
+        {
+          "source_id": "B03",
+          "snapshot_hash_and_metadata_match": true,
+          "original_currently_matches_snapshot": true,
+          "lines": 2949
+        },
+        {
+          "source_id": "B04",
+          "snapshot_hash_and_metadata_match": true,
+          "original_currently_matches_snapshot": true,
+          "lines": 1486
+        },
+        {
+          "source_id": "B05",
+          "snapshot_hash_and_metadata_match": true,
+          "original_currently_matches_snapshot": false,
+          "lines": 2435
+        }
+      ],
+      "pass": true
+    },
+    "decision_source_anchor_ranges": {
+      "anchors": 58,
+      "pass": true,
+      "scope": "range check only; does not verify original book claims"
+    },
+    "original_ledgers_and_skill_packages_preserved": {
+      "files": 13,
+      "changed": [],
+      "pass": true
+    },
+    "supplementary_ledgers": {
+      "tables": [
+        {
+          "table": "bar_observations",
+          "rows_excluding_header": 0,
+          "unique_fields": true
+        },
+        {
+          "table": "wave_observations",
+          "rows_excluding_header": 0,
+          "unique_fields": true
+        },
+        {
+          "table": "responses",
+          "rows_excluding_header": 0,
+          "unique_fields": true
+        },
+        {
+          "table": "management_reviews",
+          "rows_excluding_header": 0,
+          "unique_fields": true
+        }
+      ],
+      "pass": true
+    },
+    "scope_permission_and_validation_state": {
+      "pass": true,
+      "production_permission": false,
+      "automatic_orders_enabled": false,
+      "six_gates": "not_run",
+      "modern_instruments": "disabled",
+      "definitions_frozen": false
+    },
+    "frozen_case_files": {
+      "files": 17,
+      "changes": [],
+      "pass": true
+    }
+  },
+  "errors": [],
+  "strategy_validation_status": "not_run",
+  "source_acceptance_status": "not_started",
+  "automatic_semantic_validator": "not_implemented"
+}
